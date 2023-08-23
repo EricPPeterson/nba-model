@@ -5,3 +5,5 @@ library(tidybayes)
 library(lubridate)
 
 game_data <- game_logs(seasons = c(2020:2022), season_types = 'Regular Season', result_types = c('team', 'player'))
+teams_data <- teams_tables(teams = c('Boston Celtics'), seasons = 2022, tables = c('splits', 'shooting'),
+                           measures = c('Advanced'), modes = c('Per48'))
