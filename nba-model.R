@@ -226,27 +226,27 @@ player_box_func <- function(yr1,yr2,teams){
 }
 player_box <- player_box_func(2017,2021,tm_list)
 
-team_stats <- function(df, team_opp){
+team_stats <- function(df, team_opp, wt, typ){
   out <- df %>%
     dplyr::arrange(season, game_id) %>%
     dplyr::group_by(season,!!sym(team_opp)) %>%
-    dplyr::mutate(asst_mov = pracma::movavg(assists, n = 10, type = 'w'),
-                  block_mov = pracma::movavg(blocks, n = 10, type = 'w'),
-                  dreb_mov = pracma::movavg(defensive_rebounds, n = 10, type = 'w'),
-                  fbreak_mov = pracma::movavg(fast_break_points, n = 10, type = 'w'),
-                  fgm_mov = pracma::movavg(field_goals_made, n = 10, type = 'w'),
-                  fga_mov = pracma::movavg(field_goals_attempted, n = 10, type = 'w'),
-                  ftm_mov = pracma::movavg(free_throws_made, n = 10, type ='w'),
-                  fta_mov = pracma::movavg(free_throws_attempted, n = 10, type = 'w'),
-                  oreb_mov = pracma::movavg(offensive_rebounds, n = 10, type = 'w'),
-                  paint_mov = pracma::movavg(points_in_paint, n = 10, type = 'w'),
-                  steals_mov = pracma::movavg(steals, n = 10, type = 'w'),
-                  turn_mov = pracma::movavg(team_turnovers, n = 10, type = 'w'))
+    dplyr::mutate(asst_mov = pracma::movavg(assists, n = wt, type = typ),
+                  block_mov = pracma::movavg(blocks, n = wt, type = typ),
+                  dreb_mov = pracma::movavg(defensive_rebounds, n = wt, type = typ),
+                  fbreak_mov = pracma::movavg(fast_break_points, n = wt, type = typ),
+                  fgm_mov = pracma::movavg(field_goals_made, n = wt, type = typ),
+                  fga_mov = pracma::movavg(field_goals_attempted, n = wt, type = typ),
+                  ftm_mov = pracma::movavg(free_throws_made, n = wt, type = typ),
+                  fta_mov = pracma::movavg(free_throws_attempted, n = wt, type = typ),
+                  oreb_mov = pracma::movavg(offensive_rebounds, n = wt, type = typ),
+                  paint_mov = pracma::movavg(points_in_paint, n = wt, type = typ),
+                  steals_mov = pracma::movavg(steals, n = wt, type = typ),
+                  turn_mov = pracma::movavg(team_turnovers, n = wt, type = typ))
   return(out)
 }
 
-team_stats_team <- team_stats(player_box, 'team_abbreviation')
-team_stats_opposition <- team_stats(player_box, 'opponent_team_abbreviation')
+team_stats_team <- team_stats(player_box, 'team_abbreviation', 5, 'w')
+team_stats_opposition <- team_stats(player_box, 'opponent_team_abbreviation', 5, 'w')
 ##################################################################################################################
 #complete df by adding 
 ##################################################################################################################
@@ -319,7 +319,27 @@ final_sched <- model_df(combo_df, total_sched)
 ##################################################################################################################
 #add total game points
 ##################################################################################################################
-final_sched$total_score <- lookup(total_sched$game_id, player_box$game_id, player_box$total_score)
+final_sched$total_score <- lookup(final_sched$game_id, player_box$game_id, player_box$total_score)
+##################################################################################################################
+#add possessions
+##################################################################################################################
+final_sched$wt_avg_poss <- lookup(final_sched$game_id, poss_count_wtavg$game_id, poss_count_wtavg$mov_avg_poss)
+##################################################################################################################
+#add league wide scoring
+##################################################################################################################
+lg_score <- function(df, wt, typ){
+  df$week <- strftime(df$game_date, format = '%V')
+  df <- df %>%
+    dplyr::select(c(game_id, season, week, total_score)) %>%
+    unique()
+  out <- df %>%
+    dplyr::group_by(season) %>%
+    dplyr::mutate(wt_avg_league_score = pracma::movavg(total_score, n = wt, type = typ))
+  return(out)
+}
+
+league_scoring <- lg_score(player_box, 10, 'w')
+final_sched$league_scoring <- lookup(final_sched$game_id, league_scoring$game_id, league_scoring$wt_avg_league_score)
 ##################################################################################################################
 #build first model
 ##################################################################################################################
@@ -422,3 +442,7 @@ total_nn_test <- mod_performance(total_nn, ensemble_test_h2o)
 min(h2o.rmse(total_gbm_test), h2o.rmse(total_rf_test), h2o.rmse(total_glm_test), h2o.rmse(total_nn_test))
 total_ensemble <- mod_performance(total_ensemble_test, ensemble_train_h2o)
 h2o.rmse(total_ensemble)
+
+###################################################################################################################
+#pull 2022 season
+###################################################################################################################
