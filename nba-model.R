@@ -7,7 +7,6 @@ library(dplyr)
 library(lubridate)
 library(lookup)
 library(pracma)
-library(tidybayes)
 ####################################################################################################################
 #download pbp and schedule
 ############################################################6########################################################
@@ -38,9 +37,9 @@ schedule <- clean_schedule(2017,2021)
 sched_func <- function(yr, df, df2){
   sched_year <- df %>% dplyr::filter(season == yr) 
   
-  home_year <- sched_year %>% dplyr::select(game_id, home_abbreviation, home_name, game_date, home_venue_id, 
+  home_year <- sched_year %>% dplyr::select(game_id, home_abbreviation, home_display_name, game_date, home_venue_id, 
                                             venue_address_city, venue_address_state)
-  away_year <- sched_year %>% dplyr::select(game_id, away_abbreviation, away_name, game_date, home_venue_id,
+  away_year <- sched_year %>% dplyr::select(game_id, away_abbreviation, away_display_name, game_date, home_venue_id,
                                             venue_address_city, venue_address_state)
 
   out <- left_join(home_year, away_year, by = c('game_id', 'game_date', 'home_venue_id', 'venue_address_city', 
@@ -181,20 +180,6 @@ home_away_poss <- function(df,df2){
 }
 
 total_sched <- home_away_poss(poss_count_wtavg, total_sched)
-###################################################################################################################
-#add game length (for overtime games)
-###################################################################################################################
-game_length <- function(df,df2){
-  nba_period <- df %>% select(game_id, period_number)
-  nba_period <- nba_period %>%
-    dplyr::group_by(game_id) %>%
-    summarise(max_per = max(period_number))
-  nba_period$game_min <- ifelse(nba_period$max_per == 4,nba_period$max_per * 12, 
-                                ((nba_period$max_per - 4)*5) + 48)
-  df2$game_min <- lookup(df2$game_id,nba_period$game_id,nba_period$game_min)
-  return(df2)
-}
-total_sched <- game_length(nba_pbp,total_sched)
 ###################################################################################################################
 #load player box scores
 ###################################################################################################################
@@ -340,9 +325,93 @@ lg_score <- function(df, wt, typ){
 
 league_scoring <- lg_score(player_box, 10, 'w')
 final_sched$league_scoring <- lookup(final_sched$game_id, league_scoring$game_id, league_scoring$wt_avg_league_score)
-##################################################################################################################
+#####################################################################################################################
+#add opening lines to model
+#####################################################################################################################
+library(jsonlite)
+theODDS_base <- 'https://api.the-odds-api.com/v4/sports/'
+theODDS_sport  <- 'basketball_nba/'
+theODDS_key <- Sys.getenv('theODDS_key')
+theODDS_region <- 'regions=au&'
+theODDS_markets <- '&markets=spreads&oddsFormat=decimal&'
+start_date <- as.Date('2022-10-17') 
+theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
+
+#pull API data
+odds_df <- data.frame()
+y <- 1
+while(start_date <= as.Date('2022-10-19')){
+  theODDS_fullAPI <- paste0(theODDS_base, theODDS_sport, theODDS_key, theODDS_region, theODDS_markets,theODDS_date)
+  pull_API <- fromJSON(theODDS_fullAPI)
+  nba_odds <- pull_API$data
+  odds_df <- rbind(odds_df, nba_odds)
+  start_date <- start_date + 1
+  theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
+  print(y)
+  y <- y+1
+}
+
+totals_function <- function(df){
+  final_df <- df %>% dplyr::select(commence_time,home_team,away_team)
+  final_df$spread <- NA
+  final_df$over_vig <- NA
+  final_df$under_vig <- NA
+  for(i in 1:nrow(df)){
+    books <- df[[7]][[i]]
+    if('TAB' %in% books$title){
+      books <- books %>% dplyr::filter(title == 'TAB')
+    } else {
+      next
+    }
+    markets <- books[[4]][[1]] %>% dplyr::filter(key == 'spreads')
+    odds <- markets[[3]][[1]]
+    final_df$spread[i] <- odds$point[1]
+    final_df$over_vig[i] <- odds$price[1]
+    final_df$under_vig[i] <- odds$price[2]
+    print(i)
+  }
+  return(final_df)
+}
+
+setwd("/Users/ericp/OneDrive/Documents/GitHub/nba-model")
+odds_all <- totals_function(odds_df)
+odds_2022 <- totals_function(odds_df)
+odds_2022 <- odds_2022 %>%
+  separate(commence_time,c('game_date', 'time'),'T')
+odds_2022$game_date <- as.Date(odds_2022$game_date)
+odds_all <- odds_all %>%
+  separate(commence_time, c('game_date', 'time'), 'T') %>%
+  dplyr::select(-time)
+odds_all$game_date <- as.Date(odds_all$game_date)
+
+write.csv(odds_all, 'odds_all.csv', row.names = FALSE)
+write.csv(odds_2022, 'odds_2022.csv', row.names = FALSE)
+
+odds_2022 <- read.csv("~/GitHub/nba-model/odds_2022.csv")
+odds_all <- read.csv("~/GitHub/nba-model/odds_all.csv")
+odds_2022 <- odds_2022 %>% dplyr::select(-time)
+odds_all <- odds_all %>% dplyr::select(-time)
+odds_all <- odds_all %>%
+  mutate(lean = over_vig - under_vig) %>%
+  select(-c(over_vig, under_vig))
+odds_all$game_date <- as.Date(odds_all$game_date)
+odds_2022 <- odds_2022 %>%
+  mutate(lean = over_vig - under_vig) %>%
+  select(-c(over_vig, under_vig))
+odds_2022$game_date <- as.Date(odds_2022$game_date)
+#####################################################################################################################
+#combine odds with final_sched
+#####################################################################################################################
+colnames(odds_all)[2:3] <- c('home_display_name', 'away_display_name')
+final_sched <- left_join(final_sched, odds_all, by = c('game_date', 'home_display_name', 'away_display_name'))
+#####################################################################################################################
+#see if adding opening spread helps
+#####################################################################################################################
+final_sched_spread <- final_sched[complete.cases(final_sched),]
+final_sched <- final_sched %>% dplyr::select(-c(spread, lean))
+#####################################################################################################################
 #build first model
-##################################################################################################################
+#####################################################################################################################
 library(h2o)
 h2o.init()
 
@@ -357,10 +426,13 @@ prep_df <- function(df, cols){
   return(list(df_train, df_test, df))
 }
 
-model_build <- prep_df(final_sched, c(1:9,14,18,19,44))
+model_build <- prep_df(final_sched, c(1:9,14,17,18,43))
+model_spread <- prep_df(final_sched_spread, c(1:9, 14,17,18,43))
 
 ensemble_train_h2o <- as.h2o(model_build[[1]])
 ensemble_test_h2o <- as.h2o(model_build[[2]])
+ensemble_spread_train <- as.h2o(model_spread[[1]])
+ensemble_spread_test <- as.h2o(model_spread[[2]])
 
 #train GBM
 gbm_model <- function(df, y, x, nfolds, seed){
@@ -374,7 +446,8 @@ gbm_model <- function(df, y, x, nfolds, seed){
 }
 total_gbm <- gbm_model(ensemble_train_h2o,'total_score', 
                      setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-
+total_gbm_spread <- gbm_model(ensemble_spread_train,'total_score', 
+                              setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 #train RF
 RF_model <- function(df, y, x, nfolds, seed){
   out <- h2o.randomForest(x = x,
@@ -385,10 +458,10 @@ RF_model <- function(df, y, x, nfolds, seed){
                           seed = 5)
   return(out)
 }
-
 total_RF <- gbm_model(ensemble_train_h2o, 'total_score', 
                     setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-
+spread_RF <- gbm_model(ensemble_spread_train, 'total_score', 
+                       setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 #train glm
 lr_model <- function(df, y, x, nfolds, seed){
   out <- h2o.glm(x = x,
@@ -399,9 +472,10 @@ lr_model <- function(df, y, x, nfolds, seed){
                  seed = 5)
   return(out)
 }
-
 total_lr <- lr_model(ensemble_train_h2o, 'total_score', 
                    setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
+spread_lr <- lr_model(ensemble_spread_train, 'total_score', 
+                     setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 
 #train neural net
 nn_model <- function(df, y, x, nfolds, seed){
@@ -415,9 +489,11 @@ nn_model <- function(df, y, x, nfolds, seed){
   )
   return(out)  
 }
-
 total_nn <- nn_model(ensemble_train_h2o, 'total_score', 
                    setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
+spread_nn <- nn_model(ensemble_spread_train, 'total_score', 
+                     setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
+
 
 # Train a stacked random forest ensemble using the GBM, RF and LR above
 ensemble_model <- function(mod, mod2, mod3, mod4, df, y, x){
@@ -428,21 +504,78 @@ ensemble_model <- function(mod, mod2, mod3, mod4, df, y, x){
   
   return(out)
 }
+##################################################################################################################
+#ensemble test no spread
+##################################################################################################################
 total_ensemble_test <- ensemble_model(total_lr, total_RF, total_nn, total_gbm, ensemble_train_h2o, 
                                     'total_score', setdiff(names(ensemble_train_h2o), 'total_score'))
+##################################################################################################################
+#ensemble test with spread
+##################################################################################################################
+total_ensemble_spread <- ensemble_model(spread_lr, spread_RF, spread_nn, total_gbm_spread, ensemble_spread_train, 
+                                        'total_score', setdiff(names(ensemble_spread_train), 'total_score'))
+#################################################################################################################
 #check performance
+#################################################################################################################
 mod_performance <- function(model, test_df){
   out <- h2o.performance(model, test_df)
   return(out)
 }
-total_gbm_test <- mod_performance(total_gbm, ensemble_test_h2o)
-total_rf_test <- mod_performance(total_RF, ensemble_test_h2o)
-total_glm_test <- mod_performance(total_lr, ensemble_test_h2o)
-total_nn_test <- mod_performance(total_nn, ensemble_test_h2o)
+###################################################################################################################
+#performance no spread
+###################################################################################################################
+total_gbm_test <- mod_performance(total_gbm_spread, ensemble_spread_test)
+total_rf_test <- mod_performance(spread_RF, ensemble_spread_test)
+total_glm_test <- mod_performance(spread_lr, ensemble_spread_test)
+total_nn_test <- mod_performance(spread_nn, ensemble_spread_test)
 min(h2o.rmse(total_gbm_test), h2o.rmse(total_rf_test), h2o.rmse(total_glm_test), h2o.rmse(total_nn_test))
 total_ensemble <- mod_performance(total_ensemble_test, ensemble_train_h2o)
 h2o.rmse(total_ensemble)
-
+###################################################################################################################
+#performance with spread
+###################################################################################################################
+spread_gbm_test <- mod_performance(total_gbm, ensemble_test_h2o)
+spread_rf_test <- mod_performance(total_RF, ensemble_test_h2o)
+spread_glm_test <- mod_performance(total_lr, ensemble_test_h2o)
+spread_nn_test <- mod_performance(total_nn, ensemble_test_h2o)
+min(h2o.rmse(spread_gbm_test), h2o.rmse(spread_rf_test), h2o.rmse(spread_glm_test), h2o.rmse(spread_nn_test))
+total_ensemble <- mod_performance(total_ensemble_spread, ensemble_spread_train)
+h2o.rmse(total_ensemble)
 ###################################################################################################################
 #pull 2022 season
 ###################################################################################################################
+nba_pbp_2022 <- pbp_func(2023,2023)
+schedule_2022 <- clean_schedule(2023,2023)
+sched_2022 <- sched_func(2023, schedule_2022, nba_pbp_2022)
+sched_2022$season <- 2023
+pbp_clean_2022 <- clean_possessions(nba_pbp_2022)
+poss_df_2022 <- count_poss(pbp_clean_2022)
+poss_count_complete_2022 <- max_poss(poss_df_2022, sched_2022)
+poss_count_wtavg_2022 <- poss_wtavg(poss_count_complete_2022)
+sched_2022 <- home_away_poss(poss_count_wtavg_2022, sched_2022)
+tm_list <- list('DUR', 'EAST', 'GIA', 'LEB', 'STE', 'USA', 'WEST', 'WORLD')
+player_box_2022 <- player_box_func(2023,2023,tm_list)
+team_stats_team_2022 <- team_stats(player_box_2022, 'team_abbreviation', 5, 'w')
+team_stats_opposition_2022 <- team_stats(player_box_2022, 'opponent_team_abbreviation', 5, 'w')
+off_df_2022 <- team_stats_final_df(team_stats_team_2022, 'team_abbreviation')
+def_df_2022 <- team_stats_final_df(team_stats_opposition_2022, 'opponent_team_abbreviation')
+combo_df_2022 <- combine_df(off_df_2022, def_df_2022)
+final_sched_2022 <- model_df(combo_df_2022, sched_2022)
+final_sched_2022$total_score <- lookup(final_sched_2022$game_id, player_box_2022$game_id, player_box_2022$total_score)
+final_sched_2022$wt_avg_poss <- lookup(final_sched_2022$game_id, poss_count_wtavg_2022$game_id, poss_count_wtavg_2022$mov_avg_poss)
+league_scoring_2022 <- lg_score(player_box_2022, 10, 'w')
+final_sched_2022$league_scoring <- lookup(final_sched_2022$game_id, league_scoring_2022$game_id, league_scoring_2022$wt_avg_league_score)
+colnames(odds_2022)[2:3] <- c('home_display_name', 'away_display_name')
+library(lubridate)
+final_sched_2022$game_date <- ymd(final_sched_2022$game_date)
+odds_2022$game_date <- ymd(odds_2022$game_date)
+final_sched_2022 <- left_join(final_sched_2022, odds_2022, by = c('game_date', 'home_display_name', 'away_display_name'))
+#########################################################################################################################################
+#make predictions using 2022 data
+#########################################################################################################################################
+library(h2o)
+games_2022 <- final_sched_2022 %>% dplyr::select(game_id, total_score)
+model_2022 <- prep_df(final_sched_2022, c(1:9, 14,17,18,43,68,71,72))
+model_spread_2022 <- prep_df(final_sched_2022,c(1:9,14,17,18,43,68))
+ensemble_2022_h2o <- as.h2o(model_build[[3]])
+ensemble_spread_2022 <- as.h2o(model_build[[3]])
