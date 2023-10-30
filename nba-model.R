@@ -569,17 +569,22 @@ colnames(odds_2022)[2:3] <- c('home_display_name', 'away_display_name')
 library(lubridate)
 final_sched_2022$game_date <- ymd(final_sched_2022$game_date)
 odds_2022$game_date <- ymd(odds_2022$game_date)
-final_sched_2022 <- left_join(final_sched_2022, odds_2022, by = c('game_date', 'home_display_name', 'away_display_name'))
+##########################################################################start here###############################
+#final_sched_2022 <- final_sched_2022 %>% unique()
+#final_sched_2022 <- merge(final_sched_2022, odds_2022, by = c('game_date', 'home_display_name', 'away_display_name'))
 #########################################################################################################################################
 #make predictions using 2022 data
 #########################################################################################################################################
 library(h2o)
 games_2022 <- final_sched_2022 %>% dplyr::select(game_id, total_score)
-model_2022 <- prep_df(final_sched_2022, c(1:9, 14,17,18,43,68,71,72))
-model_spread_2022 <- prep_df(final_sched_2022,c(1:9,14,17,18,43,68))
+model_2022 <- prep_df(final_sched_2022, c(1:9, 14,17,18,43,68))
+#model_spread_2022 <- prep_df(final_sched_2022,c(1:9,14,17,18,43,68))
 ensemble_2022_h2o <- as.h2o(model_2022[[3]])
-ensemble_spread_2022 <- as.h2o(model_2022[[3]])
+#ensemble_spread_2022 <- as.h2o(model_2022[[3]])
 
+####################################################################################################################
+#no spread preds
+####################################################################################################################
 no_spread_preds <- h2o.predict(total_ensemble_test,ensemble_2022_h2o)
 no_spread_preds <- as.data.frame(no_spread_preds)
 colnames(no_spread_preds)[1] <- 'predictions_2022'
@@ -587,7 +592,60 @@ games_2022 <- bind_cols(games_2022, no_spread_preds)
 
 library(Metrics)
 rmse(games_2022$total_score, games_2022$predictions_2022)
-games_2022$game_date <- lookup(games_2022$game_id, sched_2022$game_id, sched_2022$game_date)
-games_2022$home_display_name <- lookup(games_2022$game_id, sched_2022$game_id, sched_2022$home_display_name)
-games_2022$away_display_name <- lookup(games_2022$game_id, sched_2022$game_id, sched_2022$away_display_name)
-games_2022 <- merge(games_2022, odds_2022, by = c('game_date', 'home_display_name', 'away_display_name'))
+
+####################################################################################################################
+#pull totals data
+####################################################################################################################
+theODDS_base <- 'https://api.the-odds-api.com/v4/sports/'
+theODDS_sport  <- 'basketball_nba/'
+theODDS_key <- Sys.getenv('theODDS_key')
+theODDS_region <- 'regions=us&'
+theODDS_markets <- '&markets=totals&oddsFormat=decimal&'
+start_date <- as.Date('2022-10-17') 
+theODDS_date <- paste0('date=',start_date,'T22:00:00Z')
+
+#pull API data
+odds_df <- data.frame()
+y <- 1
+while(start_date <= as.Date('2023-04-20')){
+  theODDS_fullAPI <- paste0(theODDS_base, theODDS_sport, theODDS_key, theODDS_region, theODDS_markets,theODDS_date)
+  pull_API <- fromJSON(theODDS_fullAPI)
+  nba_odds <- pull_API$data
+  odds_df <- rbind(odds_df, nba_odds)
+  start_date <- start_date + 1
+  theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
+  print(y)
+  y <- y+1
+}
+
+totals_function <- function(df, book, key_mkt){
+  final_df <- df %>% dplyr::select(commence_time,home_team,away_team)
+  final_df$spread <- NA
+  final_df$over_vig <- NA
+  final_df$under_vig <- NA
+  for(i in 1:nrow(df)){
+    books <- df[[7]][[i]]
+    if('TAB' %in% books$title){
+      books <- books %>% dplyr::filter(title == book)
+    } else {
+      next
+    }
+    markets <- books[[4]][[1]] %>% dplyr::filter(key == key_mkt)
+    odds <- markets[[3]][[1]]
+    final_df$spread[i] <- odds$point[1]
+    final_df$over_vig[i] <- odds$price[1]
+    final_df$under_vig[i] <- odds$price[2]
+    print(i)
+  }
+  return(final_df)
+}
+
+totals_2022 <- totals_function(odds_df,'FanDuel','totals')
+totals_2022 <- totals_2022 %>%
+  separate(commence_time,c('game_date', 'time'),'T')
+totals_2022$game_date <- as.Date(totals_2022$game_date)
+totals_2022 <- totals_2022 %>% select(-time)
+games_2022$home_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$home_display_name)
+games_2022$away_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$away_display_name)
+games_2022$game_date <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$game_date)
+games_2022 <- left_join(games_2022, totals_2022, by = c('home_team', 'away_team', 'game_date'))
