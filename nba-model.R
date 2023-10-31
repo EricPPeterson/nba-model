@@ -578,10 +578,7 @@ odds_2022$game_date <- ymd(odds_2022$game_date)
 library(h2o)
 games_2022 <- final_sched_2022 %>% dplyr::select(game_id, total_score)
 model_2022 <- prep_df(final_sched_2022, c(1:9, 14,17,18,43,68))
-#model_spread_2022 <- prep_df(final_sched_2022,c(1:9,14,17,18,43,68))
 ensemble_2022_h2o <- as.h2o(model_2022[[3]])
-#ensemble_spread_2022 <- as.h2o(model_2022[[3]])
-
 ####################################################################################################################
 #no spread preds
 ####################################################################################################################
@@ -592,7 +589,6 @@ games_2022 <- bind_cols(games_2022, no_spread_preds)
 
 library(Metrics)
 rmse(games_2022$total_score, games_2022$predictions_2022)
-
 ####################################################################################################################
 #pull totals data
 ####################################################################################################################
@@ -625,7 +621,7 @@ totals_function <- function(df, book, key_mkt){
   final_df$under_vig <- NA
   for(i in 1:nrow(df)){
     books <- df[[7]][[i]]
-    if('TAB' %in% books$title){
+    if(book %in% books$title){
       books <- books %>% dplyr::filter(title == book)
     } else {
       next
@@ -640,11 +636,16 @@ totals_function <- function(df, book, key_mkt){
   return(final_df)
 }
 
-totals_2022 <- totals_function(odds_df,'FanDuel','totals')
-totals_2022 <- totals_2022 %>%
+totals_2022 <- totals_function(odds_df,'BetOnline.ag','totals')
+fanduel_2022 <- totals_2022
+betonline_2022 <- totals_2022
+write.csv(fanduel_2022, 'fanduel_2022.csv', row.names = FALSE)
+write.csv(betonline_2022, 'betonline_2022.csv', row.names = FALSE)
+
+fanduel_2022 <- totals_2022 %>%
   separate(commence_time,c('game_date', 'time'),'T')
-totals_2022$game_date <- as.Date(totals_2022$game_date)
-totals_2022 <- totals_2022 %>% select(-time)
+fanduel_2022$game_date <- as.Date(fanduel_2022$game_date)
+fanduel_2022 <- fanduel_2022 %>% select(-time)
 games_2022$home_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$home_display_name)
 games_2022$away_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$away_display_name)
 games_2022$game_date <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$game_date)
