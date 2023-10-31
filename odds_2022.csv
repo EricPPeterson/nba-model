@@ -1,0 +1,1379 @@
+"game_date","time","home_team","away_team","spread","over_vig","under_vig"
+2022-10-18,"23:30:00Z","Boston Celtics","Philadelphia 76ers",-2.5,1.9,1.9
+2022-10-19,"02:00:00Z","Golden State Warriors","Los Angeles Lakers",-6.5,1.9,1.9
+2022-10-19,"23:10:00Z","Detroit Pistons","Orlando Magic",-3.5,1.9,1.9
+2022-10-19,"23:10:00Z","Indiana Pacers","Washington Wizards",2,1.9,1.9
+2022-10-19,"23:30:00Z","Brooklyn Nets","New Orleans Pelicans",-4,1.9,1.9
+2022-10-19,"23:40:00Z","Atlanta Hawks","Houston Rockets",-9.5,1.9,1.9
+2022-10-19,"23:40:00Z","Miami Heat","Chicago Bulls",5.5,1.9,1.9
+2022-10-19,"23:40:00Z","Toronto Raptors","Cleveland Cavaliers",3,1.9,1.9
+2022-10-19,"23:40:00Z","Memphis Grizzlies","New York Knicks",-6.5,1.9,1.9
+2022-10-20,"00:10:00Z","San Antonio Spurs","Charlotte Hornets",-2.5,1.9,1.9
+2022-10-20,"00:10:00Z","Minnesota Timberwolves","Oklahoma City Thunder",-10.5,1.85,1.95
+2022-10-20,"01:10:00Z","Utah Jazz","Denver Nuggets",-8,1.9,1.9
+2022-10-20,"02:10:00Z","Phoenix Suns","Dallas Mavericks",5,1.9,1.9
+2022-10-20,"02:10:00Z","Sacramento Kings","Portland Trail Blazers",1.5,1.9,1.9
+2022-10-20,"23:30:00Z","Philadelphia 76ers","Milwaukee Bucks",3,1.9,1.9
+2022-10-21,"02:00:00Z","Los Angeles Lakers","Los Angeles Clippers",-3.5,1.9,1.9
+2022-10-18,"23:30:00Z","Boston Celtics","Philadelphia 76ers",-2,1.9,1.9
+2022-10-19,"02:00:00Z","Golden State Warriors","Los Angeles Lakers",-6,1.9,1.9
+2022-10-19,"23:10:00Z","Detroit Pistons","Orlando Magic",-3.5,1.9,1.9
+2022-10-19,"23:10:00Z","Indiana Pacers","Washington Wizards",2,1.9,1.9
+2022-10-19,"23:30:00Z","Brooklyn Nets","New Orleans Pelicans",-3.5,1.9,1.9
+2022-10-19,"23:40:00Z","Atlanta Hawks","Houston Rockets",-9.5,1.9,1.9
+2022-10-19,"23:40:00Z","Miami Heat","Chicago Bulls",5.5,1.95,1.85
+2022-10-19,"23:40:00Z","Toronto Raptors","Cleveland Cavaliers",3,1.85,1.95
+2022-10-19,"23:40:00Z","Memphis Grizzlies","New York Knicks",-6.5,1.95,1.85
+2022-10-20,"00:10:00Z","San Antonio Spurs","Charlotte Hornets",-2,1.9,1.9
+2022-10-20,"00:10:00Z","Minnesota Timberwolves","Oklahoma City Thunder",-11,1.9,1.9
+2022-10-20,"01:10:00Z","Utah Jazz","Denver Nuggets",-8,1.9,1.9
+2022-10-20,"02:10:00Z","Phoenix Suns","Dallas Mavericks",4.5,1.85,1.95
+2022-10-20,"02:10:00Z","Sacramento Kings","Portland Trail Blazers",1.5,1.95,1.85
+2022-10-20,"23:30:00Z","Philadelphia 76ers","Milwaukee Bucks",3,1.9,1.9
+2022-10-21,"02:00:00Z","Los Angeles Lakers","Los Angeles Clippers",-4,1.9,1.9
+2022-10-19,"23:10:00Z","Detroit Pistons","Orlando Magic",-3,1.85,1.95
+2022-10-19,"23:10:00Z","Indiana Pacers","Washington Wizards",1.5,1.9,1.9
+2022-10-19,"23:40:00Z","Atlanta Hawks","Houston Rockets",-9.5,1.85,1.95
+2022-10-19,"23:40:00Z","Brooklyn Nets","New Orleans Pelicans",-3.5,1.9,1.9
+2022-10-19,"23:40:00Z","Miami Heat","Chicago Bulls",6.5,1.9,1.9
+2022-10-19,"23:40:00Z","Toronto Raptors","Cleveland Cavaliers",2.5,1.9,1.9
+2022-10-19,"23:40:00Z","Memphis Grizzlies","New York Knicks",-5,1.85,1.95
+2022-10-20,"00:10:00Z","San Antonio Spurs","Charlotte Hornets",-1.5,1.9,1.9
+2022-10-20,"00:10:00Z","Minnesota Timberwolves","Oklahoma City Thunder",-10.5,1.9,1.9
+2022-10-20,"01:10:00Z","Utah Jazz","Denver Nuggets",-7.5,1.85,1.95
+2022-10-20,"02:10:00Z","Phoenix Suns","Dallas Mavericks",4.5,1.9,1.9
+2022-10-20,"02:10:00Z","Sacramento Kings","Portland Trail Blazers",2,1.9,1.9
+2022-10-20,"23:30:00Z","Philadelphia 76ers","Milwaukee Bucks",3.5,1.9,1.9
+2022-10-21,"02:00:00Z","Los Angeles Lakers","Los Angeles Clippers",-5,1.9,1.9
+2022-10-20,"23:30:00Z","Philadelphia 76ers","Milwaukee Bucks",4,1.9,1.9
+2022-10-21,"02:00:00Z","Los Angeles Lakers","Los Angeles Clippers",-6.5,1.9,1.9
+2022-10-21,"23:10:00Z","Charlotte Hornets","New Orleans Pelicans",6.5,1.9,1.9
+2022-10-21,"23:10:00Z","Washington Wizards","Chicago Bulls",1.5,1.85,1.95
+2022-10-21,"23:10:00Z","Indiana Pacers","San Antonio Spurs",-3,1.9,1.9
+2022-10-21,"23:40:00Z","Atlanta Hawks","Orlando Magic",-8.5,1.9,1.9
+2022-10-21,"23:40:00Z","Miami Heat","Boston Celtics",-2.5,1.9,1.9
+2022-10-21,"23:40:00Z","Brooklyn Nets","Toronto Raptors",-2.5,1.9,1.9
+2022-10-21,"23:40:00Z","New York Knicks","Detroit Pistons",6.5,1.9,1.9
+2022-10-22,"00:10:00Z","Houston Rockets","Memphis Grizzlies",5.5,1.9,1.9
+2022-10-22,"00:10:00Z","Minnesota Timberwolves","Utah Jazz",-8.5,1.9,1.9
+2022-10-22,"02:10:00Z","Golden State Warriors","Denver Nuggets",5.5,1.9,1.9
+2022-10-22,"02:10:00Z","Portland Trail Blazers","Phoenix Suns",-4.5,1.9,1.9
+2022-10-22,"22:00:00Z","Philadelphia 76ers","San Antonio Spurs",-13,1.9,1.9
+2022-10-22,"23:00:00Z","Orlando Magic","Boston Celtics",-7.5,1.95,1.85
+2022-10-22,"23:00:00Z","Indiana Pacers","Detroit Pistons",-1.5,1.95,1.85
+2022-10-23,"00:00:00Z","Chicago Bulls","Cleveland Cavaliers",2,1.9,1.9
+2022-10-23,"00:00:00Z","Milwaukee Bucks","Houston Rockets",12.5,1.95,1.85
+2022-10-23,"00:00:00Z","Miami Heat","Toronto Raptors",-2.5,1.9,1.9
+2022-10-23,"00:30:00Z","Dallas Mavericks","Memphis Grizzlies",-5,1.85,1.95
+2022-10-23,"01:00:00Z","Denver Nuggets","Oklahoma City Thunder",-7.5,1.9,1.9
+2022-10-23,"02:00:00Z","Sacramento Kings","Los Angeles Clippers",-3,1.9,1.9
+2022-10-23,"19:40:00Z","Los Angeles Lakers","Portland Trail Blazers",-3.5,1.9,1.9
+2022-10-23,"21:10:00Z","Atlanta Hawks","Charlotte Hornets",-10.5,1.9,1.9
+2022-10-23,"23:10:00Z","Cleveland Cavaliers","Washington Wizards",-4,1.9,1.9
+2022-10-23,"23:10:00Z","New Orleans Pelicans","Utah Jazz",-8,1.9,1.9
+2022-10-24,"00:10:00Z","Oklahoma City Thunder","Minnesota Timberwolves",-7.5,1.9,1.9
+2022-10-24,"00:40:00Z","Golden State Warriors","Sacramento Kings",-9.5,1.9,1.9
+2022-10-24,"02:10:00Z","Los Angeles Clippers","Phoenix Suns",-2,1.9,1.9
+2022-10-24,"23:10:00Z","Philadelphia 76ers","Indiana Pacers",12,1.9,1.9
+2022-10-24,"23:40:00Z","Miami Heat","Toronto Raptors",-3.5,1.9,1.9
+2022-10-24,"23:40:00Z","New York Knicks","Orlando Magic",-7.5,1.9,1.9
+2022-10-25,"00:10:00Z","Chicago Bulls","Boston Celtics",-5,1.9,1.9
+2022-10-25,"00:10:00Z","Memphis Grizzlies","Brooklyn Nets",1.5,1.9,1.9
+2022-10-25,"00:10:00Z","Houston Rockets","Utah Jazz",-1.5,1.95,1.85
+2022-10-25,"00:10:00Z","Minnesota Timberwolves","San Antonio Spurs",-9.5,1.9,1.9
+2022-10-25,"02:10:00Z","Portland Trail Blazers","Denver Nuggets",-4.5,1.9,1.9
+2022-10-25,"23:10:00Z","Washington Wizards","Detroit Pistons",5,1.9,1.9
+2022-10-25,"23:30:00Z","New Orleans Pelicans","Dallas Mavericks",-5,1.9,1.9
+2022-10-26,"00:10:00Z","Oklahoma City Thunder","Los Angeles Clippers",-9.5,1.9,1.9
+2022-10-26,"02:00:00Z","Phoenix Suns","Golden State Warriors",2.5,1.9,1.9
+2022-10-26,"23:10:00Z","Detroit Pistons","Atlanta Hawks",-7.5,1.9,1.9
+2022-10-26,"23:10:00Z","Cleveland Cavaliers","Orlando Magic",-7.5,1.85,1.95
+2022-10-26,"23:40:00Z","Milwaukee Bucks","Brooklyn Nets",4,1.9,1.9
+2022-10-26,"23:40:00Z","New York Knicks","Charlotte Hornets",7.5,1.9,1.9
+2022-10-26,"23:40:00Z","Toronto Raptors","Philadelphia 76ers",-1.5,1.95,1.85
+2022-10-27,"00:10:00Z","Chicago Bulls","Indiana Pacers",-7,1.85,1.95
+2022-10-27,"00:10:00Z","Minnesota Timberwolves","San Antonio Spurs",-9,1.9,1.9
+2022-10-27,"01:10:00Z","Utah Jazz","Houston Rockets",6,1.9,1.9
+2022-10-27,"02:10:00Z","Denver Nuggets","Los Angeles Lakers",-6,1.9,1.9
+2022-10-27,"02:10:00Z","Portland Trail Blazers","Miami Heat",1.5,1.85,1.95
+2022-10-27,"23:40:00Z","Brooklyn Nets","Dallas Mavericks",2.5,1.9,1.9
+2022-10-28,"00:10:00Z","Oklahoma City Thunder","Los Angeles Clippers",-7,1.95,1.85
+2022-10-28,"02:10:00Z","Golden State Warriors","Miami Heat",-7.5,1.95,1.85
+2022-10-28,"02:10:00Z","Sacramento Kings","Memphis Grizzlies",-3.5,1.9,1.9
+2022-10-28,"23:10:00Z","Detroit Pistons","Atlanta Hawks",-6,1.9,1.9
+2022-10-28,"23:10:00Z","Orlando Magic","Charlotte Hornets",-3.5,1.9,1.9
+2022-10-28,"23:40:00Z","Boston Celtics","Cleveland Cavaliers",-5.5,1.85,1.95
+2022-10-28,"23:40:00Z","Washington Wizards","Indiana Pacers",5.5,1.85,1.95
+2022-10-28,"23:40:00Z","Toronto Raptors","Philadelphia 76ers",1.5,1.85,1.95
+2022-10-29,"00:10:00Z","Minnesota Timberwolves","Los Angeles Lakers",8.5,1.9,1.9
+2022-10-29,"00:10:00Z","Milwaukee Bucks","New York Knicks",-7,1.9,1.9
+2022-10-29,"00:40:00Z","San Antonio Spurs","Chicago Bulls",-5,1.9,1.9
+2022-10-29,"01:10:00Z","Denver Nuggets","Utah Jazz",-8.5,1.9,1.9
+2022-10-29,"02:10:00Z","Portland Trail Blazers","Houston Rockets",5,1.9,1.9
+2022-10-29,"02:10:00Z","Phoenix Suns","New Orleans Pelicans",6,1.95,1.85
+2022-10-29,"22:10:00Z","Sacramento Kings","Miami Heat",-3.5,1.9,1.9
+2022-10-29,"23:10:00Z","Charlotte Hornets","Golden State Warriors",9,1.9,1.9
+2022-10-29,"23:40:00Z","Brooklyn Nets","Indiana Pacers",-10.5,1.95,1.85
+2022-10-30,"00:10:00Z","Milwaukee Bucks","Atlanta Hawks",5.5,1.85,1.95
+2022-10-30,"00:10:00Z","Chicago Bulls","Philadelphia 76ers",1.5,1.85,1.95
+2022-10-30,"01:10:00Z","Dallas Mavericks","Oklahoma City Thunder",-10,1.9,1.9
+2022-10-30,"01:10:00Z","Utah Jazz","Memphis Grizzlies",-4.5,1.9,1.9
+2022-10-30,"19:10:00Z","Los Angeles Clippers","New Orleans Pelicans",-2.5,1.9,1.9
+2022-10-30,"22:10:00Z","Boston Celtics","Washington Wizards",-8.5,1.9,1.9
+2022-10-30,"22:10:00Z","Cleveland Cavaliers","New York Knicks",-4.5,1.9,1.9
+2022-10-30,"22:10:00Z","Detroit Pistons","Golden State Warriors",7.5,1.9,1.9
+2022-10-30,"23:10:00Z","San Antonio Spurs","Minnesota Timberwolves",-6,1.95,1.85
+2022-10-30,"23:40:00Z","Dallas Mavericks","Orlando Magic",-10,1.9,1.9
+2022-10-31,"01:10:00Z","Phoenix Suns","Houston Rockets",12,1.9,1.9
+2022-10-31,"01:40:00Z","Los Angeles Lakers","Denver Nuggets",-3.5,1.9,1.9
+2022-10-31,"23:00:00Z","Charlotte Hornets","Sacramento Kings",1.5,1.9,1.9
+2022-10-31,"23:10:00Z","Washington Wizards","Philadelphia 76ers",-4.5,1.9,1.9
+2022-10-31,"23:40:00Z","Toronto Raptors","Atlanta Hawks",4,1.9,1.9
+2022-10-31,"23:40:00Z","Brooklyn Nets","Indiana Pacers",-8.5,1.9,1.9
+2022-11-01,"00:10:00Z","Milwaukee Bucks","Detroit Pistons",12.5,1.95,1.85
+2022-11-01,"01:10:00Z","Utah Jazz","Memphis Grizzlies",-3.5,1.9,1.9
+2022-11-01,"02:40:00Z","Los Angeles Clippers","Houston Rockets",9.5,1.9,1.9
+2022-11-01,"23:30:00Z","Brooklyn Nets","Chicago Bulls",-1.5,1.85,1.95
+2022-11-01,"23:40:00Z","Miami Heat","Golden State Warriors",1.5,1.8,2
+2022-11-02,"00:10:00Z","Oklahoma City Thunder","Orlando Magic",-3.5,1.95,1.85
+2022-11-02,"02:00:00Z","Phoenix Suns","Minnesota Timberwolves",5,1.9,1.9
+2022-11-02,"22:10:00Z","Philadelphia 76ers","Washington Wizards",-8,1.9,1.9
+2022-11-02,"23:10:00Z","Cleveland Cavaliers","Boston Celtics",-2,1.9,1.9
+2022-11-02,"23:40:00Z","New York Knicks","Atlanta Hawks",2,1.9,1.9
+2022-11-02,"23:40:00Z","Chicago Bulls","Charlotte Hornets",5.5,1.9,1.9
+2022-11-02,"23:40:00Z","Miami Heat","Sacramento Kings",-7,1.9,1.9
+2022-11-03,"00:10:00Z","Milwaukee Bucks","Detroit Pistons",11.5,1.9,1.9
+2022-11-03,"00:10:00Z","Houston Rockets","Los Angeles Clippers",5,1.9,1.9
+2022-11-03,"00:10:00Z","San Antonio Spurs","Toronto Raptors",7.5,1.9,1.9
+2022-11-03,"00:40:00Z","Dallas Mavericks","Utah Jazz",-6,1.9,1.9
+2022-11-03,"02:10:00Z","Portland Trail Blazers","Memphis Grizzlies",-4.5,1.9,1.9
+2022-11-03,"02:40:00Z","Los Angeles Lakers","New Orleans Pelicans",3,1.9,1.9
+2022-11-03,"23:10:00Z","Orlando Magic","Golden State Warriors",-8,1.9,1.9
+2022-11-04,"00:10:00Z","Oklahoma City Thunder","Denver Nuggets",-6,1.9,1.9
+2022-11-04,"23:10:00Z","Washington Wizards","Brooklyn Nets",2.5,1.95,1.85
+2022-11-04,"23:10:00Z","Detroit Pistons","Cleveland Cavaliers",-7,1.9,1.9
+2022-11-04,"23:10:00Z","Indiana Pacers","Miami Heat",4.5,1.9,1.9
+2022-11-04,"23:10:00Z","Philadelphia 76ers","New York Knicks",2.5,1.9,1.9
+2022-11-04,"23:40:00Z","Boston Celtics","Chicago Bulls",-7.5,1.9,1.9
+2022-11-05,"00:10:00Z","Memphis Grizzlies","Charlotte Hornets",11.5,1.9,1.9
+2022-11-05,"00:10:00Z","San Antonio Spurs","Los Angeles Clippers",-5,1.9,1.9
+2022-11-05,"00:40:00Z","Dallas Mavericks","Toronto Raptors",-4,1.9,1.9
+2022-11-05,"00:40:00Z","New Orleans Pelicans","Golden State Warriors",4.5,1.9,1.9
+2022-11-05,"02:10:00Z","Minnesota Timberwolves","Milwaukee Bucks",-3,1.9,1.9
+2022-11-05,"02:10:00Z","Phoenix Suns","Portland Trail Blazers",-10,1.9,1.9
+2022-11-05,"02:40:00Z","Los Angeles Lakers","Utah Jazz",-1.5,1.9,1.9
+2022-11-05,"21:10:00Z","Orlando Magic","Sacramento Kings",1.5,1.9,1.9
+2022-11-05,"23:10:00Z","Charlotte Hornets","Brooklyn Nets",NA,NA,NA
+2022-11-05,"23:40:00Z","Atlanta Hawks","New Orleans Pelicans",-2.5,1.9,1.9
+2022-11-05,"23:40:00Z","New York Knicks","Boston Celtics",-4,1.9,1.9
+2022-11-06,"00:00:00Z","Milwaukee Bucks","Oklahoma City Thunder",-8,1.9,1.9
+2022-11-06,"00:10:00Z","Minnesota Timberwolves","Houston Rockets",NA,NA,NA
+2022-11-06,"01:10:00Z","Denver Nuggets","San Antonio Spurs",-10.5,1.9,1.9
+2022-11-06,"02:10:00Z","Phoenix Suns","Portland Trail Blazers",-9,1.85,1.95
+2022-11-06,"20:40:00Z","Los Angeles Lakers","Cleveland Cavaliers",-3.5,1.95,1.85
+2022-11-06,"23:10:00Z","Toronto Raptors","Chicago Bulls",1.5,1.9,1.9
+2022-11-06,"23:10:00Z","Memphis Grizzlies","Washington Wizards",-10,1.9,1.9
+2022-11-07,"03:10:00Z","Los Angeles Clippers","Utah Jazz",-4,1.85,1.95
+2022-11-08,"00:10:00Z","Charlotte Hornets","Washington Wizards",-2.5,1.9,1.9
+2022-11-08,"00:15:00Z","Orlando Magic","Houston Rockets",4.5,1.9,1.9
+2022-11-08,"00:40:00Z","Detroit Pistons","Oklahoma City Thunder",-1.5,1.9,1.9
+2022-11-08,"00:45:00Z","Indiana Pacers","New Orleans Pelicans",5,1.95,1.85
+2022-11-08,"01:10:00Z","Philadelphia 76ers","Phoenix Suns",1.5,1.9,1.9
+2022-11-08,"01:15:00Z","Atlanta Hawks","Milwaukee Bucks",3.5,1.9,1.9
+2022-11-08,"01:40:00Z","Miami Heat","Portland Trail Blazers",-7,1.95,1.85
+2022-11-08,"01:45:00Z","Chicago Bulls","Toronto Raptors",-4,1.9,1.9
+2022-11-08,"02:00:00Z","Memphis Grizzlies","Boston Celtics",-4,1.9,1.9
+2022-11-08,"02:15:00Z","Minnesota Timberwolves","New York Knicks",-4.5,1.9,1.9
+2022-11-08,"02:40:00Z","San Antonio Spurs","Denver Nuggets",-8,1.95,1.85
+2022-11-08,"02:45:00Z","Dallas Mavericks","Brooklyn Nets",6.5,1.9,1.9
+2022-11-08,"03:10:00Z","Golden State Warriors","Sacramento Kings",-8.5,1.9,1.9
+2022-11-08,"03:15:00Z","Utah Jazz","Los Angeles Lakers",3,1.9,1.9
+2022-11-08,"03:30:00Z","Los Angeles Clippers","Cleveland Cavaliers",-2,1.9,1.9
+2022-11-08,"03:31:33Z","Los Angeles Clippers","Cleveland Cavaliers",NA,NA,NA
+2022-11-09,"22:40:00Z","Orlando Magic","Dallas Mavericks",-7,1.95,1.85
+2022-11-10,"00:10:00Z","Charlotte Hornets","Portland Trail Blazers",4.5,1.9,1.9
+2022-11-10,"00:10:00Z","Indiana Pacers","Denver Nuggets",-5.5,1.9,1.9
+2022-11-10,"00:40:00Z","Atlanta Hawks","Utah Jazz",-3.5,1.9,1.9
+2022-11-10,"00:40:00Z","Boston Celtics","Detroit Pistons",-11.5,1.9,1.9
+2022-11-10,"00:40:00Z","Brooklyn Nets","New York Knicks",-2.5,1.9,1.9
+2022-11-10,"00:40:00Z","Toronto Raptors","Houston Rockets",9.5,1.85,1.95
+2022-11-10,"01:10:00Z","Chicago Bulls","New Orleans Pelicans",1.5,1.9,1.9
+2022-11-10,"01:10:00Z","San Antonio Spurs","Memphis Grizzlies",-6.5,1.9,1.9
+2022-11-10,"01:10:00Z","Oklahoma City Thunder","Milwaukee Bucks",-6.5,1.9,1.9
+2022-11-10,"01:10:00Z","Minnesota Timberwolves","Phoenix Suns",2,1.9,1.9
+2022-11-10,"03:10:00Z","Sacramento Kings","Cleveland Cavaliers",-5,1.9,1.9
+2022-11-10,"03:10:00Z","Los Angeles Clippers","Los Angeles Lakers",NA,NA,NA
+2022-11-11,"00:10:00Z","Washington Wizards","Dallas Mavericks",-4,1.9,1.9
+2022-11-11,"00:40:00Z","Atlanta Hawks","Philadelphia 76ers",-1.5,1.9,1.9
+2022-11-11,"00:40:00Z","Miami Heat","Charlotte Hornets",10.5,1.85,1.95
+2022-11-11,"01:10:00Z","New Orleans Pelicans","Portland Trail Blazers",-6.5,1.9,1.9
+2022-11-12,"00:10:00Z","Boston Celtics","Denver Nuggets",-4.5,1.9,1.9
+2022-11-12,"00:10:00Z","Orlando Magic","Phoenix Suns",7,1.95,1.85
+2022-11-12,"00:40:00Z","New York Knicks","Detroit Pistons",8,1.95,1.85
+2022-11-12,"01:10:00Z","San Antonio Spurs","Milwaukee Bucks",1.5,1.9,1.9
+2022-11-12,"01:10:00Z","Oklahoma City Thunder","Toronto Raptors",5.5,1.85,1.95
+2022-11-12,"02:40:00Z","Memphis Grizzlies","Minnesota Timberwolves",-4.5,1.9,1.9
+2022-11-12,"03:10:00Z","Golden State Warriors","Cleveland Cavaliers",2,1.9,1.9
+2022-11-12,"03:40:00Z","Los Angeles Lakers","Sacramento Kings",4.5,1.9,1.9
+2022-11-12,"21:10:00Z","Los Angeles Clippers","Brooklyn Nets",2,1.9,1.9
+2022-11-12,"23:10:00Z","Washington Wizards","Utah Jazz",-4.5,1.95,1.85
+2022-11-13,"00:10:00Z","Detroit Pistons","Boston Celtics",-9.5,1.9,1.9
+2022-11-13,"00:10:00Z","Indiana Pacers","Toronto Raptors",-1.5,1.95,1.85
+2022-11-13,"00:40:00Z","Philadelphia 76ers","Atlanta Hawks",3.5,1.9,1.9
+2022-11-13,"01:10:00Z","Miami Heat","Charlotte Hornets",10.5,1.85,1.95
+2022-11-13,"01:40:00Z","Dallas Mavericks","Portland Trail Blazers",-5.5,1.9,1.9
+2022-11-13,"01:40:00Z","New Orleans Pelicans","Houston Rockets",10.5,1.95,1.85
+2022-11-13,"17:10:00Z","New York Knicks","Oklahoma City Thunder",-4.5,1.9,1.9
+2022-11-13,"23:10:00Z","Cleveland Cavaliers","Minnesota Timberwolves",-5,1.9,1.9
+2022-11-13,"23:10:00Z","Washington Wizards","Memphis Grizzlies",-1.5,1.95,1.85
+2022-11-14,"00:40:00Z","Philadelphia 76ers","Utah Jazz",-3.5,1.9,1.9
+2022-11-14,"01:10:00Z","Chicago Bulls","Denver Nuggets",1.5,1.85,1.95
+2022-11-14,"02:10:00Z","Sacramento Kings","Golden State Warriors",-4,1.85,1.95
+2022-11-14,"02:40:00Z","Los Angeles Lakers","Brooklyn Nets",-3,1.9,1.9
+2022-11-15,"00:10:00Z","Orlando Magic","Charlotte Hornets",1.5,1.85,1.95
+2022-11-15,"00:10:00Z","Detroit Pistons","Toronto Raptors",5,1.9,1.9
+2022-11-15,"00:40:00Z","Boston Celtics","Oklahoma City Thunder",-11,1.95,1.85
+2022-11-15,"00:40:00Z","Miami Heat","Phoenix Suns",-1.5,1.9,1.9
+2022-11-15,"01:10:00Z","Milwaukee Bucks","Atlanta Hawks",4.5,1.9,1.9
+2022-11-15,"01:10:00Z","Houston Rockets","Los Angeles Clippers",5.5,1.85,1.95
+2022-11-15,"03:10:00Z","Golden State Warriors","San Antonio Spurs",-7.5,1.85,1.95
+2022-11-16,"00:30:00Z","New Orleans Pelicans","Memphis Grizzlies",1.5,1.9,1.9
+2022-11-16,"01:40:00Z","Dallas Mavericks","Los Angeles Clippers",-7,1.9,1.9
+2022-11-16,"02:10:00Z","Utah Jazz","New York Knicks",4,1.9,1.9
+2022-11-16,"03:00:00Z","Sacramento Kings","Brooklyn Nets",1.5,1.95,1.85
+2022-11-16,"03:10:00Z","Portland Trail Blazers","San Antonio Spurs",-7.5,1.9,1.9
+2022-11-17,"00:00:00Z","Washington Wizards","Oklahoma City Thunder",4.5,1.9,1.9
+2022-11-17,"00:10:00Z","Charlotte Hornets","Indiana Pacers",-2.5,1.9,1.9
+2022-11-17,"00:10:00Z","Orlando Magic","Minnesota Timberwolves",-5.5,1.95,1.85
+2022-11-17,"00:40:00Z","Atlanta Hawks","Boston Celtics",2,1.9,1.9
+2022-11-17,"00:40:00Z","Toronto Raptors","Miami Heat",-1.5,1.9,1.9
+2022-11-17,"01:10:00Z","New Orleans Pelicans","Chicago Bulls",4,1.85,1.95
+2022-11-17,"01:10:00Z","Milwaukee Bucks","Cleveland Cavaliers",4,1.9,1.9
+2022-11-17,"01:40:00Z","Dallas Mavericks","Houston Rockets",-10,1.95,1.85
+2022-11-17,"03:10:00Z","Phoenix Suns","Golden State Warriors",1.5,1.9,1.9
+2022-11-18,"03:10:00Z","Portland Trail Blazers","Brooklyn Nets",2,1.9,1.9
+2022-11-18,"03:10:00Z","Sacramento Kings","San Antonio Spurs",-7,1.9,1.9
+2022-11-18,"03:40:00Z","Los Angeles Clippers","Detroit Pistons",9.5,1.9,1.9
+2022-11-19,"00:10:00Z","Washington Wizards","Miami Heat",1.5,1.85,1.95
+2022-11-19,"00:40:00Z","Cleveland Cavaliers","Charlotte Hornets",9.5,1.9,1.9
+2022-11-19,"00:40:00Z","Philadelphia 76ers","Milwaukee Bucks",1.5,1.9,1.9
+2022-11-19,"01:10:00Z","Chicago Bulls","Orlando Magic",-9,1.9,1.9
+2022-11-19,"01:10:00Z","Houston Rockets","Indiana Pacers",5,1.9,1.9
+2022-11-19,"01:10:00Z","Memphis Grizzlies","Oklahoma City Thunder",-6.5,1.9,1.9
+2022-11-19,"01:40:00Z","New Orleans Pelicans","Boston Celtics",-3,1.9,1.9
+2022-11-19,"01:40:00Z","Dallas Mavericks","Denver Nuggets",-9,1.95,1.85
+2022-11-19,"02:10:00Z","Utah Jazz","Phoenix Suns",-2,1.9,1.9
+2022-11-19,"03:00:00Z","Golden State Warriors","New York Knicks",-7,1.9,1.9
+2022-11-19,"03:40:00Z","Los Angeles Lakers","Detroit Pistons",7,1.9,1.9
+2022-11-19,"23:10:00Z","Atlanta Hawks","Toronto Raptors",-6,1.9,1.9
+2022-11-20,"00:10:00Z","Indiana Pacers","Orlando Magic",-5.5,1.85,1.95
+2022-11-20,"00:40:00Z","Philadelphia 76ers","Minnesota Timberwolves",1.5,1.9,1.9
+2022-11-20,"03:10:00Z","Portland Trail Blazers","Utah Jazz",-4,1.9,1.9
+2022-11-20,"03:40:00Z","Los Angeles Clippers","San Antonio Spurs",-8,1.85,1.95
+2022-11-20,"20:40:00Z","Phoenix Suns","New York Knicks",6,1.9,1.9
+2022-11-20,"23:10:00Z","Washington Wizards","Charlotte Hornets",5.5,1.85,1.95
+2022-11-20,"23:10:00Z","Sacramento Kings","Detroit Pistons",9,1.95,1.85
+2022-11-21,"00:10:00Z","Brooklyn Nets","Memphis Grizzlies",-7.5,1.9,1.9
+2022-11-21,"00:10:00Z","Cleveland Cavaliers","Miami Heat",-10,1.9,1.9
+2022-11-21,"00:10:00Z","Houston Rockets","Golden State Warriors",-10,1.9,1.9
+2022-11-21,"00:40:00Z","Dallas Mavericks","Denver Nuggets",-10,1.9,1.9
+2022-11-21,"02:40:00Z","Los Angeles Lakers","San Antonio Spurs",-7,1.9,1.9
+2022-11-22,"00:10:00Z","Cleveland Cavaliers","Atlanta Hawks",2.5,1.9,1.9
+2022-11-22,"00:10:00Z","Indiana Pacers","Orlando Magic",-7,1.9,1.9
+2022-11-22,"01:10:00Z","Chicago Bulls","Boston Celtics",-6,1.9,1.9
+2022-11-22,"01:10:00Z","New Orleans Pelicans","Golden State Warriors",5.5,1.9,1.9
+2022-11-22,"01:10:00Z","Minnesota Timberwolves","Miami Heat",8.5,1.9,1.9
+2022-11-22,"01:10:00Z","Milwaukee Bucks","Portland Trail Blazers",-9,1.9,1.9
+2022-11-22,"01:10:00Z","Oklahoma City Thunder","New York Knicks",2,1.95,1.85
+2022-11-22,"03:40:00Z","Los Angeles Clippers","Utah Jazz",-5,1.95,1.85
+2022-11-23,"00:30:00Z","Philadelphia 76ers","Brooklyn Nets",-7.5,1.9,1.9
+2022-11-23,"01:00:00Z","Memphis Grizzlies","Sacramento Kings",2,1.9,1.9
+2022-11-23,"02:00:00Z","Denver Nuggets","Detroit Pistons",-6.5,1.9,1.9
+2022-11-23,"03:00:00Z","Phoenix Suns","Los Angeles Lakers",7.5,1.9,1.9
+2022-11-24,"00:10:00Z","Charlotte Hornets","Philadelphia 76ers",-4.5,1.95,1.85
+2022-11-24,"00:10:00Z","Cleveland Cavaliers","Portland Trail Blazers",-8,1.9,1.9
+2022-11-24,"00:10:00Z","Indiana Pacers","Minnesota Timberwolves",2,1.95,1.85
+2022-11-24,"00:40:00Z","Atlanta Hawks","Sacramento Kings",-6,1.9,1.9
+2022-11-24,"00:40:00Z","Boston Celtics","Dallas Mavericks",-3.5,1.9,1.9
+2022-11-24,"00:40:00Z","Toronto Raptors","Brooklyn Nets",2,1.9,1.9
+2022-11-24,"00:40:00Z","Miami Heat","Washington Wizards",-1.5,1.9,1.9
+2022-11-24,"01:10:00Z","Milwaukee Bucks","Chicago Bulls",7,1.9,1.9
+2022-11-24,"01:10:00Z","Oklahoma City Thunder","Denver Nuggets",-2.5,1.9,1.9
+2022-11-24,"01:10:00Z","San Antonio Spurs","New Orleans Pelicans",-7,1.9,1.9
+2022-11-24,"02:10:00Z","Utah Jazz","Detroit Pistons",10,1.9,1.9
+2022-11-24,"03:10:00Z","Golden State Warriors","Los Angeles Clippers",-8.5,1.9,1.9
+2022-11-25,"22:10:00Z","Charlotte Hornets","Minnesota Timberwolves",4,1.9,1.9
+2022-11-26,"00:10:00Z","Orlando Magic","Philadelphia 76ers",-3,1.9,1.9
+2022-11-26,"00:40:00Z","New York Knicks","Portland Trail Blazers",-5,1.9,1.9
+2022-11-26,"01:10:00Z","Houston Rockets","Atlanta Hawks",NA,NA,NA
+2022-11-26,"01:10:00Z","Boston Celtics","Sacramento Kings",-8,1.9,1.9
+2022-11-26,"01:10:00Z","Indiana Pacers","Brooklyn Nets",NA,NA,NA
+2022-11-26,"01:10:00Z","Oklahoma City Thunder","Chicago Bulls",NA,NA,NA
+2022-11-26,"01:10:00Z","Milwaukee Bucks","Cleveland Cavaliers",2.5,1.9,1.9
+2022-11-26,"01:10:00Z","San Antonio Spurs","Los Angeles Lakers",NA,NA,NA
+2022-11-26,"01:10:00Z","Memphis Grizzlies","New Orleans Pelicans",NA,NA,NA
+2022-11-26,"01:10:00Z","Miami Heat","Washington Wizards",-5,1.9,1.9
+2022-11-26,"02:10:00Z","Phoenix Suns","Detroit Pistons",NA,NA,NA
+2022-11-26,"03:10:00Z","Golden State Warriors","Utah Jazz",NA,NA,NA
+2022-11-26,"03:40:00Z","Los Angeles Clippers","Denver Nuggets",NA,NA,NA
+2022-11-25,"22:00:00Z","Charlotte Hornets","Minnesota Timberwolves",5,1.9,1.9
+2022-11-26,"00:00:00Z","Orlando Magic","Philadelphia 76ers",-3.5,1.9,1.9
+2022-11-26,"00:30:00Z","New York Knicks","Portland Trail Blazers",-5,1.9,1.9
+2022-11-26,"01:00:00Z","Houston Rockets","Atlanta Hawks",-7.5,1.95,1.85
+2022-11-26,"01:00:00Z","Boston Celtics","Sacramento Kings",-8,1.9,1.9
+2022-11-26,"01:00:00Z","Indiana Pacers","Brooklyn Nets",-3,1.9,1.9
+2022-11-26,"01:00:00Z","Oklahoma City Thunder","Chicago Bulls",-2.5,1.9,1.9
+2022-11-26,"01:00:00Z","Milwaukee Bucks","Cleveland Cavaliers",3.5,1.9,1.9
+2022-11-26,"01:00:00Z","San Antonio Spurs","Los Angeles Lakers",-5,1.9,1.9
+2022-11-26,"01:00:00Z","Memphis Grizzlies","New Orleans Pelicans",-2.5,1.9,1.9
+2022-11-26,"01:00:00Z","Miami Heat","Washington Wizards",-4,1.9,1.9
+2022-11-26,"02:00:00Z","Phoenix Suns","Detroit Pistons",12,1.9,1.9
+2022-11-26,"03:00:00Z","Golden State Warriors","Utah Jazz",-7,1.9,1.9
+2022-11-26,"03:30:00Z","Los Angeles Clippers","Denver Nuggets",-3,1.9,1.9
+2022-11-27,"01:10:00Z","San Antonio Spurs","Los Angeles Lakers",NA,NA,NA
+2022-11-26,"22:00:00Z","Toronto Raptors","Dallas Mavericks",-3.5,1.9,1.9
+2022-11-27,"01:00:00Z","Houston Rockets","Oklahoma City Thunder",3,1.95,1.85
+2022-11-27,"01:00:00Z","San Antonio Spurs","Los Angeles Lakers",-3,1.9,1.9
+2022-11-27,"02:00:00Z","Phoenix Suns","Utah Jazz",-7,1.85,1.95
+2022-11-27,"20:00:00Z","Brooklyn Nets","Portland Trail Blazers",-7,1.9,1.9
+2022-11-27,"20:30:00Z","Minnesota Timberwolves","Golden State Warriors",-2,1.9,1.9
+2022-11-27,"21:00:00Z","Los Angeles Clippers","Indiana Pacers",-1.5,1.95,1.85
+2022-11-27,"22:00:00Z","Atlanta Hawks","Miami Heat",-5,1.9,1.9
+2022-11-27,"23:00:00Z","Boston Celtics","Washington Wizards",-6.5,1.9,1.9
+2022-11-27,"23:00:00Z","Detroit Pistons","Cleveland Cavaliers",-7,1.9,1.9
+2022-11-27,"23:00:00Z","New York Knicks","Memphis Grizzlies",-4,1.9,1.9
+2022-11-27,"23:00:00Z","Orlando Magic","Philadelphia 76ers",-2.5,1.95,1.85
+2022-11-28,"01:00:00Z","Milwaukee Bucks","Dallas Mavericks",6,1.95,1.85
+2022-11-29,"00:10:00Z","Philadelphia 76ers","Atlanta Hawks",-1.5,1.95,1.85
+2022-11-29,"00:10:00Z","Washington Wizards","Minnesota Timberwolves",-1.5,1.95,1.85
+2022-11-29,"00:40:00Z","Boston Celtics","Charlotte Hornets",-11,1.9,1.9
+2022-11-29,"00:40:00Z","Brooklyn Nets","Orlando Magic",-10.5,1.9,1.9
+2022-11-29,"00:40:00Z","Toronto Raptors","Cleveland Cavaliers",1.5,1.85,1.95
+2022-11-29,"01:10:00Z","New Orleans Pelicans","Oklahoma City Thunder",-3.5,1.9,1.9
+2022-11-29,"02:10:00Z","Utah Jazz","Chicago Bulls",2,1.9,1.9
+2022-11-29,"02:10:00Z","Denver Nuggets","Houston Rockets",-11.5,1.9,1.9
+2022-11-29,"03:10:00Z","Sacramento Kings","Phoenix Suns",-1.5,2,1.8
+2022-11-29,"03:40:00Z","Los Angeles Lakers","Indiana Pacers",4,1.9,1.9
+2022-11-30,"00:00:00Z","Detroit Pistons","New York Knicks",5,1.85,1.95
+2022-11-30,"00:30:00Z","Dallas Mavericks","Golden State Warriors",1.5,1.9,1.9
+2022-11-30,"03:00:00Z","Portland Trail Blazers","Los Angeles Clippers",3.5,1.9,1.9
+2022-12-01,"00:10:00Z","Orlando Magic","Atlanta Hawks",-6,1.9,1.9
+2022-12-01,"00:10:00Z","Cleveland Cavaliers","Philadelphia 76ers",-4,1.95,1.85
+2022-12-01,"00:40:00Z","Boston Celtics","Miami Heat",-9,1.9,1.9
+2022-12-01,"00:40:00Z","Brooklyn Nets","Washington Wizards",-6,1.9,1.9
+2022-12-01,"00:40:00Z","New York Knicks","Milwaukee Bucks",-5.5,1.9,1.9
+2022-12-01,"01:10:00Z","Minnesota Timberwolves","Memphis Grizzlies",-3.5,1.9,1.9
+2022-12-01,"01:10:00Z","New Orleans Pelicans","Toronto Raptors",-1.5,1.95,1.85
+2022-12-01,"01:10:00Z","Oklahoma City Thunder","San Antonio Spurs",-5.5,1.9,1.9
+2022-12-01,"02:10:00Z","Phoenix Suns","Chicago Bulls",5.5,1.9,1.9
+2022-12-01,"02:10:00Z","Denver Nuggets","Houston Rockets",-11.5,1.9,1.9
+2022-12-01,"02:10:00Z","Utah Jazz","Los Angeles Clippers",7,1.85,1.95
+2022-12-01,"03:10:00Z","Sacramento Kings","Indiana Pacers",4.5,1.9,1.9
+2022-12-01,"03:40:00Z","Los Angeles Lakers","Portland Trail Blazers",-5.5,1.9,1.9
+2022-12-02,"00:10:00Z","Detroit Pistons","Dallas Mavericks",-7.5,1.9,1.9
+2022-12-03,"00:10:00Z","Charlotte Hornets","Washington Wizards",3.5,1.9,1.9
+2022-12-03,"00:40:00Z","Atlanta Hawks","Denver Nuggets",3.5,1.85,1.95
+2022-12-03,"00:40:00Z","Boston Celtics","Miami Heat",-8,1.9,1.9
+2022-12-03,"00:40:00Z","Brooklyn Nets","Toronto Raptors",-2,1.9,1.9
+2022-12-03,"00:40:00Z","Cleveland Cavaliers","Orlando Magic",-10,1.9,1.9
+2022-12-03,"00:40:00Z","Milwaukee Bucks","Los Angeles Lakers",8,1.9,1.9
+2022-12-03,"01:10:00Z","Memphis Grizzlies","Philadelphia 76ers",-5.5,1.9,1.9
+2022-12-03,"01:10:00Z","San Antonio Spurs","New Orleans Pelicans",-7,1.9,1.9
+2022-12-03,"02:10:00Z","Phoenix Suns","Houston Rockets",11.5,1.9,1.9
+2022-12-03,"02:10:00Z","Utah Jazz","Indiana Pacers",6.5,1.95,1.85
+2022-12-03,"03:10:00Z","Golden State Warriors","Chicago Bulls",7,1.9,1.9
+2022-12-03,"17:40:00Z","New York Knicks","Dallas Mavericks",-1.5,1.9,1.9
+2022-12-03,"21:10:00Z","Los Angeles Clippers","Sacramento Kings",-1.5,1.9,1.9
+2022-12-03,"23:10:00Z","Charlotte Hornets","Milwaukee Bucks",6.5,1.85,1.95
+2022-12-04,"01:10:00Z","Minnesota Timberwolves","Oklahoma City Thunder",-5.5,1.95,1.85
+2022-12-04,"01:10:00Z","Toronto Raptors","Orlando Magic",10.5,1.9,1.9
+2022-12-04,"01:40:00Z","Golden State Warriors","Houston Rockets",-9.5,1.9,1.9
+2022-12-04,"02:10:00Z","Utah Jazz","Portland Trail Blazers",4.5,1.85,1.95
+2022-12-04,"20:40:00Z","New Orleans Pelicans","Denver Nuggets",1.5,1.8,2
+2022-12-04,"21:10:00Z","San Antonio Spurs","Phoenix Suns",-9,1.85,1.95
+2022-12-04,"23:10:00Z","Brooklyn Nets","Boston Celtics",-2.5,1.9,1.9
+2022-12-04,"23:10:00Z","Sacramento Kings","Chicago Bulls",2.5,1.9,1.9
+2022-12-04,"23:10:00Z","New York Knicks","Cleveland Cavaliers",-3,1.9,1.9
+2022-12-04,"23:10:00Z","Detroit Pistons","Memphis Grizzlies",6,1.9,1.9
+2022-12-04,"23:10:00Z","Washington Wizards","Los Angeles Lakers",2.5,1.9,1.9
+2022-12-05,"02:10:00Z","Portland Trail Blazers","Indiana Pacers",3,1.9,1.9
+2022-12-06,"00:10:00Z","Charlotte Hornets","Los Angeles Clippers",3,1.9,1.9
+2022-12-06,"00:10:00Z","Orlando Magic","Milwaukee Bucks",-9.5,1.95,1.85
+2022-12-06,"00:30:00Z","Toronto Raptors","Boston Celtics",-1.5,1.95,1.85
+2022-12-06,"00:40:00Z","Atlanta Hawks","Oklahoma City Thunder",-6,1.9,1.9
+2022-12-06,"01:00:00Z","Houston Rockets","Philadelphia 76ers",7,1.9,1.9
+2022-12-06,"01:00:00Z","Memphis Grizzlies","Miami Heat",-2,1.9,1.9
+2022-12-06,"01:30:00Z","Dallas Mavericks","Phoenix Suns",-2.5,1.95,1.85
+2022-12-06,"03:00:00Z","Golden State Warriors","Indiana Pacers",-9.5,1.9,1.9
+2022-12-07,"00:30:00Z","Cleveland Cavaliers","Los Angeles Lakers",-4,1.9,1.9
+2022-12-07,"00:40:00Z","Miami Heat","Detroit Pistons",8.5,1.9,1.9
+2022-12-07,"03:00:00Z","Denver Nuggets","Dallas Mavericks",4.5,1.85,1.95
+2022-12-08,"00:10:00Z","Orlando Magic","Los Angeles Clippers",-6,1.95,1.85
+2022-12-08,"00:40:00Z","New York Knicks","Atlanta Hawks",2,1.9,1.9
+2022-12-08,"00:40:00Z","Brooklyn Nets","Charlotte Hornets",-9.5,1.85,1.95
+2022-12-08,"00:40:00Z","Toronto Raptors","Los Angeles Lakers",7.5,1.9,1.9
+2022-12-08,"01:10:00Z","Chicago Bulls","Washington Wizards",-5.5,1.9,1.9
+2022-12-08,"01:10:00Z","New Orleans Pelicans","Detroit Pistons",10,1.9,1.9
+2022-12-08,"01:10:00Z","Minnesota Timberwolves","Indiana Pacers",5.5,1.95,1.85
+2022-12-08,"01:10:00Z","Memphis Grizzlies","Oklahoma City Thunder",-7,1.9,1.9
+2022-12-08,"01:10:00Z","Milwaukee Bucks","Sacramento Kings",-7,1.95,1.85
+2022-12-08,"02:10:00Z","Utah Jazz","Golden State Warriors",6.5,1.85,1.95
+2022-12-08,"03:10:00Z","Phoenix Suns","Boston Celtics",-1.5,1.95,1.85
+2022-12-09,"00:40:00Z","Miami Heat","Los Angeles Clippers",4.5,1.9,1.9
+2022-12-09,"01:40:00Z","San Antonio Spurs","Houston Rockets",-2.5,1.9,1.9
+2022-12-09,"03:10:00Z","Portland Trail Blazers","Denver Nuggets",-1.5,2,1.8
+2022-12-10,"00:10:00Z","Charlotte Hornets","New York Knicks",4,1.9,1.9
+2022-12-10,"00:10:00Z","Indiana Pacers","Washington Wizards",-5,1.9,1.9
+2022-12-10,"00:10:00Z","Orlando Magic","Toronto Raptors",7.5,1.9,1.9
+2022-12-10,"00:40:00Z","Brooklyn Nets","Atlanta Hawks",7.5,1.9,1.9
+2022-12-10,"00:40:00Z","Cleveland Cavaliers","Sacramento Kings",-5.5,1.9,1.9
+2022-12-10,"00:40:00Z","Philadelphia 76ers","Los Angeles Lakers",4,1.9,1.9
+2022-12-10,"01:10:00Z","Memphis Grizzlies","Detroit Pistons",10.5,1.85,1.95
+2022-12-10,"01:40:00Z","New Orleans Pelicans","Phoenix Suns",2,1.95,1.85
+2022-12-10,"02:10:00Z","Utah Jazz","Minnesota Timberwolves",2.5,1.9,1.9
+2022-12-10,"03:10:00Z","Dallas Mavericks","Milwaukee Bucks",1.5,1.8,2
+2022-12-10,"22:10:00Z","Miami Heat","San Antonio Spurs",-11.5,1.9,1.9
+2022-12-11,"00:10:00Z","Indiana Pacers","Brooklyn Nets",-1.5,1.9,1.9
+2022-12-11,"00:10:00Z","Washington Wizards","Los Angeles Clippers",-4.5,1.9,1.9
+2022-12-11,"00:40:00Z","Cleveland Cavaliers","Oklahoma City Thunder",-6.5,1.9,1.9
+2022-12-11,"01:10:00Z","Chicago Bulls","Dallas Mavericks",-1.5,1.95,1.85
+2022-12-11,"01:40:00Z","Golden State Warriors","Boston Celtics",-3,1.9,1.9
+2022-12-11,"02:10:00Z","Denver Nuggets","Utah Jazz",-7,1.9,1.9
+2022-12-11,"03:10:00Z","Portland Trail Blazers","Minnesota Timberwolves",5.5,1.9,1.9
+2022-12-11,"20:40:00Z","New Orleans Pelicans","Phoenix Suns",-2.5,1.9,1.9
+2022-12-11,"23:10:00Z","Philadelphia 76ers","Charlotte Hornets",10,1.9,1.9
+2022-12-11,"23:10:00Z","Detroit Pistons","Los Angeles Lakers",5,1.9,1.9
+2022-12-11,"23:10:00Z","New York Knicks","Sacramento Kings",-2.5,1.9,1.9
+2022-12-11,"23:10:00Z","Orlando Magic","Toronto Raptors",6.5,1.9,1.9
+2022-12-11,"23:40:00Z","Atlanta Hawks","Chicago Bulls",-2.5,1.9,1.9
+2022-12-12,"00:10:00Z","Houston Rockets","Milwaukee Bucks",10,1.9,1.9
+2022-12-13,"00:10:00Z","Washington Wizards","Brooklyn Nets",-5.5,1.95,1.85
+2022-12-13,"00:10:00Z","Indiana Pacers","Miami Heat",2.5,1.9,1.9
+2022-12-13,"01:10:00Z","Memphis Grizzlies","Atlanta Hawks",6.5,1.95,1.85
+2022-12-13,"01:40:00Z","San Antonio Spurs","Cleveland Cavaliers",-7,1.9,1.9
+2022-12-13,"01:40:00Z","Dallas Mavericks","Oklahoma City Thunder",-8.5,1.9,1.9
+2022-12-13,"03:10:00Z","Portland Trail Blazers","Minnesota Timberwolves",4.5,1.9,1.9
+2022-12-13,"03:40:00Z","Los Angeles Clippers","Boston Celtics",-3,1.9,1.9
+2022-12-14,"00:10:00Z","Philadelphia 76ers","Sacramento Kings",-5.5,1.9,1.9
+2022-12-14,"00:30:00Z","Milwaukee Bucks","Golden State Warriors",NA,NA,NA
+2022-12-14,"01:10:00Z","Houston Rockets","Phoenix Suns",6,1.9,1.9
+2022-12-14,"02:10:00Z","Utah Jazz","New Orleans Pelicans",-2.5,1.9,1.9
+2022-12-14,"03:00:00Z","Los Angeles Lakers","Boston Celtics",-2.5,1.9,1.9
+2022-12-15,"00:10:00Z","Orlando Magic","Atlanta Hawks",-2.5,1.9,1.9
+2022-12-15,"00:10:00Z","Charlotte Hornets","Detroit Pistons",-2.5,1.9,1.9
+2022-12-15,"00:10:00Z","Indiana Pacers","Golden State Warriors",-1.5,1.9,1.9
+2022-12-15,"00:40:00Z","Chicago Bulls","New York Knicks",-4,1.9,1.9
+2022-12-15,"00:40:00Z","Toronto Raptors","Sacramento Kings",5,1.9,1.9
+2022-12-15,"01:10:00Z","Oklahoma City Thunder","Miami Heat",-3,1.9,1.9
+2022-12-15,"01:10:00Z","San Antonio Spurs","Portland Trail Blazers",-6.5,1.85,1.95
+2022-12-15,"02:10:00Z","Dallas Mavericks","Cleveland Cavaliers",2.5,1.9,1.9
+2022-12-15,"02:10:00Z","Denver Nuggets","Washington Wizards",NA,NA,NA
+2022-12-15,"03:10:00Z","Los Angeles Clippers","Minnesota Timberwolves",-6.5,1.95,1.85
+2022-12-16,"01:10:00Z","Houston Rockets","Miami Heat",3,1.95,1.85
+2022-12-16,"01:10:00Z","Memphis Grizzlies","Milwaukee Bucks",-1.5,1.9,1.9
+2022-12-16,"02:10:00Z","Utah Jazz","New Orleans Pelicans",-2,1.9,1.9
+2022-12-16,"03:40:00Z","Los Angeles Clippers","Phoenix Suns",-2,1.9,1.9
+2022-12-17,"00:10:00Z","Charlotte Hornets","Atlanta Hawks",2,1.9,1.9
+2022-12-17,"00:10:00Z","Detroit Pistons","Sacramento Kings",5,1.9,1.9
+2022-12-17,"00:40:00Z","Boston Celtics","Orlando Magic",-13.5,1.95,1.85
+2022-12-17,"00:40:00Z","Toronto Raptors","Brooklyn Nets",-1.5,1.9,1.9
+2022-12-17,"00:40:00Z","Cleveland Cavaliers","Indiana Pacers",-8,1.9,1.9
+2022-12-17,"00:40:00Z","Philadelphia 76ers","Golden State Warriors",9,1.9,1.9
+2022-12-17,"01:10:00Z","Chicago Bulls","New York Knicks",-2.5,1.9,1.9
+2022-12-17,"01:10:00Z","Oklahoma City Thunder","Minnesota Timberwolves",2,1.9,1.9
+2022-12-17,"01:40:00Z","Dallas Mavericks","Portland Trail Blazers",-4.5,1.95,1.85
+2022-12-17,"03:10:00Z","Los Angeles Lakers","Denver Nuggets",-1.5,1.95,1.85
+2022-12-17,"21:10:00Z","Los Angeles Clippers","Washington Wizards",-6.5,1.9,1.9
+2022-12-17,"22:10:00Z","San Antonio Spurs","Miami Heat",-7.5,1.9,1.9
+2022-12-18,"01:10:00Z","Cleveland Cavaliers","Dallas Mavericks",-4.5,1.9,1.9
+2022-12-18,"01:10:00Z","Houston Rockets","Portland Trail Blazers",3.5,1.9,1.9
+2022-12-18,"01:10:00Z","Oklahoma City Thunder","Memphis Grizzlies",-7.5,1.9,1.9
+2022-12-18,"01:10:00Z","Milwaukee Bucks","Utah Jazz",-4.5,1.85,1.95
+2022-12-18,"02:10:00Z","Phoenix Suns","New Orleans Pelicans",3.5,1.9,1.9
+2022-12-18,"20:10:00Z","Boston Celtics","Orlando Magic",-10,1.9,1.9
+2022-12-18,"22:10:00Z","Indiana Pacers","New York Knicks",-1.5,1.95,1.85
+2022-12-18,"23:10:00Z","Detroit Pistons","Brooklyn Nets",-7,1.85,1.95
+2022-12-18,"23:10:00Z","Toronto Raptors","Golden State Warriors",6,1.9,1.9
+2022-12-19,"00:10:00Z","Minnesota Timberwolves","Chicago Bulls",-1.5,1.9,1.9
+2022-12-19,"01:10:00Z","Denver Nuggets","Charlotte Hornets",8,1.9,1.9
+2022-12-19,"02:40:00Z","Los Angeles Lakers","Washington Wizards",-4.5,1.9,1.9
+2022-12-20,"00:00:00Z","Cleveland Cavaliers","Utah Jazz",-6,1.9,1.9
+2022-12-20,"00:10:00Z","Philadelphia 76ers","Toronto Raptors",-7,1.9,1.9
+2022-12-20,"00:40:00Z","Atlanta Hawks","Orlando Magic",-7.5,1.9,1.9
+2022-12-20,"01:00:00Z","Houston Rockets","San Antonio Spurs",-4,1.9,1.9
+2022-12-20,"01:10:00Z","Minnesota Timberwolves","Dallas Mavericks",-3.5,1.9,1.9
+2022-12-20,"01:10:00Z","New Orleans Pelicans","Milwaukee Bucks",-1.5,1.9,1.9
+2022-12-20,"01:10:00Z","Oklahoma City Thunder","Portland Trail Blazers",8,1.9,1.9
+2022-12-20,"02:00:00Z","Phoenix Suns","Los Angeles Lakers",8.5,1.9,1.9
+2022-12-20,"03:10:00Z","Sacramento Kings","Charlotte Hornets",8.5,1.9,1.9
+2022-12-21,"00:10:00Z","Detroit Pistons","Utah Jazz",3.5,1.9,1.9
+2022-12-21,"00:30:00Z","New York Knicks","Golden State Warriors",4.5,1.9,1.9
+2022-12-21,"00:40:00Z","Miami Heat","Chicago Bulls",5,1.9,1.9
+2022-12-21,"02:10:00Z","Phoenix Suns","Washington Wizards",-7.5,1.9,1.9
+2022-12-21,"03:10:00Z","Denver Nuggets","Memphis Grizzlies",1.5,1.9,1.9
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",NA,NA,NA
+2022-12-25,"22:00:00Z","Boston Celtics","Milwaukee Bucks",NA,NA,NA
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",NA,NA,NA
+2022-12-22,"00:10:00Z","Cleveland Cavaliers","Milwaukee Bucks",-2,1.9,1.9
+2022-12-22,"00:10:00Z","Philadelphia 76ers","Detroit Pistons",11,1.95,1.85
+2022-12-22,"00:40:00Z","Atlanta Hawks","Chicago Bulls",-6.5,1.9,1.9
+2022-12-22,"00:40:00Z","Boston Celtics","Indiana Pacers",-9.5,1.85,1.95
+2022-12-22,"00:40:00Z","Brooklyn Nets","Golden State Warriors",-11.5,1.9,1.9
+2022-12-22,"00:40:00Z","New York Knicks","Toronto Raptors",-1.5,1.95,1.85
+2022-12-22,"01:10:00Z","Minnesota Timberwolves","Dallas Mavericks",-3.5,1.9,1.9
+2022-12-22,"01:10:00Z","Houston Rockets","Orlando Magic",1.5,1.9,1.9
+2022-12-22,"01:10:00Z","Oklahoma City Thunder","Portland Trail Blazers",4,1.9,1.9
+2022-12-22,"03:10:00Z","Sacramento Kings","Los Angeles Lakers",6,1.9,1.9
+2022-12-22,"03:40:00Z","Los Angeles Clippers","Charlotte Hornets",7,1.9,1.9
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",NA,NA,NA
+2022-12-25,"22:00:00Z","Boston Celtics","Milwaukee Bucks",NA,NA,NA
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",NA,NA,NA
+2022-12-23,"01:10:00Z","New Orleans Pelicans","San Antonio Spurs",-8,1.9,1.9
+2022-12-23,"02:10:00Z","Utah Jazz","Washington Wizards",-6.5,1.9,1.9
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",2,1.9,1.9
+2022-12-25,"19:30:00Z","Dallas Mavericks","Los Angeles Lakers",-7,1.9,1.9
+2022-12-25,"22:00:00Z","Boston Celtics","Milwaukee Bucks",-4,1.85,1.95
+2022-12-26,"01:10:00Z","Golden State Warriors","Memphis Grizzlies",NA,NA,NA
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",-2.5,1.95,1.85
+2022-12-24,"00:10:00Z","Philadelphia 76ers","Los Angeles Clippers",3.5,1.9,1.9
+2022-12-24,"00:10:00Z","Orlando Magic","San Antonio Spurs",-7,1.95,1.85
+2022-12-24,"00:40:00Z","Atlanta Hawks","Detroit Pistons",-9,1.95,1.85
+2022-12-24,"00:40:00Z","Boston Celtics","Minnesota Timberwolves",-9,1.9,1.9
+2022-12-24,"00:40:00Z","Brooklyn Nets","Milwaukee Bucks",-2.5,1.95,1.85
+2022-12-24,"00:40:00Z","New York Knicks","Chicago Bulls",5.5,1.9,1.9
+2022-12-24,"00:40:00Z","Cleveland Cavaliers","Toronto Raptors",-4.5,1.9,1.9
+2022-12-24,"01:10:00Z","Houston Rockets","Dallas Mavericks",-6,1.9,1.9
+2022-12-24,"01:10:00Z","Miami Heat","Indiana Pacers",6.5,1.9,1.9
+2022-12-24,"01:10:00Z","Oklahoma City Thunder","New Orleans Pelicans",2,1.95,1.85
+2022-12-24,"02:10:00Z","Denver Nuggets","Portland Trail Blazers",-5,1.9,1.9
+2022-12-24,"03:10:00Z","Phoenix Suns","Memphis Grizzlies",-3,1.9,1.9
+2022-12-24,"03:10:00Z","Sacramento Kings","Washington Wizards",-9,1.95,1.85
+2022-12-24,"03:40:00Z","Los Angeles Lakers","Charlotte Hornets",3.5,1.85,1.95
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",2,1.85,1.95
+2022-12-25,"19:30:00Z","Dallas Mavericks","Los Angeles Lakers",-7.5,1.9,1.9
+2022-12-25,"22:00:00Z","Boston Celtics","Milwaukee Bucks",-4,1.9,1.9
+2022-12-26,"01:10:00Z","Golden State Warriors","Memphis Grizzlies",NA,NA,NA
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",-2.5,1.9,1.9
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",1.5,1.9,1.9
+2022-12-25,"19:30:00Z","Dallas Mavericks","Los Angeles Lakers",-8,1.9,1.9
+2022-12-25,"22:00:00Z","Boston Celtics","Milwaukee Bucks",-4.5,1.85,1.95
+2022-12-26,"01:10:00Z","Golden State Warriors","Memphis Grizzlies",5,1.9,1.9
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",-4,1.9,1.9
+2022-12-25,"17:00:00Z","New York Knicks","Philadelphia 76ers",2.5,1.9,1.9
+2022-12-25,"19:30:00Z","Dallas Mavericks","Los Angeles Lakers",-8,1.9,1.9
+2022-12-25,"22:10:00Z","Boston Celtics","Milwaukee Bucks",-5,1.9,1.9
+2022-12-26,"01:10:00Z","Golden State Warriors","Memphis Grizzlies",7,1.85,1.95
+2022-12-26,"03:30:00Z","Denver Nuggets","Phoenix Suns",-3.5,1.9,1.9
+2022-12-27,"00:10:00Z","Cleveland Cavaliers","Brooklyn Nets",2,1.9,1.9
+2022-12-27,"00:10:00Z","Detroit Pistons","Los Angeles Clippers",5.5,1.9,1.9
+2022-12-27,"00:40:00Z","Miami Heat","Minnesota Timberwolves",-4.5,1.9,1.9
+2022-12-27,"01:10:00Z","Chicago Bulls","Houston Rockets",-8,1.9,1.9
+2022-12-27,"01:10:00Z","New Orleans Pelicans","Indiana Pacers",6.5,1.9,1.9
+2022-12-27,"01:10:00Z","San Antonio Spurs","Utah Jazz",5.5,1.85,1.95
+2022-12-27,"03:10:00Z","Portland Trail Blazers","Charlotte Hornets",6.5,1.9,1.9
+2022-12-28,"00:10:00Z","Orlando Magic","Los Angeles Lakers",4,1.9,1.9
+2022-12-28,"00:10:00Z","Washington Wizards","Philadelphia 76ers",-4.5,1.85,1.95
+2022-12-28,"00:40:00Z","Indiana Pacers","Atlanta Hawks",-1.5,1.9,1.9
+2022-12-28,"00:40:00Z","Boston Celtics","Houston Rockets",-14.5,1.85,1.95
+2022-12-28,"00:40:00Z","Toronto Raptors","Los Angeles Clippers",6,1.9,1.9
+2022-12-28,"01:10:00Z","Memphis Grizzlies","Phoenix Suns",-7.5,1.9,1.9
+2022-12-28,"01:10:00Z","Oklahoma City Thunder","San Antonio Spurs",-7,1.9,1.9
+2022-12-28,"01:40:00Z","Dallas Mavericks","New York Knicks",-5.5,1.9,1.9
+2022-12-28,"03:10:00Z","Golden State Warriors","Charlotte Hornets",4,1.9,1.9
+2022-12-28,"03:10:00Z","Sacramento Kings","Denver Nuggets",-3.5,1.9,1.9
+2022-12-29,"00:10:00Z","Detroit Pistons","Orlando Magic",1.5,1.9,1.9
+2022-12-29,"00:10:00Z","Washington Wizards","Phoenix Suns",-1.5,1.9,1.9
+2022-12-29,"00:30:00Z","Atlanta Hawks","Brooklyn Nets",5,1.9,1.9
+2022-12-29,"00:40:00Z","Miami Heat","Los Angeles Lakers",7,1.9,1.9
+2022-12-29,"01:10:00Z","Chicago Bulls","Milwaukee Bucks",4.5,1.9,1.9
+2022-12-29,"01:10:00Z","New Orleans Pelicans","Minnesota Timberwolves",6.5,1.9,1.9
+2022-12-29,"03:10:00Z","Sacramento Kings","Denver Nuggets",-2.5,1.9,1.9
+2022-12-29,"03:10:00Z","Golden State Warriors","Utah Jazz",3,1.85,1.95
+2022-12-30,"00:10:00Z","Charlotte Hornets","Oklahoma City Thunder",-1.5,1.95,1.85
+2022-12-30,"00:10:00Z","Indiana Pacers","Cleveland Cavaliers",-5.5,1.9,1.9
+2022-12-30,"00:40:00Z","Boston Celtics","Los Angeles Clippers",-6,1.9,1.9
+2022-12-30,"00:40:00Z","Toronto Raptors","Memphis Grizzlies",-2.5,1.95,1.85
+2022-12-30,"01:10:00Z","San Antonio Spurs","New York Knicks",-5,1.95,1.85
+2022-12-30,"01:40:00Z","Dallas Mavericks","Houston Rockets",-11,1.95,1.85
+2022-12-31,"00:10:00Z","Orlando Magic","Washington Wizards",NA,NA,NA
+2022-12-31,"00:40:00Z","Atlanta Hawks","Los Angeles Lakers",-7,1.9,1.9
+2022-12-31,"00:40:00Z","Toronto Raptors","Phoenix Suns",2.5,1.9,1.9
+2022-12-31,"01:10:00Z","Chicago Bulls","Detroit Pistons",-7.5,1.85,1.95
+2022-12-31,"01:10:00Z","Milwaukee Bucks","Minnesota Timberwolves",-5.5,1.85,1.95
+2022-12-31,"01:40:00Z","New Orleans Pelicans","Philadelphia 76ers",-1.5,1.95,1.85
+2022-12-31,"02:10:00Z","Denver Nuggets","Miami Heat",-4.5,1.9,1.9
+2022-12-31,"03:10:00Z","Golden State Warriors","Portland Trail Blazers",2.5,1.9,1.9
+2022-12-31,"03:10:00Z","Sacramento Kings","Utah Jazz",-3,1.9,1.9
+2022-12-31,"20:10:00Z","Indiana Pacers","Los Angeles Clippers",3.5,1.9,1.9
+2023-01-01,"00:10:00Z","Charlotte Hornets","Brooklyn Nets",-7,1.9,1.9
+2023-01-01,"00:10:00Z","Chicago Bulls","Cleveland Cavaliers",3.5,1.95,1.85
+2023-01-01,"00:10:00Z","San Antonio Spurs","Dallas Mavericks",-7,1.9,1.9
+2023-01-01,"00:10:00Z","Houston Rockets","New York Knicks",5,1.95,1.85
+2023-01-01,"01:10:00Z","Minnesota Timberwolves","Detroit Pistons",7.5,1.95,1.85
+2023-01-01,"01:10:00Z","Memphis Grizzlies","New Orleans Pelicans",-6,1.9,1.9
+2023-01-01,"01:10:00Z","Oklahoma City Thunder","Philadelphia 76ers",4.5,1.9,1.9
+2023-01-01,"02:10:00Z","Utah Jazz","Miami Heat",3.5,1.9,1.9
+2023-01-02,"01:10:00Z","Denver Nuggets","Boston Celtics",-1.5,1.9,1.9
+2023-01-02,"01:10:00Z","Memphis Grizzlies","Sacramento Kings",-5,1.9,1.9
+2023-01-02,"01:10:00Z","Milwaukee Bucks","Washington Wizards",-8,1.9,1.9
+2023-01-02,"20:10:00Z","New York Knicks","Phoenix Suns",-1.5,1.95,1.85
+2023-01-03,"00:10:00Z","Charlotte Hornets","Los Angeles Lakers",1.5,1.85,1.95
+2023-01-03,"00:10:00Z","Cleveland Cavaliers","Chicago Bulls",4,1.9,1.9
+2023-01-03,"00:10:00Z","Indiana Pacers","Toronto Raptors",-2.5,1.9,1.9
+2023-01-03,"00:10:00Z","Philadelphia 76ers","New Orleans Pelicans",5,1.9,1.9
+2023-01-03,"00:40:00Z","Brooklyn Nets","San Antonio Spurs",-13.5,1.9,1.9
+2023-01-03,"01:10:00Z","Houston Rockets","Dallas Mavericks",-7.5,1.95,1.85
+2023-01-03,"01:10:00Z","Minnesota Timberwolves","Denver Nuggets",-2.5,1.85,1.95
+2023-01-03,"03:10:00Z","Golden State Warriors","Atlanta Hawks",2.5,1.95,1.85
+2023-01-03,"03:10:00Z","Portland Trail Blazers","Detroit Pistons",9.5,1.9,1.9
+2023-01-03,"03:40:00Z","Los Angeles Clippers","Miami Heat",-4.5,1.9,1.9
+2023-01-04,"01:10:00Z","Oklahoma City Thunder","Boston Celtics",-8.5,1.9,1.9
+2023-01-04,"01:10:00Z","Milwaukee Bucks","Washington Wizards",-8,1.9,1.9
+2023-01-04,"02:10:00Z","Utah Jazz","Sacramento Kings",2.5,1.9,1.9
+2023-01-05,"00:10:00Z","Charlotte Hornets","Memphis Grizzlies",7.5,1.9,1.9
+2023-01-05,"00:10:00Z","Cleveland Cavaliers","Phoenix Suns",-5.5,1.95,1.85
+2023-01-05,"00:10:00Z","Philadelphia 76ers","Indiana Pacers",7.5,1.9,1.9
+2023-01-05,"00:10:00Z","Orlando Magic","Oklahoma City Thunder",2,1.9,1.9
+2023-01-05,"00:40:00Z","Toronto Raptors","Milwaukee Bucks",3,1.9,1.9
+2023-01-05,"00:40:00Z","New York Knicks","San Antonio Spurs",-9.5,1.9,1.9
+2023-01-05,"01:10:00Z","Chicago Bulls","Brooklyn Nets",-5,1.9,1.9
+2023-01-05,"01:10:00Z","New Orleans Pelicans","Houston Rockets",7,1.9,1.9
+2023-01-05,"01:10:00Z","Minnesota Timberwolves","Portland Trail Blazers",-1.5,2,1.8
+2023-01-05,"03:10:00Z","Sacramento Kings","Atlanta Hawks",1.5,1.85,1.95
+2023-01-05,"03:10:00Z","Golden State Warriors","Detroit Pistons",8,1.9,1.9
+2023-01-05,"03:10:00Z","Los Angeles Lakers","Miami Heat",4.5,1.9,1.9
+2023-01-06,"00:10:00Z","Orlando Magic","Memphis Grizzlies",-6,1.9,1.9
+2023-01-06,"00:30:00Z","Dallas Mavericks","Boston Celtics",-2.5,1.9,1.9
+2023-01-06,"01:10:00Z","Houston Rockets","Utah Jazz",6,1.9,1.9
+2023-01-06,"03:00:00Z","Denver Nuggets","Los Angeles Clippers",-5,1.95,1.85
+2023-01-07,"00:10:00Z","Philadelphia 76ers","Chicago Bulls",4.5,1.9,1.9
+2023-01-07,"00:10:00Z","Indiana Pacers","Portland Trail Blazers",-2,1.9,1.9
+2023-01-07,"00:40:00Z","New Orleans Pelicans","Brooklyn Nets",-4.5,1.9,1.9
+2023-01-07,"00:40:00Z","Toronto Raptors","New York Knicks",3.5,1.9,1.9
+2023-01-07,"01:10:00Z","Milwaukee Bucks","Charlotte Hornets",11,1.85,1.95
+2023-01-07,"01:10:00Z","San Antonio Spurs","Detroit Pistons",1.5,1.9,1.9
+2023-01-07,"01:10:00Z","Oklahoma City Thunder","Washington Wizards",-1.5,1.95,1.85
+2023-01-07,"02:10:00Z","Denver Nuggets","Cleveland Cavaliers",6.5,1.9,1.9
+2023-01-07,"02:10:00Z","Minnesota Timberwolves","Los Angeles Clippers",3,1.95,1.85
+2023-01-07,"03:10:00Z","Phoenix Suns","Miami Heat",-1.5,1.9,1.9
+2023-01-07,"03:40:00Z","Los Angeles Lakers","Atlanta Hawks",-1.5,1.95,1.85
+2023-01-07,"23:10:00Z","San Antonio Spurs","Boston Celtics",-13,1.9,1.9
+2023-01-08,"01:10:00Z","Chicago Bulls","Utah Jazz",-1.5,1.9,1.9
+2023-01-08,"01:10:00Z","Dallas Mavericks","New Orleans Pelicans",-7,1.9,1.9
+2023-01-08,"01:40:00Z","Golden State Warriors","Orlando Magic",-6.5,1.9,1.9
+2023-01-08,"03:10:00Z","Sacramento Kings","Los Angeles Lakers",8.5,1.95,1.85
+2023-01-08,"20:10:00Z","Detroit Pistons","Philadelphia 76ers",5.5,1.9,1.9
+2023-01-08,"20:40:00Z","Toronto Raptors","Portland Trail Blazers",3,1.9,1.9
+2023-01-08,"22:10:00Z","Indiana Pacers","Charlotte Hornets",6,1.85,1.95
+2023-01-08,"23:10:00Z","Miami Heat","Brooklyn Nets",-4,1.9,1.9
+2023-01-08,"23:10:00Z","Memphis Grizzlies","Utah Jazz",-7.5,1.95,1.85
+2023-01-09,"00:10:00Z","Oklahoma City Thunder","Dallas Mavericks",2.5,1.9,1.9
+2023-01-09,"00:10:00Z","Houston Rockets","Minnesota Timberwolves",2,1.9,1.9
+2023-01-09,"01:10:00Z","Phoenix Suns","Cleveland Cavaliers",-4.5,1.9,1.9
+2023-01-09,"02:10:00Z","Los Angeles Clippers","Atlanta Hawks",4,1.9,1.9
+2023-01-10,"00:10:00Z","Washington Wizards","New Orleans Pelicans",2,1.9,1.9
+2023-01-10,"00:40:00Z","Boston Celtics","Chicago Bulls",-8.5,1.9,1.9
+2023-01-10,"00:40:00Z","New York Knicks","Milwaukee Bucks",-2,1.9,1.9
+2023-01-10,"01:10:00Z","Memphis Grizzlies","San Antonio Spurs",-11,1.9,1.9
+2023-01-10,"02:10:00Z","Denver Nuggets","Los Angeles Lakers",-9,1.9,1.9
+2023-01-10,"03:10:00Z","Sacramento Kings","Orlando Magic",6,1.9,1.9
+2023-01-11,"00:10:00Z","Philadelphia 76ers","Detroit Pistons",10.5,1.85,1.95
+2023-01-11,"00:40:00Z","Toronto Raptors","Charlotte Hornets",7.5,1.9,1.9
+2023-01-11,"00:40:00Z","Miami Heat","Oklahoma City Thunder",-4.5,1.9,1.9
+2023-01-11,"02:10:00Z","Utah Jazz","Cleveland Cavaliers",-3.5,1.9,1.9
+2023-01-11,"03:10:00Z","Golden State Warriors","Phoenix Suns",-10.5,1.9,1.9
+2023-01-11,"03:10:00Z","Portland Trail Blazers","Orlando Magic",8,1.85,1.95
+2023-01-11,"03:40:00Z","Los Angeles Clippers","Dallas Mavericks",3,1.9,1.9
+2023-01-12,"00:10:00Z","Washington Wizards","Chicago Bulls",-1.5,1.95,1.85
+2023-01-12,"00:10:00Z","Detroit Pistons","Minnesota Timberwolves",6,1.9,1.9
+2023-01-12,"00:30:00Z","Atlanta Hawks","Milwaukee Bucks",2,1.9,1.9
+2023-01-12,"00:30:00Z","Boston Celtics","New Orleans Pelicans",-9.5,1.9,1.9
+2023-01-12,"00:30:00Z","New York Knicks","Indiana Pacers",5,1.85,1.95
+2023-01-12,"01:10:00Z","Memphis Grizzlies","San Antonio Spurs",-13,1.9,1.9
+2023-01-12,"03:00:00Z","Sacramento Kings","Houston Rockets",9,1.9,1.9
+2023-01-12,"03:10:00Z","Denver Nuggets","Phoenix Suns",-12.5,1.9,1.9
+2023-01-13,"00:10:00Z","Philadelphia 76ers","Oklahoma City Thunder",9.5,1.9,1.9
+2023-01-13,"00:30:00Z","Brooklyn Nets","Boston Celtics",-3,1.9,1.9
+2023-01-13,"00:40:00Z","Toronto Raptors","Charlotte Hornets",7.5,1.95,1.85
+2023-01-13,"00:40:00Z","Miami Heat","Milwaukee Bucks",-3,1.9,1.9
+2023-01-13,"03:00:00Z","Los Angeles Lakers","Dallas Mavericks",-3,1.9,1.9
+2023-01-13,"03:10:00Z","Portland Trail Blazers","Cleveland Cavaliers",-2.5,1.9,1.9
+2023-01-14,"00:10:00Z","Indiana Pacers","Atlanta Hawks",-3,1.9,1.9
+2023-01-14,"00:10:00Z","Detroit Pistons","New Orleans Pelicans",4.5,1.9,1.9
+2023-01-14,"00:10:00Z","Washington Wizards","New York Knicks",-4,1.95,1.85
+2023-01-14,"00:40:00Z","San Antonio Spurs","Golden State Warriors",-8,1.9,1.9
+2023-01-14,"01:10:00Z","Chicago Bulls","Oklahoma City Thunder",-4.5,1.9,1.9
+2023-01-14,"01:10:00Z","Minnesota Timberwolves","Phoenix Suns",-4,1.95,1.85
+2023-01-14,"02:10:00Z","Utah Jazz","Orlando Magic",5.5,1.95,1.85
+2023-01-14,"03:10:00Z","Los Angeles Clippers","Denver Nuggets",1.5,1.9,1.9
+2023-01-14,"03:10:00Z","Sacramento Kings","Houston Rockets",10.5,1.9,1.9
+2023-01-14,"18:10:00Z","Miami Heat","Milwaukee Bucks",-1.5,1.95,1.85
+2023-01-15,"00:10:00Z","Charlotte Hornets","Boston Celtics",-7.5,1.9,1.9
+2023-01-15,"00:10:00Z","Indiana Pacers","Memphis Grizzlies",8,1.85,1.95
+2023-01-15,"00:40:00Z","Toronto Raptors","Atlanta Hawks",5.5,1.9,1.9
+2023-01-15,"01:10:00Z","Minnesota Timberwolves","Cleveland Cavaliers",-3,1.9,1.9
+2023-01-15,"02:10:00Z","Utah Jazz","Philadelphia 76ers",-4,1.9,1.9
+2023-01-15,"03:10:00Z","Portland Trail Blazers","Dallas Mavericks",2,1.9,1.9
+2023-01-15,"18:10:00Z","Detroit Pistons","New York Knicks",7,1.9,1.9
+2023-01-15,"20:10:00Z","Los Angeles Clippers","Houston Rockets",9.5,1.9,1.9
+2023-01-15,"20:40:00Z","Chicago Bulls","Golden State Warriors",3.5,1.9,1.9
+2023-01-15,"23:10:00Z","Brooklyn Nets","Oklahoma City Thunder",-5.5,1.9,1.9
+2023-01-16,"00:10:00Z","San Antonio Spurs","Sacramento Kings",-7,1.9,1.9
+2023-01-16,"01:10:00Z","Denver Nuggets","Orlando Magic",-10.5,1.9,1.9
+2023-01-16,"02:10:00Z","Portland Trail Blazers","Dallas Mavericks",6.5,1.9,1.9
+2023-01-16,"02:40:00Z","Los Angeles Lakers","Philadelphia 76ers",3.5,1.9,1.9
+2023-01-16,"18:10:00Z","Charlotte Hornets","Boston Celtics",-8,1.9,1.9
+2023-01-16,"19:40:00Z","Milwaukee Bucks","Indiana Pacers",10.5,1.9,1.9
+2023-01-16,"20:10:00Z","Cleveland Cavaliers","New Orleans Pelicans",-6.5,1.9,1.9
+2023-01-16,"20:10:00Z","Washington Wizards","Golden State Warriors",-3,1.9,1.9
+2023-01-16,"20:10:00Z","New York Knicks","Toronto Raptors",-4,1.9,1.9
+2023-01-16,"20:30:00Z","Atlanta Hawks","Miami Heat",1.5,1.85,1.95
+2023-01-16,"21:10:00Z","Minnesota Timberwolves","Utah Jazz",-2.5,1.9,1.9
+2023-01-16,"23:00:00Z","Memphis Grizzlies","Phoenix Suns",-9.5,1.9,1.9
+2023-01-17,"03:40:00Z","Los Angeles Lakers","Houston Rockets",5.5,1.95,1.85
+2023-01-18,"00:30:00Z","Milwaukee Bucks","Toronto Raptors",-5.5,1.9,1.9
+2023-01-18,"01:10:00Z","San Antonio Spurs","Brooklyn Nets",-6,1.9,1.9
+2023-01-18,"02:10:00Z","Denver Nuggets","Portland Trail Blazers",-7.5,1.95,1.85
+2023-01-18,"03:00:00Z","Los Angeles Clippers","Philadelphia 76ers",1.5,1.85,1.95
+2023-01-19,"00:40:00Z","Dallas Mavericks","Atlanta Hawks",4.5,1.85,1.95
+2023-01-19,"00:40:00Z","New York Knicks","Washington Wizards",-6,1.9,1.9
+2023-01-19,"01:10:00Z","Houston Rockets","Charlotte Hornets",-2,1.9,1.9
+2023-01-19,"01:10:00Z","Memphis Grizzlies","Cleveland Cavaliers",7,1.9,1.9
+2023-01-19,"01:10:00Z","Oklahoma City Thunder","Indiana Pacers",4,1.95,1.85
+2023-01-19,"01:10:00Z","New Orleans Pelicans","Miami Heat",-1.5,1.9,1.9
+2023-01-19,"02:10:00Z","Utah Jazz","Los Angeles Clippers",7,1.9,1.9
+2023-01-19,"03:10:00Z","Denver Nuggets","Minnesota Timberwolves",-8.5,1.9,1.9
+2023-01-19,"03:10:00Z","Los Angeles Lakers","Sacramento Kings",3.5,1.9,1.9
+2023-01-19,"20:00:00Z","Detroit Pistons","Chicago Bulls",-7,1.9,1.9
+2023-01-20,"00:30:00Z","Boston Celtics","Golden State Warriors",-6.5,1.9,1.9
+2023-01-20,"01:00:00Z","Minnesota Timberwolves","Toronto Raptors",3.5,1.9,1.9
+2023-01-20,"03:00:00Z","Phoenix Suns","Brooklyn Nets",-1.5,2,1.8
+2023-01-20,"03:00:00Z","Portland Trail Blazers","Philadelphia 76ers",-2.5,1.95,1.85
+2023-01-21,"00:10:00Z","Orlando Magic","New Orleans Pelicans",-1.5,1.9,1.9
+2023-01-21,"00:40:00Z","Atlanta Hawks","New York Knicks",-3,1.85,1.95
+2023-01-21,"00:40:00Z","Cleveland Cavaliers","Golden State Warriors",NA,NA,NA
+2023-01-21,"00:40:00Z","Dallas Mavericks","Miami Heat",1.5,1.85,1.95
+2023-01-21,"01:10:00Z","San Antonio Spurs","Los Angeles Clippers",-7.5,1.9,1.9
+2023-01-21,"02:10:00Z","Utah Jazz","Brooklyn Nets",7.5,1.9,1.9
+2023-01-21,"02:10:00Z","Denver Nuggets","Indiana Pacers",-11.5,1.9,1.9
+2023-01-21,"03:10:00Z","Los Angeles Lakers","Memphis Grizzlies",7,1.9,1.9
+2023-01-21,"03:10:00Z","Sacramento Kings","Oklahoma City Thunder",3.5,1.9,1.9
+2023-01-21,"22:10:00Z","Toronto Raptors","Boston Celtics",-1.5,1.9,1.9
+2023-01-22,"00:10:00Z","Washington Wizards","Orlando Magic",6,1.9,1.9
+2023-01-22,"00:40:00Z","Atlanta Hawks","Charlotte Hornets",-9.5,1.95,1.85
+2023-01-22,"00:40:00Z","Cleveland Cavaliers","Milwaukee Bucks",-1.5,1.9,1.9
+2023-01-22,"01:10:00Z","Minnesota Timberwolves","Houston Rockets",8.5,1.9,1.9
+2023-01-22,"02:10:00Z","Phoenix Suns","Indiana Pacers",6.5,1.9,1.9
+2023-01-22,"03:10:00Z","Sacramento Kings","Philadelphia 76ers",-3.5,1.9,1.9
+2023-01-22,"19:40:00Z","Dallas Mavericks","Los Angeles Clippers",-1.5,1.9,1.9
+2023-01-22,"20:30:00Z","Miami Heat","New Orleans Pelicans",-7.5,1.9,1.9
+2023-01-22,"23:10:00Z","Toronto Raptors","New York Knicks",1.5,1.9,1.9
+2023-01-23,"01:10:00Z","Denver Nuggets","Oklahoma City Thunder",-5.5,1.9,1.9
+2023-01-23,"01:10:00Z","Phoenix Suns","Memphis Grizzlies",-8.5,1.9,1.9
+2023-01-23,"01:40:00Z","Golden State Warriors","Brooklyn Nets",7,1.85,1.95
+2023-01-23,"02:10:00Z","Portland Trail Blazers","Los Angeles Lakers",5.5,1.9,1.9
+2023-01-24,"00:10:00Z","Orlando Magic","Boston Celtics",-7,1.9,1.9
+2023-01-24,"00:10:00Z","Detroit Pistons","Milwaukee Bucks",11,1.9,1.9
+2023-01-24,"01:10:00Z","Chicago Bulls","Atlanta Hawks",1.5,1.8,2
+2023-01-24,"01:10:00Z","Houston Rockets","Minnesota Timberwolves",6,1.9,1.9
+2023-01-24,"02:10:00Z","Utah Jazz","Charlotte Hornets",8,1.9,1.9
+2023-01-24,"03:10:00Z","Portland Trail Blazers","San Antonio Spurs",-9,1.95,1.85
+2023-01-24,"03:40:00Z","Sacramento Kings","Memphis Grizzlies",-1.5,1.95,1.85
+2023-01-25,"00:10:00Z","Indiana Pacers","Chicago Bulls",-1.5,1.95,1.85
+2023-01-25,"00:30:00Z","Miami Heat","Boston Celtics",2,1.9,1.9
+2023-01-25,"00:40:00Z","New York Knicks","Cleveland Cavaliers",-3,1.9,1.9
+2023-01-25,"01:10:00Z","New Orleans Pelicans","Denver Nuggets",1.5,1.85,1.95
+2023-01-25,"01:40:00Z","Dallas Mavericks","Washington Wizards",-7,1.9,1.9
+2023-01-25,"02:10:00Z","Phoenix Suns","Charlotte Hornets",7,1.9,1.9
+2023-01-25,"03:00:00Z","Los Angeles Lakers","Los Angeles Clippers",-4,1.9,1.9
+2023-01-26,"00:10:00Z","Orlando Magic","Indiana Pacers",4.5,1.95,1.85
+2023-01-26,"00:40:00Z","Philadelphia 76ers","Brooklyn Nets",5.5,1.9,1.9
+2023-01-26,"01:10:00Z","Oklahoma City Thunder","Atlanta Hawks",-1.5,2,1.8
+2023-01-26,"01:10:00Z","Milwaukee Bucks","Denver Nuggets",7,1.9,1.9
+2023-01-26,"01:10:00Z","Houston Rockets","Washington Wizards",3,1.9,1.9
+2023-01-26,"01:10:00Z","New Orleans Pelicans","Minnesota Timberwolves",2,1.9,1.9
+2023-01-26,"03:10:00Z","Golden State Warriors","Memphis Grizzlies",-2.5,1.9,1.9
+2023-01-26,"03:10:00Z","Portland Trail Blazers","Utah Jazz",-4,1.9,1.9
+2023-01-26,"03:10:00Z","Sacramento Kings","Toronto Raptors",-4,1.95,1.85
+2023-01-26,"03:40:00Z","Los Angeles Lakers","San Antonio Spurs",-6.5,1.9,1.9
+2023-01-27,"00:30:00Z","Boston Celtics","New York Knicks",-8,1.9,1.9
+2023-01-27,"00:40:00Z","Brooklyn Nets","Detroit Pistons",-9,1.9,1.9
+2023-01-27,"00:40:00Z","Charlotte Hornets","Chicago Bulls",5.5,1.9,1.9
+2023-01-27,"01:10:00Z","Houston Rockets","Cleveland Cavaliers",-8,1.95,1.85
+2023-01-27,"03:00:00Z","Phoenix Suns","Dallas Mavericks",1.5,1.9,1.9
+2023-01-27,"03:40:00Z","Los Angeles Clippers","San Antonio Spurs",-13,1.9,1.9
+2023-01-28,"00:10:00Z","Indiana Pacers","Milwaukee Bucks",8,1.85,1.95
+2023-01-28,"00:40:00Z","Minnesota Timberwolves","Memphis Grizzlies",-3,1.9,1.9
+2023-01-28,"01:10:00Z","Oklahoma City Thunder","Cleveland Cavaliers",-1.5,1.85,1.95
+2023-01-28,"01:10:00Z","Miami Heat","Orlando Magic",-7.5,1.9,1.9
+2023-01-28,"03:10:00Z","Golden State Warriors","Toronto Raptors",-5.5,1.95,1.85
+2023-01-28,"20:10:00Z","Philadelphia 76ers","Denver Nuggets",4,1.9,1.9
+2023-01-28,"22:30:00Z","Brooklyn Nets","New York Knicks",-1.5,1.9,1.9
+2023-01-29,"00:10:00Z","Orlando Magic","Chicago Bulls",-2.5,1.9,1.9
+2023-01-29,"00:10:00Z","Detroit Pistons","Houston Rockets",-4.5,1.9,1.9
+2023-01-29,"00:40:00Z","Atlanta Hawks","Los Angeles Clippers",-1.5,2,1.8
+2023-01-29,"01:10:00Z","Minnesota Timberwolves","Sacramento Kings",2.5,1.9,1.9
+2023-01-29,"01:10:00Z","New Orleans Pelicans","Washington Wizards",-4.5,1.95,1.85
+2023-01-29,"01:10:00Z","San Antonio Spurs","Phoenix Suns",-6,1.9,1.9
+2023-01-29,"01:30:00Z","Boston Celtics","Los Angeles Lakers",-7.5,1.9,1.9
+2023-01-29,"02:10:00Z","Utah Jazz","Dallas Mavericks",7.5,1.95,1.85
+2023-01-29,"03:10:00Z","Portland Trail Blazers","Toronto Raptors",-4.5,1.85,1.95
+2023-01-29,"18:10:00Z","Charlotte Hornets","Miami Heat",6,1.85,1.95
+2023-01-29,"23:10:00Z","Memphis Grizzlies","Indiana Pacers",9,1.9,1.9
+2023-01-30,"00:10:00Z","Cleveland Cavaliers","Los Angeles Clippers",-5,1.95,1.85
+2023-01-30,"01:10:00Z","Milwaukee Bucks","New Orleans Pelicans",-9.5,1.9,1.9
+2023-01-31,"00:10:00Z","Philadelphia 76ers","Orlando Magic",9.5,1.95,1.85
+2023-01-31,"00:40:00Z","Brooklyn Nets","Los Angeles Lakers",-8.5,1.85,1.95
+2023-01-31,"01:10:00Z","Oklahoma City Thunder","Golden State Warriors",-4.5,1.9,1.9
+2023-01-31,"01:10:00Z","Minnesota Timberwolves","Sacramento Kings",1.5,1.85,1.95
+2023-01-31,"01:10:00Z","San Antonio Spurs","Washington Wizards",5.5,1.9,1.9
+2023-01-31,"01:40:00Z","Dallas Mavericks","Detroit Pistons",-8,1.9,1.9
+2023-01-31,"02:10:00Z","Phoenix Suns","Toronto Raptors",-2.5,1.9,1.9
+2023-01-31,"03:10:00Z","Portland Trail Blazers","Atlanta Hawks",2.5,1.9,1.9
+2023-02-01,"00:10:00Z","Cleveland Cavaliers","Miami Heat",-5.5,1.9,1.9
+2023-02-01,"00:40:00Z","New York Knicks","Los Angeles Lakers",2.5,1.9,1.9
+2023-02-01,"01:10:00Z","Milwaukee Bucks","Charlotte Hornets",12,1.9,1.9
+2023-02-01,"01:10:00Z","Chicago Bulls","Los Angeles Clippers",3,1.9,1.9
+2023-02-01,"03:10:00Z","Denver Nuggets","New Orleans Pelicans",-7.5,1.9,1.9
+2023-02-02,"00:10:00Z","Detroit Pistons","Washington Wizards",5.5,1.95,1.85
+2023-02-02,"00:10:00Z","Memphis Grizzlies","Portland Trail Blazers",-5.5,1.9,1.9
+2023-02-02,"00:10:00Z","Philadelphia 76ers","Orlando Magic",9.5,1.9,1.9
+2023-02-02,"00:40:00Z","Boston Celtics","Brooklyn Nets",-8,1.9,1.9
+2023-02-02,"01:10:00Z","Minnesota Timberwolves","Golden State Warriors",-2.5,1.9,1.9
+2023-02-02,"01:10:00Z","Houston Rockets","Oklahoma City Thunder",6,1.9,1.9
+2023-02-02,"01:10:00Z","San Antonio Spurs","Sacramento Kings",-7.5,1.9,1.9
+2023-02-02,"02:10:00Z","Utah Jazz","Toronto Raptors",3,1.9,1.9
+2023-02-02,"03:10:00Z","Phoenix Suns","Atlanta Hawks",1.5,1.9,1.9
+2023-02-03,"00:10:00Z","Indiana Pacers","Los Angeles Lakers",2,1.9,1.9
+2023-02-03,"00:30:00Z","Cleveland Cavaliers","Memphis Grizzlies",-5,1.9,1.9
+2023-02-03,"00:40:00Z","New York Knicks","Miami Heat",-1.5,1.9,1.9
+2023-02-03,"01:10:00Z","Chicago Bulls","Charlotte Hornets",6.5,1.85,1.95
+2023-02-03,"01:40:00Z","Dallas Mavericks","New Orleans Pelicans",-4.5,1.9,1.9
+2023-02-03,"02:10:00Z","Denver Nuggets","Golden State Warriors",-12,1.9,1.9
+2023-02-03,"03:00:00Z","Milwaukee Bucks","Los Angeles Clippers",5,1.9,1.9
+2023-02-04,"00:10:00Z","Detroit Pistons","Charlotte Hornets",1.5,1.85,1.95
+2023-02-04,"00:10:00Z","Indiana Pacers","Sacramento Kings",2.5,1.95,1.85
+2023-02-04,"00:10:00Z","Washington Wizards","Portland Trail Blazers",4,1.9,1.9
+2023-02-04,"00:40:00Z","Boston Celtics","Phoenix Suns",-9.5,1.9,1.9
+2023-02-04,"01:10:00Z","Houston Rockets","Toronto Raptors",6,1.9,1.9
+2023-02-04,"01:10:00Z","Minnesota Timberwolves","Orlando Magic",-5,1.9,1.9
+2023-02-04,"01:10:00Z","San Antonio Spurs","Philadelphia 76ers",-9.5,1.9,1.9
+2023-02-04,"02:10:00Z","Utah Jazz","Atlanta Hawks",2,1.9,1.9
+2023-02-04,"23:10:00Z","Brooklyn Nets","Washington Wizards",-2,1.9,1.9
+2023-02-04,"23:10:00Z","New Orleans Pelicans","Los Angeles Lakers",-1.5,1.95,1.85
+2023-02-05,"00:10:00Z","Detroit Pistons","Phoenix Suns",4.5,1.9,1.9
+2023-02-05,"00:10:00Z","New York Knicks","Los Angeles Clippers",-2.5,1.9,1.9
+2023-02-05,"01:10:00Z","Chicago Bulls","Portland Trail Blazers",-5,1.9,1.9
+2023-02-05,"01:10:00Z","Oklahoma City Thunder","Houston Rockets",9,1.85,1.95
+2023-02-05,"01:10:00Z","Milwaukee Bucks","Miami Heat",5.5,1.9,1.9
+2023-02-05,"01:40:00Z","Golden State Warriors","Dallas Mavericks",9,1.9,1.9
+2023-02-05,"02:10:00Z","Denver Nuggets","Atlanta Hawks",7,1.9,1.9
+2023-02-05,"18:10:00Z","Charlotte Hornets","Orlando Magic",-1.5,1.95,1.85
+2023-02-05,"22:10:00Z","Indiana Pacers","Cleveland Cavaliers",-4.5,1.9,1.9
+2023-02-05,"23:10:00Z","Memphis Grizzlies","Toronto Raptors",-4.5,1.9,1.9
+2023-02-05,"23:10:00Z","New York Knicks","Philadelphia 76ers",5.5,1.9,1.9
+2023-02-06,"00:10:00Z","Minnesota Timberwolves","Denver Nuggets",-2,1.9,1.9
+2023-02-06,"00:10:00Z","New Orleans Pelicans","Sacramento Kings",-1.5,1.9,1.9
+2023-02-07,"00:10:00Z","Detroit Pistons","Boston Celtics",-11,1.9,1.9
+2023-02-07,"00:10:00Z","Washington Wizards","Cleveland Cavaliers",-2.5,1.9,1.9
+2023-02-07,"00:40:00Z","Brooklyn Nets","Los Angeles Clippers",6.5,1.9,1.9
+2023-02-07,"01:10:00Z","Chicago Bulls","San Antonio Spurs",-10.5,1.9,1.9
+2023-02-07,"01:10:00Z","Houston Rockets","Sacramento Kings",5.5,1.9,1.9
+2023-02-07,"02:10:00Z","Utah Jazz","Dallas Mavericks",9,1.9,1.9
+2023-02-07,"03:10:00Z","Golden State Warriors","Oklahoma City Thunder",-4.5,1.9,1.9
+2023-02-07,"03:10:00Z","Portland Trail Blazers","Milwaukee Bucks",-4.5,1.9,1.9
+2023-02-08,"00:10:00Z","Orlando Magic","New York Knicks",-1.5,1.9,1.9
+2023-02-08,"00:30:00Z","New Orleans Pelicans","Atlanta Hawks",2,1.9,1.9
+2023-02-08,"00:30:00Z","Brooklyn Nets","Phoenix Suns",4.5,1.9,1.9
+2023-02-08,"01:10:00Z","Memphis Grizzlies","Chicago Bulls",7.5,1.9,1.9
+2023-02-08,"02:10:00Z","Denver Nuggets","Minnesota Timberwolves",-8,1.9,1.9
+2023-02-08,"03:00:00Z","Los Angeles Lakers","Oklahoma City Thunder",-7,1.9,1.9
+2023-02-09,"00:10:00Z","Washington Wizards","Charlotte Hornets",4.5,1.9,1.9
+2023-02-09,"00:10:00Z","Cleveland Cavaliers","Detroit Pistons",-13,1.9,1.9
+2023-02-09,"00:40:00Z","Boston Celtics","Philadelphia 76ers",-4.5,1.95,1.85
+2023-02-09,"00:40:00Z","Miami Heat","Indiana Pacers",7,1.85,1.95
+2023-02-09,"00:40:00Z","Toronto Raptors","San Antonio Spurs",11,1.9,1.9
+2023-02-09,"01:10:00Z","Houston Rockets","Sacramento Kings",8,1.9,1.9
+2023-02-09,"02:10:00Z","Utah Jazz","Minnesota Timberwolves",4,1.9,1.9
+2023-02-09,"03:10:00Z","Los Angeles Clippers","Dallas Mavericks",7.5,1.95,1.85
+2023-02-09,"03:10:00Z","Portland Trail Blazers","Golden State Warriors",3.5,1.9,1.9
+2023-02-10,"00:10:00Z","Orlando Magic","Denver Nuggets",-6.5,1.9,1.9
+2023-02-10,"00:30:00Z","Brooklyn Nets","Chicago Bulls",-3,1.9,1.9
+2023-02-10,"00:40:00Z","Atlanta Hawks","Phoenix Suns",NA,NA,NA
+2023-02-10,"03:00:00Z","Los Angeles Lakers","Milwaukee Bucks",5.5,1.85,1.95
+2023-02-11,"00:10:00Z","Detroit Pistons","San Antonio Spurs",-3.5,1.9,1.9
+2023-02-11,"00:10:00Z","Indiana Pacers","Phoenix Suns",1.5,1.85,1.95
+2023-02-11,"00:10:00Z","Philadelphia 76ers","New York Knicks",5,1.9,1.9
+2023-02-11,"00:40:00Z","Boston Celtics","Charlotte Hornets",-10.5,1.9,1.9
+2023-02-11,"00:40:00Z","Toronto Raptors","Utah Jazz",-8,1.9,1.9
+2023-02-11,"01:10:00Z","Miami Heat","Houston Rockets",11,1.85,1.95
+2023-02-11,"01:10:00Z","Memphis Grizzlies","Minnesota Timberwolves",-9,1.9,1.9
+2023-02-11,"03:10:00Z","New Orleans Pelicans","Cleveland Cavaliers",-3,1.9,1.9
+2023-02-11,"03:10:00Z","Sacramento Kings","Dallas Mavericks",1.5,1.9,1.9
+2023-02-11,"03:10:00Z","Portland Trail Blazers","Oklahoma City Thunder",3,1.95,1.85
+2023-02-11,"03:40:00Z","Los Angeles Clippers","Milwaukee Bucks",-1.5,1.9,1.9
+2023-02-11,"23:10:00Z","Brooklyn Nets","Philadelphia 76ers",2.5,1.9,1.9
+2023-02-12,"00:10:00Z","Charlotte Hornets","Denver Nuggets",8.5,1.95,1.85
+2023-02-12,"00:10:00Z","Washington Wizards","Indiana Pacers",5.5,1.9,1.9
+2023-02-12,"00:10:00Z","Orlando Magic","Miami Heat",-2,1.9,1.9
+2023-02-12,"00:40:00Z","Atlanta Hawks","San Antonio Spurs",-11.5,1.9,1.9
+2023-02-12,"00:40:00Z","New York Knicks","Utah Jazz",-5,1.9,1.9
+2023-02-12,"01:10:00Z","Cleveland Cavaliers","Chicago Bulls",5.5,1.9,1.9
+2023-02-12,"01:40:00Z","Golden State Warriors","Los Angeles Lakers",-3.5,1.9,1.9
+2023-02-12,"03:10:00Z","Sacramento Kings","Dallas Mavericks",2.5,1.9,1.9
+2023-02-12,"19:10:00Z","Boston Celtics","Memphis Grizzlies",-4,1.9,1.9
+2023-02-12,"20:10:00Z","Toronto Raptors","Detroit Pistons",10,1.9,1.9
+2023-02-14,"00:10:00Z","Charlotte Hornets","Atlanta Hawks",-5.5,1.95,1.85
+2023-02-14,"00:10:00Z","Cleveland Cavaliers","San Antonio Spurs",-15,1.9,1.9
+2023-02-14,"00:10:00Z","Philadelphia 76ers","Houston Rockets",14.5,1.9,1.9
+2023-02-14,"00:10:00Z","Indiana Pacers","Utah Jazz",-1.5,1.9,1.9
+2023-02-14,"00:40:00Z","New York Knicks","Brooklyn Nets",2,1.9,1.9
+2023-02-14,"00:40:00Z","Miami Heat","Denver Nuggets",1.5,1.9,1.9
+2023-02-14,"01:10:00Z","Chicago Bulls","Orlando Magic",-5,1.9,1.9
+2023-02-14,"01:10:00Z","Oklahoma City Thunder","New Orleans Pelicans",2.5,1.9,1.9
+2023-02-14,"01:40:00Z","Dallas Mavericks","Minnesota Timberwolves",-7.5,1.9,1.9
+2023-02-14,"03:10:00Z","Golden State Warriors","Washington Wizards",-4,1.9,1.9
+2023-02-14,"03:10:00Z","Portland Trail Blazers","Los Angeles Lakers",2.5,1.9,1.9
+2023-02-15,"00:30:00Z","Milwaukee Bucks","Boston Celtics",9.5,1.9,1.9
+2023-02-15,"00:40:00Z","Toronto Raptors","Orlando Magic",6.5,1.9,1.9
+2023-02-15,"02:10:00Z","Phoenix Suns","Sacramento Kings",-3,1.9,1.9
+2023-02-15,"03:00:00Z","Los Angeles Clippers","Golden State Warriors",9,1.85,1.95
+2023-02-15,"03:10:00Z","Portland Trail Blazers","Washington Wizards",-3.5,1.9,1.9
+2023-02-16,"00:10:00Z","Charlotte Hornets","San Antonio Spurs",-6.5,1.95,1.85
+2023-02-16,"00:10:00Z","Indiana Pacers","Chicago Bulls",2.5,1.9,1.9
+2023-02-16,"00:40:00Z","Atlanta Hawks","New York Knicks",-3,1.9,1.9
+2023-02-16,"00:40:00Z","Boston Celtics","Detroit Pistons",-8.5,1.85,1.95
+2023-02-16,"00:40:00Z","Brooklyn Nets","Miami Heat",1.5,1.85,1.95
+2023-02-16,"00:40:00Z","Philadelphia 76ers","Cleveland Cavaliers",2.5,1.9,1.9
+2023-02-16,"01:10:00Z","Oklahoma City Thunder","Houston Rockets",9,1.9,1.9
+2023-02-16,"01:10:00Z","Memphis Grizzlies","Utah Jazz",-7.5,1.9,1.9
+2023-02-16,"02:10:00Z","Denver Nuggets","Dallas Mavericks",6.5,1.95,1.85
+2023-02-16,"03:10:00Z","Los Angeles Lakers","New Orleans Pelicans",-3,1.9,1.9
+2023-02-17,"00:30:00Z","Chicago Bulls","Milwaukee Bucks",7,1.9,1.9
+2023-02-17,"01:10:00Z","Minnesota Timberwolves","Washington Wizards",-3,1.9,1.9
+2023-02-17,"03:00:00Z","Phoenix Suns","Los Angeles Clippers",1.5,1.85,1.95
+2023-02-17,"03:00:00Z","Phoenix Suns","Los Angeles Clippers",NA,NA,NA
+2023-02-17,"03:00:00Z","Phoenix Suns","Los Angeles Clippers",NA,NA,NA
+2023-02-17,"03:00:00Z","Phoenix Suns","Los Angeles Clippers",NA,NA,NA
+2023-02-24,"00:10:00Z","Indiana Pacers","Boston Celtics",NA,NA,NA
+2023-02-24,"00:10:00Z","Cleveland Cavaliers","Denver Nuggets",NA,NA,NA
+2023-02-24,"00:10:00Z","Orlando Magic","Detroit Pistons",NA,NA,NA
+2023-02-24,"00:30:00Z","Philadelphia 76ers","Memphis Grizzlies",NA,NA,NA
+2023-02-24,"00:40:00Z","Toronto Raptors","New Orleans Pelicans",NA,NA,NA
+2023-02-24,"01:40:00Z","Dallas Mavericks","San Antonio Spurs",NA,NA,NA
+2023-02-24,"02:10:00Z","Utah Jazz","Oklahoma City Thunder",NA,NA,NA
+2023-02-24,"03:00:00Z","Los Angeles Lakers","Golden State Warriors",NA,NA,NA
+2023-02-24,"03:10:00Z","Sacramento Kings","Portland Trail Blazers",NA,NA,NA
+2023-02-24,"00:10:00Z","Indiana Pacers","Boston Celtics",-8,1.9,1.9
+2023-02-24,"00:10:00Z","Cleveland Cavaliers","Denver Nuggets",-2.5,1.9,1.9
+2023-02-24,"00:10:00Z","Orlando Magic","Detroit Pistons",6.5,1.95,1.85
+2023-02-24,"00:30:00Z","Philadelphia 76ers","Memphis Grizzlies",4,1.9,1.9
+2023-02-24,"00:40:00Z","Toronto Raptors","New Orleans Pelicans",3.5,1.9,1.9
+2023-02-24,"01:40:00Z","Dallas Mavericks","San Antonio Spurs",-13.5,1.9,1.9
+2023-02-24,"02:10:00Z","Utah Jazz","Oklahoma City Thunder",3,1.9,1.9
+2023-02-24,"03:00:00Z","Los Angeles Lakers","Golden State Warriors",4.5,1.9,1.9
+2023-02-24,"03:10:00Z","Sacramento Kings","Portland Trail Blazers",5.5,1.9,1.9
+2023-02-24,"00:10:00Z","Indiana Pacers","Boston Celtics",-8,1.9,1.9
+2023-02-24,"00:10:00Z","Cleveland Cavaliers","Denver Nuggets",-2.5,1.9,1.9
+2023-02-24,"00:10:00Z","Orlando Magic","Detroit Pistons",6.5,1.9,1.9
+2023-02-24,"00:30:00Z","Philadelphia 76ers","Memphis Grizzlies",4,1.9,1.9
+2023-02-24,"00:40:00Z","Toronto Raptors","New Orleans Pelicans",4,1.9,1.9
+2023-02-24,"01:40:00Z","Dallas Mavericks","San Antonio Spurs",-13.5,1.9,1.9
+2023-02-24,"02:10:00Z","Utah Jazz","Oklahoma City Thunder",2.5,1.9,1.9
+2023-02-24,"03:00:00Z","Los Angeles Lakers","Golden State Warriors",4.5,1.95,1.85
+2023-02-24,"03:10:00Z","Sacramento Kings","Portland Trail Blazers",5.5,1.9,1.9
+2023-02-25,"00:10:00Z","Washington Wizards","New York Knicks",2.5,1.9,1.9
+2023-02-25,"00:40:00Z","Atlanta Hawks","Cleveland Cavaliers",-2,1.9,1.9
+2023-02-25,"00:40:00Z","Milwaukee Bucks","Miami Heat",1.5,1.9,1.9
+2023-02-25,"01:10:00Z","Chicago Bulls","Brooklyn Nets",1.5,1.9,1.9
+2023-02-25,"01:10:00Z","Minnesota Timberwolves","Charlotte Hornets",7.5,1.95,1.85
+2023-02-25,"03:10:00Z","Golden State Warriors","Houston Rockets",-9,1.9,1.9
+2023-02-25,"03:10:00Z","Phoenix Suns","Oklahoma City Thunder",7.5,1.9,1.9
+2023-02-25,"03:40:00Z","Los Angeles Clippers","Sacramento Kings",-6.5,1.9,1.9
+2023-02-24,"00:10:00Z","Indiana Pacers","Boston Celtics",-8.5,1.95,1.85
+2023-02-24,"00:10:00Z","Cleveland Cavaliers","Denver Nuggets",-2.5,1.85,1.95
+2023-02-24,"00:10:00Z","Orlando Magic","Detroit Pistons",6.5,1.95,1.85
+2023-02-24,"00:30:00Z","Philadelphia 76ers","Memphis Grizzlies",4,1.9,1.9
+2023-02-24,"00:40:00Z","Toronto Raptors","New Orleans Pelicans",5.5,1.9,1.9
+2023-02-24,"01:40:00Z","Dallas Mavericks","San Antonio Spurs",-13.5,1.9,1.9
+2023-02-24,"02:10:00Z","Utah Jazz","Oklahoma City Thunder",2,1.85,1.95
+2023-02-24,"03:00:00Z","Los Angeles Lakers","Golden State Warriors",5.5,1.9,1.9
+2023-02-24,"03:10:00Z","Sacramento Kings","Portland Trail Blazers",6,1.9,1.9
+2023-02-25,"00:10:00Z","Washington Wizards","New York Knicks",2.5,1.85,1.95
+2023-02-25,"00:40:00Z","Atlanta Hawks","Cleveland Cavaliers",-2,1.9,1.9
+2023-02-25,"00:40:00Z","Milwaukee Bucks","Miami Heat",1.5,1.85,1.95
+2023-02-25,"01:10:00Z","Chicago Bulls","Brooklyn Nets",1.5,1.85,1.95
+2023-02-25,"01:10:00Z","Minnesota Timberwolves","Charlotte Hornets",7.5,1.95,1.85
+2023-02-25,"03:10:00Z","Golden State Warriors","Houston Rockets",-9.5,1.9,1.9
+2023-02-25,"03:10:00Z","Phoenix Suns","Oklahoma City Thunder",8,1.9,1.9
+2023-02-25,"03:40:00Z","Los Angeles Clippers","Sacramento Kings",-6.5,1.9,1.9
+2023-02-25,"00:10:00Z","Washington Wizards","New York Knicks",1.5,1.85,1.95
+2023-02-25,"00:30:00Z","Atlanta Hawks","Cleveland Cavaliers",-1.5,1.95,1.85
+2023-02-25,"00:40:00Z","Milwaukee Bucks","Miami Heat",2,1.85,1.95
+2023-02-25,"01:10:00Z","Chicago Bulls","Brooklyn Nets",2,1.9,1.9
+2023-02-25,"01:10:00Z","Minnesota Timberwolves","Charlotte Hornets",7,1.9,1.9
+2023-02-25,"03:10:00Z","Golden State Warriors","Houston Rockets",-9.5,1.9,1.9
+2023-02-25,"03:10:00Z","Phoenix Suns","Oklahoma City Thunder",7.5,1.85,1.95
+2023-02-25,"03:40:00Z","Los Angeles Clippers","Sacramento Kings",-6.5,1.9,1.9
+2023-02-25,"17:10:00Z","Detroit Pistons","Toronto Raptors",7,1.9,1.9
+2023-02-26,"00:10:00Z","Charlotte Hornets","Miami Heat",4.5,1.9,1.9
+2023-02-26,"00:10:00Z","Orlando Magic","Indiana Pacers",3.5,1.9,1.9
+2023-02-26,"00:40:00Z","New York Knicks","New Orleans Pelicans",3,1.9,1.9
+2023-02-26,"01:10:00Z","Memphis Grizzlies","Denver Nuggets",2,1.9,1.9
+2023-02-26,"01:40:00Z","Philadelphia 76ers","Boston Celtics",-1.5,1.95,1.85
+2023-02-26,"02:10:00Z","Utah Jazz","San Antonio Spurs",10,1.9,1.9
+2023-02-26,"18:10:00Z","Milwaukee Bucks","Phoenix Suns",-3,1.9,1.9
+2023-02-26,"20:10:00Z","Atlanta Hawks","Brooklyn Nets",-5.5,1.9,1.9
+2023-02-26,"20:40:00Z","Chicago Bulls","Washington Wizards",-4,1.9,1.9
+2023-02-26,"20:40:00Z","Dallas Mavericks","Los Angeles Lakers",-5,1.9,1.9
+2023-02-26,"23:10:00Z","Cleveland Cavaliers","Toronto Raptors",-6.5,1.9,1.9
+2023-02-27,"00:10:00Z","Oklahoma City Thunder","Sacramento Kings",4.5,1.9,1.9
+2023-02-27,"00:40:00Z","Golden State Warriors","Minnesota Timberwolves",-3,1.85,1.95
+2023-02-27,"02:10:00Z","Portland Trail Blazers","Houston Rockets",10,1.85,1.95
+2023-02-27,"03:10:00Z","Denver Nuggets","Los Angeles Clippers",-4,1.9,1.9
+2023-02-28,"00:10:00Z","Charlotte Hornets","Detroit Pistons",-7,1.9,1.9
+2023-02-28,"00:10:00Z","Philadelphia 76ers","Miami Heat",6,1.9,1.9
+2023-02-28,"00:40:00Z","New York Knicks","Boston Celtics",-2.5,1.85,1.95
+2023-02-28,"01:10:00Z","New Orleans Pelicans","Orlando Magic",-3.5,1.9,1.9
+2023-03-01,"00:30:00Z","Memphis Grizzlies","Los Angeles Lakers",8.5,1.9,1.9
+2023-03-01,"00:40:00Z","Atlanta Hawks","Washington Wizards",-6.5,1.9,1.9
+2023-03-01,"00:40:00Z","Brooklyn Nets","Milwaukee Bucks",5,1.9,1.9
+2023-03-01,"00:40:00Z","Toronto Raptors","Chicago Bulls",4.5,1.95,1.85
+2023-03-01,"01:10:00Z","Houston Rockets","Denver Nuggets",-10.5,1.95,1.85
+2023-03-01,"01:10:00Z","Oklahoma City Thunder","Sacramento Kings",2.5,1.9,1.9
+2023-03-01,"01:40:00Z","Dallas Mavericks","Indiana Pacers",-7.5,1.95,1.85
+2023-03-01,"02:10:00Z","Utah Jazz","San Antonio Spurs",9,1.9,1.9
+2023-03-01,"03:00:00Z","Los Angeles Clippers","Minnesota Timberwolves",-6,1.9,1.9
+2023-03-01,"03:10:00Z","Golden State Warriors","Portland Trail Blazers",-4,1.9,1.9
+2023-03-02,"00:10:00Z","Charlotte Hornets","Phoenix Suns",10,1.9,1.9
+2023-03-02,"00:10:00Z","Detroit Pistons","Chicago Bulls",-6,1.9,1.9
+2023-03-02,"00:40:00Z","Boston Celtics","Cleveland Cavaliers",-6.5,1.9,1.9
+2023-03-02,"00:40:00Z","New York Knicks","Brooklyn Nets",7.5,1.9,1.9
+2023-03-02,"00:40:00Z","Miami Heat","Philadelphia 76ers",1.5,1.9,1.9
+2023-03-02,"01:10:00Z","Houston Rockets","Memphis Grizzlies",11,1.85,1.95
+2023-03-02,"01:10:00Z","Oklahoma City Thunder","Los Angeles Lakers",-1.5,1.95,1.85
+2023-03-02,"01:10:00Z","Milwaukee Bucks","Orlando Magic",-7.5,1.9,1.9
+2023-03-02,"03:10:00Z","Portland Trail Blazers","New Orleans Pelicans",2.5,1.95,1.85
+2023-03-03,"00:10:00Z","Washington Wizards","Toronto Raptors",-1.5,1.9,1.9
+2023-03-03,"00:30:00Z","Dallas Mavericks","Philadelphia 76ers",NA,NA,NA
+2023-03-03,"01:40:00Z","San Antonio Spurs","Indiana Pacers",-4.5,1.9,1.9
+2023-03-03,"03:00:00Z","Golden State Warriors","Los Angeles Clippers",3,1.9,1.9
+2023-03-04,"00:10:00Z","Charlotte Hornets","Orlando Magic",4,1.9,1.9
+2023-03-04,"00:40:00Z","Atlanta Hawks","Portland Trail Blazers",-7,1.95,1.85
+2023-03-04,"00:40:00Z","Boston Celtics","Brooklyn Nets",-11,1.95,1.85
+2023-03-04,"01:10:00Z","Chicago Bulls","Phoenix Suns",5.5,1.85,1.95
+2023-03-04,"01:10:00Z","Miami Heat","New York Knicks",2.5,1.9,1.9
+2023-03-04,"01:10:00Z","Oklahoma City Thunder","Utah Jazz",2,1.9,1.9
+2023-03-04,"03:10:00Z","Denver Nuggets","Memphis Grizzlies",-5.5,1.9,1.9
+2023-03-04,"03:10:00Z","Golden State Warriors","New Orleans Pelicans",-5.5,1.9,1.9
+2023-03-04,"03:10:00Z","Sacramento Kings","Los Angeles Clippers",6,1.85,1.95
+2023-03-04,"03:40:00Z","Los Angeles Lakers","Minnesota Timberwolves",1.5,1.85,1.95
+2023-03-04,"22:10:00Z","Washington Wizards","Toronto Raptors",-1.5,1.95,1.85
+2023-03-05,"00:40:00Z","Cleveland Cavaliers","Detroit Pistons",-14,1.85,1.95
+2023-03-05,"01:10:00Z","Miami Heat","Atlanta Hawks",2,1.9,1.9
+2023-03-05,"01:10:00Z","San Antonio Spurs","Houston Rockets",-1.5,1.95,1.85
+2023-03-05,"01:40:00Z","Milwaukee Bucks","Philadelphia 76ers",-5.5,1.9,1.9
+2023-03-05,"03:10:00Z","Sacramento Kings","Minnesota Timberwolves",5.5,1.9,1.9
+2023-03-05,"18:10:00Z","Dallas Mavericks","Phoenix Suns",-1.5,1.95,1.85
+2023-03-05,"20:40:00Z","Chicago Bulls","Indiana Pacers",-6.5,1.9,1.9
+2023-03-05,"20:40:00Z","Los Angeles Lakers","Golden State Warriors",-5,1.9,1.9
+2023-03-05,"23:10:00Z","Brooklyn Nets","Charlotte Hornets",-7.5,1.9,1.9
+2023-03-05,"23:10:00Z","Orlando Magic","Portland Trail Blazers",-2,1.9,1.9
+2023-03-06,"00:10:00Z","Houston Rockets","San Antonio Spurs",-3,1.9,1.9
+2023-03-06,"00:10:00Z","Oklahoma City Thunder","Utah Jazz",-6,1.9,1.9
+2023-03-06,"00:40:00Z","Boston Celtics","New York Knicks",-5.5,1.95,1.85
+2023-03-06,"00:40:00Z","Washington Wizards","Milwaukee Bucks",-4.5,1.9,1.9
+2023-03-06,"03:10:00Z","Los Angeles Clippers","Memphis Grizzlies",-7,1.9,1.9
+2023-03-07,"00:10:00Z","Cleveland Cavaliers","Boston Celtics",4,1.9,1.9
+2023-03-07,"00:10:00Z","Detroit Pistons","Portland Trail Blazers",6.5,1.9,1.9
+2023-03-07,"00:10:00Z","Indiana Pacers","Philadelphia 76ers",7,1.9,1.9
+2023-03-07,"00:40:00Z","Miami Heat","Atlanta Hawks",3,1.95,1.85
+2023-03-07,"02:10:00Z","Denver Nuggets","Toronto Raptors",-7,1.9,1.9
+2023-03-07,"03:10:00Z","Sacramento Kings","New Orleans Pelicans",6,1.9,1.9
+2023-03-08,"00:10:00Z","Detroit Pistons","Washington Wizards",6,1.95,1.85
+2023-03-08,"00:10:00Z","Orlando Magic","Milwaukee Bucks",-7.5,1.9,1.9
+2023-03-08,"00:30:00Z","Minnesota Timberwolves","Philadelphia 76ers",1.5,1.9,1.9
+2023-03-08,"00:40:00Z","New York Knicks","Charlotte Hornets",10,1.9,1.9
+2023-03-08,"01:10:00Z","Houston Rockets","Brooklyn Nets",-7,1.9,1.9
+2023-03-08,"01:10:00Z","Oklahoma City Thunder","Golden State Warriors",-4.5,1.95,1.85
+2023-03-08,"01:40:00Z","Dallas Mavericks","Utah Jazz",-7.5,1.9,1.9
+2023-03-08,"03:00:00Z","Los Angeles Lakers","Memphis Grizzlies",-1.5,1.9,1.9
+2023-03-09,"00:10:00Z","Washington Wizards","Atlanta Hawks",-3,1.9,1.9
+2023-03-09,"00:40:00Z","Boston Celtics","Portland Trail Blazers",-10,1.95,1.85
+2023-03-09,"00:40:00Z","Miami Heat","Cleveland Cavaliers",-2.5,1.9,1.9
+2023-03-09,"00:40:00Z","New Orleans Pelicans","Dallas Mavericks",-2,1.9,1.9
+2023-03-09,"02:10:00Z","Denver Nuggets","Chicago Bulls",8.5,1.85,1.95
+2023-03-09,"02:10:00Z","Phoenix Suns","Oklahoma City Thunder",12.5,1.9,1.9
+2023-03-09,"03:10:00Z","Los Angeles Clippers","Toronto Raptors",-4,1.9,1.9
+2023-03-10,"00:10:00Z","Detroit Pistons","Charlotte Hornets",-3.5,1.9,1.9
+2023-03-10,"00:10:00Z","Indiana Pacers","Houston Rockets",9.5,1.9,1.9
+2023-03-10,"00:10:00Z","Orlando Magic","Utah Jazz",-4,1.9,1.9
+2023-03-10,"00:30:00Z","Memphis Grizzlies","Golden State Warriors",-2.5,1.9,1.9
+2023-03-10,"01:10:00Z","Milwaukee Bucks","Brooklyn Nets",13,1.9,1.9
+2023-03-10,"03:00:00Z","Sacramento Kings","New York Knicks",4,1.9,1.9
+2023-03-11,"00:00:00Z","Washington Wizards","Atlanta Hawks",NA,NA,NA
+2023-03-11,"00:00:00Z","Philadelphia 76ers","Portland Trail Blazers",-8.5,1.85,1.95
+2023-03-11,"01:00:00Z","Minnesota Timberwolves","Brooklyn Nets",5,1.85,1.95
+2023-03-11,"01:00:00Z","Miami Heat","Cleveland Cavaliers",-1.5,1.9,1.9
+2023-03-11,"01:00:00Z","San Antonio Spurs","Denver Nuggets",NA,NA,NA
+2023-03-11,"03:30:00Z","Los Angeles Lakers","Toronto Raptors",-1.5,1.95,1.85
+2023-03-11,"21:10:00Z","Los Angeles Clippers","New York Knicks",-5,1.9,1.9
+2023-03-12,"00:10:00Z","Charlotte Hornets","Utah Jazz",2.5,1.9,1.9
+2023-03-12,"00:10:00Z","Detroit Pistons","Indiana Pacers",5.5,1.9,1.9
+2023-03-12,"00:10:00Z","Orlando Magic","Miami Heat",-2,1.9,1.9
+2023-03-12,"00:30:00Z","Atlanta Hawks","Boston Celtics",4.5,1.9,1.9
+2023-03-12,"01:10:00Z","Houston Rockets","Chicago Bulls",-7,1.9,1.9
+2023-03-12,"01:10:00Z","Memphis Grizzlies","Dallas Mavericks",5.5,1.9,1.9
+2023-03-12,"01:40:00Z","Golden State Warriors","Milwaukee Bucks",1.5,1.8,2
+2023-03-12,"01:40:00Z","New Orleans Pelicans","Oklahoma City Thunder",-3.5,1.9,1.9
+2023-03-12,"03:10:00Z","Phoenix Suns","Sacramento Kings",-2.5,1.85,1.95
+2023-03-12,"19:40:00Z","Denver Nuggets","Brooklyn Nets",8.5,1.95,1.85
+2023-03-12,"21:10:00Z","Charlotte Hornets","Cleveland Cavaliers",8,1.9,1.9
+2023-03-12,"22:10:00Z","Philadelphia 76ers","Washington Wizards",-8,1.9,1.9
+2023-03-12,"23:10:00Z","New Orleans Pelicans","Portland Trail Blazers",-2,1.95,1.85
+2023-03-12,"23:10:00Z","San Antonio Spurs","Oklahoma City Thunder",-3,1.85,1.95
+2023-03-13,"01:10:00Z","Los Angeles Lakers","New York Knicks",-2.5,1.9,1.9
+2023-03-13,"23:10:00Z","Detroit Pistons","Indiana Pacers",2.5,1.9,1.9
+2023-03-13,"23:40:00Z","Atlanta Hawks","Minnesota Timberwolves",-5.5,1.9,1.9
+2023-03-13,"23:40:00Z","Dallas Mavericks","Memphis Grizzlies",1.5,1.85,1.95
+2023-03-13,"23:40:00Z","Miami Heat","Utah Jazz",-7.5,1.9,1.9
+2023-03-14,"00:10:00Z","Houston Rockets","Boston Celtics",-12,1.9,1.9
+2023-03-14,"02:10:00Z","Golden State Warriors","Phoenix Suns",-4,1.9,1.9
+2023-03-14,"02:10:00Z","Sacramento Kings","Milwaukee Bucks",-1.5,1.9,1.9
+2023-03-14,"23:00:00Z","Charlotte Hornets","Cleveland Cavaliers",8,1.9,1.9
+2023-03-14,"23:00:00Z","Washington Wizards","Detroit Pistons",11,1.9,1.9
+2023-03-14,"23:30:00Z","Toronto Raptors","Denver Nuggets",1.5,1.8,2
+2023-03-15,"00:00:00Z","Oklahoma City Thunder","Brooklyn Nets",1.5,1.9,1.9
+2023-03-15,"00:00:00Z","San Antonio Spurs","Orlando Magic",-6,1.9,1.9
+2023-03-15,"00:10:00Z","New Orleans Pelicans","Los Angeles Lakers",1.5,1.85,1.95
+2023-03-15,"02:00:00Z","Portland Trail Blazers","New York Knicks",-3,1.9,1.9
+2023-03-15,"02:10:00Z","Phoenix Suns","Milwaukee Bucks",-1.5,1.9,1.9
+2023-03-15,"23:30:00Z","Cleveland Cavaliers","Philadelphia 76ers",2,1.9,1.9
+2023-03-15,"23:30:00Z","Miami Heat","Memphis Grizzlies",4.5,1.85,1.95
+2023-03-16,"00:00:00Z","Minnesota Timberwolves","Boston Celtics",-5,1.9,1.9
+2023-03-16,"00:00:00Z","Chicago Bulls","Sacramento Kings",1.5,1.85,1.95
+2023-03-16,"00:10:00Z","Houston Rockets","Los Angeles Lakers",2.5,1.9,1.9
+2023-03-16,"00:30:00Z","San Antonio Spurs","Dallas Mavericks",-5.5,1.9,1.9
+2023-03-16,"02:00:00Z","Los Angeles Clippers","Golden State Warriors",3,1.9,1.9
+2023-03-16,"23:10:00Z","Detroit Pistons","Denver Nuggets",-13,1.9,1.9
+2023-03-16,"23:40:00Z","Brooklyn Nets","Sacramento Kings",-2.5,1.9,1.9
+2023-03-16,"23:40:00Z","Toronto Raptors","Oklahoma City Thunder",5.5,1.9,1.9
+2023-03-17,"00:10:00Z","Milwaukee Bucks","Indiana Pacers",13.5,1.9,1.9
+2023-03-17,"02:10:00Z","Phoenix Suns","Orlando Magic",7,1.9,1.9
+2023-03-17,"23:10:00Z","Charlotte Hornets","Philadelphia 76ers",10,1.9,1.9
+2023-03-17,"23:40:00Z","Atlanta Hawks","Golden State Warriors",-3,1.9,1.9
+2023-03-17,"23:40:00Z","Cleveland Cavaliers","Washington Wizards",-6,1.9,1.9
+2023-03-18,"00:00:00Z","San Antonio Spurs","Memphis Grizzlies",-8,1.9,1.9
+2023-03-18,"00:10:00Z","Chicago Bulls","Minnesota Timberwolves",-2.5,1.85,1.95
+2023-03-18,"00:10:00Z","Houston Rockets","New Orleans Pelicans",6,1.9,1.9
+2023-03-18,"02:10:00Z","Portland Trail Blazers","Boston Celtics",-4,1.9,1.9
+2023-03-18,"02:40:00Z","Los Angeles Lakers","Dallas Mavericks",5,1.9,1.9
+2023-03-18,"17:10:00Z","New York Knicks","Denver Nuggets",-2,1.9,1.9
+2023-03-18,"19:10:00Z","Los Angeles Clippers","Orlando Magic",-6,1.9,1.9
+2023-03-18,"23:10:00Z","Indiana Pacers","Philadelphia 76ers",6.5,1.9,1.9
+2023-03-18,"23:10:00Z","Toronto Raptors","Minnesota Timberwolves",9.5,1.9,1.9
+2023-03-19,"00:10:00Z","Chicago Bulls","Miami Heat",4,1.85,1.95
+2023-03-19,"00:10:00Z","Memphis Grizzlies","Golden State Warriors",4.5,1.9,1.9
+2023-03-19,"00:10:00Z","Washington Wizards","Sacramento Kings",-2.5,1.9,1.9
+2023-03-19,"01:10:00Z","Utah Jazz","Boston Celtics",-4.5,1.9,1.9
+2023-03-19,"19:40:00Z","Brooklyn Nets","Denver Nuggets",1.5,1.9,1.9
+2023-03-19,"19:40:00Z","Oklahoma City Thunder","Phoenix Suns",-2,1.9,1.9
+2023-03-19,"20:10:00Z","San Antonio Spurs","Atlanta Hawks",-8,1.85,1.95
+2023-03-19,"22:10:00Z","Detroit Pistons","Miami Heat",8,1.9,1.9
+2023-03-19,"23:10:00Z","Houston Rockets","New Orleans Pelicans",5,1.9,1.9
+2023-03-20,"00:10:00Z","Milwaukee Bucks","Toronto Raptors",-9,1.9,1.9
+2023-03-20,"01:10:00Z","Portland Trail Blazers","Los Angeles Clippers",-3.5,1.9,1.9
+2023-03-20,"01:40:00Z","Los Angeles Lakers","Orlando Magic",-6,1.9,1.9
+2023-03-20,"23:10:00Z","Charlotte Hornets","Indiana Pacers",1.5,1.9,1.9
+2023-03-20,"23:10:00Z","Philadelphia 76ers","Chicago Bulls",7.5,1.9,1.9
+2023-03-20,"23:40:00Z","New York Knicks","Minnesota Timberwolves",8.5,1.85,1.95
+2023-03-21,"00:10:00Z","Memphis Grizzlies","Dallas Mavericks",2,1.9,1.9
+2023-03-21,"00:10:00Z","Houston Rockets","Golden State Warriors",-10,1.9,1.9
+2023-03-21,"01:10:00Z","Utah Jazz","Sacramento Kings",-5,1.9,1.9
+2023-03-21,"23:10:00Z","Orlando Magic","Washington Wizards",-2,1.9,1.9
+2023-03-21,"23:40:00Z","Atlanta Hawks","Detroit Pistons",-13.5,1.9,1.9
+2023-03-21,"23:40:00Z","Brooklyn Nets","Cleveland Cavaliers",3,1.9,1.9
+2023-03-22,"00:10:00Z","New Orleans Pelicans","San Antonio Spurs",-11,1.85,1.95
+2023-03-22,"02:10:00Z","Sacramento Kings","Boston Celtics",-4.5,1.9,1.9
+2023-03-22,"02:40:00Z","Los Angeles Clippers","Oklahoma City Thunder",-6.5,1.9,1.9
+2023-03-22,"23:10:00Z","Washington Wizards","Denver Nuggets",NA,NA,NA
+2023-03-22,"23:40:00Z","Dallas Mavericks","Golden State Warriors",2.5,1.9,1.9
+2023-03-22,"23:40:00Z","Toronto Raptors","Indiana Pacers",8,1.95,1.85
+2023-03-22,"23:40:00Z","Miami Heat","New York Knicks",-1.5,1.9,1.9
+2023-03-23,"00:00:00Z","Memphis Grizzlies","Houston Rockets",13,1.9,1.9
+2023-03-23,"00:10:00Z","Minnesota Timberwolves","Atlanta Hawks",4.5,1.9,1.9
+2023-03-23,"00:10:00Z","Chicago Bulls","Philadelphia 76ers",3.5,1.9,1.9
+2023-03-23,"00:10:00Z","Milwaukee Bucks","San Antonio Spurs",-17.5,1.9,1.9
+2023-03-23,"01:10:00Z","Utah Jazz","Portland Trail Blazers",5,1.9,1.9
+2023-03-23,"02:10:00Z","Los Angeles Lakers","Phoenix Suns",1.5,1.85,1.95
+2023-03-23,"23:10:00Z","Orlando Magic","New York Knicks",-3.5,1.9,1.9
+2023-03-23,"23:40:00Z","Brooklyn Nets","Cleveland Cavaliers",4,1.9,1.9
+2023-03-24,"00:10:00Z","New Orleans Pelicans","Charlotte Hornets",8.5,1.9,1.9
+2023-03-24,"02:40:00Z","Los Angeles Clippers","Oklahoma City Thunder",-3,1.9,1.9
+2023-03-24,"23:10:00Z","Boston Celtics","Indiana Pacers",-11.5,1.9,1.9
+2023-03-24,"23:10:00Z","Washington Wizards","San Antonio Spurs",7,1.95,1.85
+2023-03-24,"23:40:00Z","Toronto Raptors","Detroit Pistons",12.5,1.9,1.9
+2023-03-25,"00:10:00Z","Memphis Grizzlies","Houston Rockets",13,1.9,1.9
+2023-03-25,"00:40:00Z","Dallas Mavericks","Charlotte Hornets",13.5,1.9,1.9
+2023-03-25,"01:10:00Z","Utah Jazz","Milwaukee Bucks",-9,1.9,1.9
+2023-03-25,"02:10:00Z","Portland Trail Blazers","Chicago Bulls",-2.5,1.9,1.9
+2023-03-25,"02:10:00Z","Golden State Warriors","Philadelphia 76ers",-6,1.9,1.9
+2023-03-25,"02:10:00Z","Sacramento Kings","Phoenix Suns",5,1.9,1.9
+2023-03-25,"02:40:00Z","Los Angeles Lakers","Oklahoma City Thunder",-5.5,1.9,1.9
+2023-03-25,"21:10:00Z","Atlanta Hawks","Indiana Pacers",-8.5,1.9,1.9
+2023-03-26,"00:10:00Z","Miami Heat","Brooklyn Nets",5.5,1.9,1.9
+2023-03-26,"01:10:00Z","Denver Nuggets","Milwaukee Bucks",-2.5,1.9,1.9
+2023-03-26,"02:10:00Z","Phoenix Suns","Philadelphia 76ers",1.5,1.95,1.85
+2023-03-26,"02:10:00Z","Sacramento Kings","Utah Jazz",-7.5,1.9,1.9
+2023-03-26,"02:40:00Z","Los Angeles Clippers","New Orleans Pelicans",-5,1.9,1.9
+2023-03-26,"17:00:00Z","Charlotte Hornets","Dallas Mavericks",9.5,1.9,1.9
+2023-03-26,"19:40:00Z","Los Angeles Lakers","Chicago Bulls",3.5,1.9,1.9
+2023-03-26,"22:00:00Z","Orlando Magic","Brooklyn Nets",2,1.9,1.9
+2023-03-26,"22:00:00Z","Cleveland Cavaliers","Houston Rockets",-14,1.9,1.9
+2023-03-26,"22:10:00Z","Atlanta Hawks","Memphis Grizzlies",3,1.9,1.9
+2023-03-26,"22:10:00Z","Boston Celtics","San Antonio Spurs",-16,1.9,1.9
+2023-03-26,"22:10:00Z","Toronto Raptors","Washington Wizards",-10.5,1.95,1.85
+2023-03-26,"23:10:00Z","Portland Trail Blazers","Oklahoma City Thunder",-8,1.9,1.9
+2023-03-27,"00:40:00Z","Golden State Warriors","Minnesota Timberwolves",-6.5,1.9,1.9
+2023-03-27,"23:00:00Z","Detroit Pistons","Milwaukee Bucks",17.5,1.9,1.9
+2023-03-27,"23:10:00Z","Indiana Pacers","Dallas Mavericks",1.5,1.8,2
+2023-03-27,"23:30:00Z","New York Knicks","Houston Rockets",12.5,1.9,1.9
+2023-03-28,"01:10:00Z","Utah Jazz","Phoenix Suns",-6.5,1.9,1.9
+2023-03-28,"01:40:00Z","Denver Nuggets","Philadelphia 76ers",-5.5,1.9,1.9
+2023-03-28,"02:00:00Z","Portland Trail Blazers","New Orleans Pelicans",-9.5,1.9,1.9
+2023-03-28,"02:10:00Z","Sacramento Kings","Minnesota Timberwolves",4.5,1.9,1.9
+2023-03-28,"02:40:00Z","Los Angeles Clippers","Chicago Bulls",3.5,1.9,1.9
+2023-03-28,"23:10:00Z","Washington Wizards","Boston Celtics",-12.5,1.9,1.9
+2023-03-28,"23:30:00Z","Toronto Raptors","Miami Heat",3,1.9,1.9
+2023-03-28,"23:40:00Z","Atlanta Hawks","Cleveland Cavaliers",1.5,1.9,1.9
+2023-03-29,"00:10:00Z","Oklahoma City Thunder","Charlotte Hornets",9,1.95,1.85
+2023-03-29,"00:10:00Z","Memphis Grizzlies","Orlando Magic",-7,1.9,1.9
+2023-03-29,"02:00:00Z","Golden State Warriors","New Orleans Pelicans",-8,1.9,1.9
+2023-03-29,"23:10:00Z","Indiana Pacers","Milwaukee Bucks",11.5,1.9,1.9
+2023-03-29,"23:40:00Z","Brooklyn Nets","Houston Rockets",-11.5,1.9,1.9
+2023-03-29,"23:40:00Z","Philadelphia 76ers","Dallas Mavericks",4.5,1.9,1.9
+2023-03-29,"23:40:00Z","New York Knicks","Miami Heat",5,1.85,1.95
+2023-03-30,"00:10:00Z","Chicago Bulls","Los Angeles Lakers",1.5,1.9,1.9
+2023-03-30,"00:10:00Z","Oklahoma City Thunder","Detroit Pistons",11,1.95,1.85
+2023-03-30,"00:10:00Z","Memphis Grizzlies","Los Angeles Clippers",5.5,1.9,1.9
+2023-03-30,"00:10:00Z","San Antonio Spurs","Utah Jazz",5,1.95,1.85
+2023-03-30,"02:10:00Z","Phoenix Suns","Minnesota Timberwolves",5.5,1.9,1.9
+2023-03-30,"02:10:00Z","Portland Trail Blazers","Sacramento Kings",14,1.9,1.9
+2023-03-30,"23:30:00Z","Milwaukee Bucks","Boston Celtics",2.5,1.9,1.9
+2023-03-31,"02:00:00Z","Denver Nuggets","New Orleans Pelicans",-7,1.9,1.9
+2023-03-31,"23:10:00Z","Charlotte Hornets","Chicago Bulls",8.5,1.9,1.9
+2023-03-31,"23:10:00Z","Indiana Pacers","Oklahoma City Thunder",3,1.9,1.9
+2023-03-31,"23:10:00Z","Washington Wizards","Orlando Magic",1.5,1.85,1.95
+2023-03-31,"23:10:00Z","Philadelphia 76ers","Toronto Raptors",-6.5,1.9,1.9
+2023-03-31,"23:40:00Z","Brooklyn Nets","Atlanta Hawks",-1.5,1.95,1.85
+2023-03-31,"23:40:00Z","Boston Celtics","Utah Jazz",-13.5,1.9,1.9
+2023-03-31,"23:40:00Z","Cleveland Cavaliers","New York Knicks",-4.5,1.9,1.9
+2023-04-01,"00:10:00Z","Houston Rockets","Detroit Pistons",5,1.9,1.9
+2023-04-01,"00:10:00Z","Memphis Grizzlies","Los Angeles Clippers",6.5,1.9,1.9
+2023-04-01,"00:10:00Z","Minnesota Timberwolves","Los Angeles Lakers",1.5,1.77,2.05
+2023-04-01,"02:10:00Z","Golden State Warriors","San Antonio Spurs",-16.5,1.9,1.9
+2023-04-01,"02:10:00Z","Portland Trail Blazers","Sacramento Kings",15,1.9,1.9
+2023-04-01,"02:40:00Z","Phoenix Suns","Denver Nuggets",8.5,1.9,1.9
+2023-04-01,"23:40:00Z","Miami Heat","Dallas Mavericks",1.5,1.85,1.95
+2023-04-02,"00:40:00Z","New Orleans Pelicans","Los Angeles Clippers",3,1.9,1.9
+2023-04-02,"17:00:00Z","Charlotte Hornets","Toronto Raptors",13.5,1.9,1.9
+2023-04-02,"19:30:00Z","Chicago Bulls","Memphis Grizzlies",3,1.9,1.9
+2023-04-02,"19:30:00Z","Minnesota Timberwolves","Portland Trail Blazers",-16.5,1.85,1.95
+2023-04-02,"19:40:00Z","Brooklyn Nets","Utah Jazz",-8.5,1.9,1.9
+2023-04-02,"22:00:00Z","Atlanta Hawks","Dallas Mavericks",-4,1.9,1.9
+2023-04-02,"22:00:00Z","Orlando Magic","Detroit Pistons",9.5,1.95,1.85
+2023-04-02,"22:00:00Z","New York Knicks","Washington Wizards",-12,1.9,1.9
+2023-04-02,"22:00:00Z","Sacramento Kings","San Antonio Spurs",-16,1.9,1.9
+2023-04-02,"23:00:00Z","Houston Rockets","Los Angeles Lakers",11,1.9,1.9
+2023-04-02,"23:00:00Z","Oklahoma City Thunder","Phoenix Suns",4.5,1.95,1.85
+2023-04-03,"00:00:00Z","Cleveland Cavaliers","Indiana Pacers",-12.5,1.9,1.9
+2023-04-03,"00:00:00Z","Milwaukee Bucks","Philadelphia 76ers",-5,1.9,1.9
+2023-04-03,"00:40:00Z","Denver Nuggets","Golden State Warriors",-2.5,1.9,1.9
+2023-04-04,"23:10:00Z","Charlotte Hornets","Toronto Raptors",14.5,1.95,1.85
+2023-04-04,"23:10:00Z","Orlando Magic","Cleveland Cavaliers",-5,1.95,1.85
+2023-04-04,"23:10:00Z","Detroit Pistons","Miami Heat",11,1.9,1.9
+2023-04-04,"23:10:00Z","Washington Wizards","Milwaukee Bucks",-12,1.9,1.9
+2023-04-04,"23:40:00Z","Brooklyn Nets","Minnesota Timberwolves",-1.5,1.85,1.95
+2023-04-05,"00:00:00Z","Philadelphia 76ers","Boston Celtics",1.5,1.9,1.9
+2023-04-05,"00:10:00Z","Chicago Bulls","Atlanta Hawks",2,1.95,1.85
+2023-04-05,"00:10:00Z","Houston Rockets","Denver Nuggets",-10,1.9,1.9
+2023-04-05,"00:10:00Z","Memphis Grizzlies","Portland Trail Blazers",-18,1.9,1.9
+2023-04-05,"00:10:00Z","New Orleans Pelicans","Sacramento Kings",-1.5,1.9,1.9
+2023-04-05,"01:10:00Z","Utah Jazz","Los Angeles Lakers",-6.5,1.9,1.9
+2023-04-05,"02:10:00Z","Golden State Warriors","Oklahoma City Thunder",-7.5,1.85,1.95
+2023-04-05,"02:10:00Z","Phoenix Suns","San Antonio Spurs",-19.5,1.9,1.9
+2023-04-04,"23:10:00Z","Charlotte Hornets","Toronto Raptors",14.5,1.9,1.9
+2023-04-04,"23:10:00Z","Orlando Magic","Cleveland Cavaliers",-4.5,1.9,1.9
+2023-04-04,"23:10:00Z","Detroit Pistons","Miami Heat",12.5,1.9,1.9
+2023-04-04,"23:10:00Z","Washington Wizards","Milwaukee Bucks",-13,1.9,1.9
+2023-04-04,"23:40:00Z","Brooklyn Nets","Minnesota Timberwolves",1.5,1.8,2
+2023-04-05,"00:00:00Z","Philadelphia 76ers","Boston Celtics",2.5,1.95,1.85
+2023-04-05,"00:10:00Z","Chicago Bulls","Atlanta Hawks",4,1.9,1.9
+2023-04-05,"00:10:00Z","Houston Rockets","Denver Nuggets",-9.5,1.9,1.9
+2023-04-05,"00:10:00Z","Memphis Grizzlies","Portland Trail Blazers",-17.5,1.9,1.9
+2023-04-05,"00:10:00Z","New Orleans Pelicans","Sacramento Kings",-3.5,1.85,1.95
+2023-04-05,"01:10:00Z","Utah Jazz","Los Angeles Lakers",-9,1.95,1.85
+2023-04-05,"02:10:00Z","Golden State Warriors","Oklahoma City Thunder",-8.5,1.95,1.85
+2023-04-05,"02:10:00Z","Phoenix Suns","San Antonio Spurs",-18,1.9,1.9
+2023-04-05,"23:10:00Z","Detroit Pistons","Brooklyn Nets",-10.5,1.85,1.95
+2023-04-05,"23:10:00Z","Indiana Pacers","New York Knicks",8.5,1.9,1.9
+2023-04-05,"23:40:00Z","Atlanta Hawks","Washington Wizards",-11.5,1.95,1.85
+2023-04-05,"23:40:00Z","Boston Celtics","Toronto Raptors",-5,1.9,1.9
+2023-04-05,"23:40:00Z","Milwaukee Bucks","Chicago Bulls",7.5,1.9,1.9
+2023-04-06,"00:10:00Z","New Orleans Pelicans","Memphis Grizzlies",5,1.9,1.9
+2023-04-06,"00:40:00Z","Dallas Mavericks","Sacramento Kings",-6,1.9,1.9
+2023-04-06,"02:10:00Z","Los Angeles Clippers","Los Angeles Lakers",-3.5,1.85,1.95
+2023-04-06,"23:10:00Z","Orlando Magic","Cleveland Cavaliers",8,1.85,1.95
+2023-04-06,"23:30:00Z","Philadelphia 76ers","Miami Heat",3,1.9,1.9
+2023-04-07,"00:10:00Z","San Antonio Spurs","Portland Trail Blazers",2.5,1.9,1.9
+2023-04-07,"01:10:00Z","Utah Jazz","Oklahoma City Thunder",-7,1.9,1.9
+2023-04-07,"02:00:00Z","Phoenix Suns","Denver Nuggets",7,1.9,1.9
+2023-04-07,"23:10:00Z","Charlotte Hornets","Houston Rockets",2.5,1.9,1.9
+2023-04-07,"23:10:00Z","Indiana Pacers","Detroit Pistons",6.5,1.9,1.9
+2023-04-07,"23:10:00Z","Washington Wizards","Miami Heat",-6.5,1.9,1.9
+2023-04-07,"23:40:00Z","Atlanta Hawks","Philadelphia 76ers",-9.5,1.9,1.9
+2023-04-07,"23:40:00Z","Boston Celtics","Toronto Raptors",-2.5,1.9,1.9
+2023-04-07,"23:40:00Z","Brooklyn Nets","Orlando Magic",-13.5,1.9,1.9
+2023-04-08,"00:10:00Z","Milwaukee Bucks","Memphis Grizzlies",-7.5,1.9,1.9
+2023-04-08,"00:10:00Z","New Orleans Pelicans","New York Knicks",-8.5,1.95,1.85
+2023-04-08,"00:40:00Z","Dallas Mavericks","Chicago Bulls",10,1.9,1.9
+2023-04-08,"02:10:00Z","Sacramento Kings","Golden State Warriors",-8.5,1.9,1.9
+2023-04-08,"02:40:00Z","Los Angeles Lakers","Phoenix Suns",-8.5,1.9,1.9
+2023-04-08,"19:40:00Z","Utah Jazz","Denver Nuggets",-7,1.9,1.9
+2023-04-08,"20:10:00Z","Los Angeles Clippers","Portland Trail Blazers",-16.5,1.9,1.9
+2023-04-08,"20:10:00Z","San Antonio Spurs","Minnesota Timberwolves",-14.5,1.9,1.9
+2023-04-11,"23:10:00Z","Miami Heat","Atlanta Hawks",5.5,1.9,1.9
+2023-04-12,"23:10:00Z","Toronto Raptors","Chicago Bulls",3.5,1.9,1.9
+2023-04-09,"17:10:00Z","Boston Celtics","Atlanta Hawks",6.5,1.9,1.9
+2023-04-09,"17:10:00Z","Brooklyn Nets","Philadelphia 76ers",-3.5,1.85,1.95
+2023-04-09,"17:10:00Z","Cleveland Cavaliers","Charlotte Hornets",5.5,1.9,1.9
+2023-04-09,"17:10:00Z","Chicago Bulls","Detroit Pistons",-7.5,1.9,1.9
+2023-04-09,"17:10:00Z","Washington Wizards","Houston Rockets",-3,1.9,1.9
+2023-04-09,"17:10:00Z","New York Knicks","Indiana Pacers",8.5,1.9,1.9
+2023-04-09,"17:10:00Z","Miami Heat","Orlando Magic",-5.5,1.9,1.9
+2023-04-09,"17:10:00Z","Toronto Raptors","Milwaukee Bucks",3,1.95,1.85
+2023-04-09,"19:30:00Z","Portland Trail Blazers","Golden State Warriors",-17,1.9,1.9
+2023-04-09,"19:30:00Z","Los Angeles Lakers","Utah Jazz",-16.5,1.9,1.9
+2023-04-09,"19:40:00Z","Dallas Mavericks","San Antonio Spurs",-4.5,1.95,1.85
+2023-04-09,"19:40:00Z","Denver Nuggets","Sacramento Kings",4,1.85,1.95
+2023-04-09,"19:40:00Z","Phoenix Suns","Los Angeles Clippers",-11.5,1.9,1.9
+2023-04-09,"19:40:00Z","Oklahoma City Thunder","Memphis Grizzlies",-2,1.9,1.9
+2023-04-09,"19:40:00Z","Minnesota Timberwolves","New Orleans Pelicans",-3.5,1.9,1.9
+2023-04-11,"23:00:00Z","Miami Heat","Atlanta Hawks",5.5,1.9,1.9
+2023-04-12,"23:00:00Z","Toronto Raptors","Chicago Bulls",4.5,1.95,1.85
+2023-04-11,"23:30:00Z","Miami Heat","Atlanta Hawks",4.5,1.9,1.9
+2023-04-12,"02:00:00Z","Los Angeles Lakers","Minnesota Timberwolves",-6.5,1.85,1.95
+2023-04-12,"23:00:00Z","Toronto Raptors","Chicago Bulls",5,1.85,1.95
+2023-04-13,"01:30:00Z","New Orleans Pelicans","Oklahoma City Thunder",-5,1.9,1.9
+2023-04-15,"17:00:00Z","Philadelphia 76ers","Brooklyn Nets",8,1.9,1.9
+2023-04-15,"22:00:00Z","Cleveland Cavaliers","New York Knicks",-6,1.9,1.9
+2023-04-16,"00:30:00Z","Sacramento Kings","Golden State Warriors",1.5,1.85,1.95
+2023-04-17,"02:10:00Z","Phoenix Suns","Los Angeles Clippers",7,1.9,1.9
+2023-04-11,"23:30:00Z","Miami Heat","Atlanta Hawks",5,1.9,1.9
+2023-04-12,"02:00:00Z","Los Angeles Lakers","Minnesota Timberwolves",-8,1.95,1.85
+2023-04-12,"23:00:00Z","Toronto Raptors","Chicago Bulls",5,1.95,1.85
+2023-04-13,"01:30:00Z","New Orleans Pelicans","Oklahoma City Thunder",-5.5,1.9,1.9
+2023-04-15,"17:00:00Z","Philadelphia 76ers","Brooklyn Nets",8,1.9,1.9
+2023-04-15,"22:00:00Z","Cleveland Cavaliers","New York Knicks",-6,1.9,1.9
+2023-04-16,"00:30:00Z","Sacramento Kings","Golden State Warriors",1.5,1.85,1.95
+2023-04-17,"02:00:00Z","Phoenix Suns","Los Angeles Clippers",7,1.9,1.9
