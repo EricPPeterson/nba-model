@@ -7,6 +7,7 @@ library(dplyr)
 library(lubridate)
 library(lookup)
 library(pracma)
+library(stringr)
 ####################################################################################################################
 #download pbp and schedule
 ############################################################6########################################################
@@ -23,9 +24,11 @@ clean_schedule <- function(yr1,yr2){
     dplyr::filter(status_type_description != 'Postponed') %>%
     dplyr::filter(type_id == 1) %>%
     dplyr::select(-c(recent, uid, date, start_date, home_uid, home_color, home_alternate_color, 
-                     home_logo, away_color, away_alternate_color, away_logo, PBP, team_box, player_box, 
-                     game_date_time
+                     home_logo, away_color, away_alternate_color, away_logo, PBP, team_box, player_box,
+                     game_date
     ))
+  schedule <- schedule %>%
+    separate(game_date_time, c('game_date', 'start_time'), ' ')
   schedule$game_date <- as.Date(schedule$game_date)
   return(schedule)
 }
@@ -48,7 +51,6 @@ sched_func <- function(yr, df, df2){
   colnames(home_year)[2:3] <- c('team_id', 'team_name')
   colnames(away_year)[2:3] <- c('team_id', 'team_name')
   
-  
   out2 <- bind_rows(home_year, away_year) %>%
     dplyr::arrange(team_id, game_date) %>%
     dplyr::mutate(days_rest = 0) %>%
@@ -70,8 +72,8 @@ sched_func <- function(yr, df, df2){
       out2$travel[j] = 1
     }
   }
-  out2$home_abbreviation <- lookup(out2$game_id, df2$game_id, df2$home_team_abbrev)
-  out2$away_abbreviation <- lookup(out2$game_id, df2$game_id, df2$away_team_abbrev)
+  out2$home_abbreviation <- lookup(out2$game_id, df$game_id, df$home_abbreviation)
+  out2$away_abbreviation <- lookup(out2$game_id, df$game_id, df$away_abbreviation)
   
   out_home <- out2 %>%
     dplyr::filter(team_id == home_abbreviation) %>%
@@ -326,90 +328,6 @@ lg_score <- function(df, wt, typ){
 league_scoring <- lg_score(player_box, 10, 'w')
 final_sched$league_scoring <- lookup(final_sched$game_id, league_scoring$game_id, league_scoring$wt_avg_league_score)
 #####################################################################################################################
-#add opening lines to model
-#####################################################################################################################
-library(jsonlite)
-theODDS_base <- 'https://api.the-odds-api.com/v4/sports/'
-theODDS_sport  <- 'basketball_nba/'
-theODDS_key <- Sys.getenv('theODDS_key')
-theODDS_region <- 'regions=au&'
-theODDS_markets <- '&markets=spreads&oddsFormat=decimal&'
-start_date <- as.Date('2022-10-17') 
-theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
-
-#pull API data
-odds_df <- data.frame()
-y <- 1
-while(start_date <= as.Date('2022-10-19')){
-  theODDS_fullAPI <- paste0(theODDS_base, theODDS_sport, theODDS_key, theODDS_region, theODDS_markets,theODDS_date)
-  pull_API <- fromJSON(theODDS_fullAPI)
-  nba_odds <- pull_API$data
-  odds_df <- rbind(odds_df, nba_odds)
-  start_date <- start_date + 1
-  theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
-  print(y)
-  y <- y+1
-}
-
-totals_function <- function(df){
-  final_df <- df %>% dplyr::select(commence_time,home_team,away_team)
-  final_df$spread <- NA
-  final_df$over_vig <- NA
-  final_df$under_vig <- NA
-  for(i in 1:nrow(df)){
-    books <- df[[7]][[i]]
-    if('TAB' %in% books$title){
-      books <- books %>% dplyr::filter(title == 'TAB')
-    } else {
-      next
-    }
-    markets <- books[[4]][[1]] %>% dplyr::filter(key == 'spreads')
-    odds <- markets[[3]][[1]]
-    final_df$spread[i] <- odds$point[1]
-    final_df$over_vig[i] <- odds$price[1]
-    final_df$under_vig[i] <- odds$price[2]
-    print(i)
-  }
-  return(final_df)
-}
-
-setwd("/Users/ericp/OneDrive/Documents/GitHub/nba-model")
-odds_all <- totals_function(odds_df)
-odds_2022 <- totals_function(odds_df)
-odds_2022 <- odds_2022 %>%
-  separate(commence_time,c('game_date', 'time'),'T')
-odds_2022$game_date <- as.Date(odds_2022$game_date)
-odds_all <- odds_all %>%
-  separate(commence_time, c('game_date', 'time'), 'T') %>%
-  dplyr::select(-time)
-odds_all$game_date <- as.Date(odds_all$game_date)
-
-write.csv(odds_all, 'odds_all.csv', row.names = FALSE)
-write.csv(odds_2022, 'odds_2022.csv', row.names = FALSE)
-
-odds_2022 <- read.csv("~/GitHub/nba-model/odds_2022.csv")
-odds_all <- read.csv("~/GitHub/nba-model/odds_all.csv")
-odds_2022 <- odds_2022 %>% dplyr::select(-time)
-odds_all <- odds_all %>% dplyr::select(-time)
-odds_all <- odds_all %>%
-  mutate(lean = over_vig - under_vig) %>%
-  select(-c(over_vig, under_vig))
-odds_all$game_date <- as.Date(odds_all$game_date)
-odds_2022 <- odds_2022 %>%
-  mutate(lean = over_vig - under_vig) %>%
-  select(-c(over_vig, under_vig))
-odds_2022$game_date <- as.Date(odds_2022$game_date)
-#####################################################################################################################
-#combine odds with final_sched
-#####################################################################################################################
-colnames(odds_all)[2:3] <- c('home_display_name', 'away_display_name')
-final_sched <- left_join(final_sched, odds_all, by = c('game_date', 'home_display_name', 'away_display_name'))
-#####################################################################################################################
-#see if adding opening spread helps
-#####################################################################################################################
-final_sched_spread <- final_sched[complete.cases(final_sched),]
-final_sched <- final_sched %>% dplyr::select(-c(spread, lean))
-#####################################################################################################################
 #build first model
 #####################################################################################################################
 library(h2o)
@@ -427,12 +345,9 @@ prep_df <- function(df, cols){
 }
 
 model_build <- prep_df(final_sched, c(1:9,14,17,18,43))
-model_spread <- prep_df(final_sched_spread, c(1:9, 14,17,18,43))
 
 ensemble_train_h2o <- as.h2o(model_build[[1]])
 ensemble_test_h2o <- as.h2o(model_build[[2]])
-ensemble_spread_train <- as.h2o(model_spread[[1]])
-ensemble_spread_test <- as.h2o(model_spread[[2]])
 
 #train GBM
 gbm_model <- function(df, y, x, nfolds, seed){
@@ -446,8 +361,6 @@ gbm_model <- function(df, y, x, nfolds, seed){
 }
 total_gbm <- gbm_model(ensemble_train_h2o,'total_score', 
                      setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-total_gbm_spread <- gbm_model(ensemble_spread_train,'total_score', 
-                              setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 #train RF
 RF_model <- function(df, y, x, nfolds, seed){
   out <- h2o.randomForest(x = x,
@@ -460,8 +373,6 @@ RF_model <- function(df, y, x, nfolds, seed){
 }
 total_RF <- gbm_model(ensemble_train_h2o, 'total_score', 
                     setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-spread_RF <- gbm_model(ensemble_spread_train, 'total_score', 
-                       setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 #train glm
 lr_model <- function(df, y, x, nfolds, seed){
   out <- h2o.glm(x = x,
@@ -474,8 +385,6 @@ lr_model <- function(df, y, x, nfolds, seed){
 }
 total_lr <- lr_model(ensemble_train_h2o, 'total_score', 
                    setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-spread_lr <- lr_model(ensemble_spread_train, 'total_score', 
-                     setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
 
 #train neural net
 nn_model <- function(df, y, x, nfolds, seed){
@@ -491,9 +400,6 @@ nn_model <- function(df, y, x, nfolds, seed){
 }
 total_nn <- nn_model(ensemble_train_h2o, 'total_score', 
                    setdiff(names(ensemble_train_h2o), 'total_score'), 5, 5)
-spread_nn <- nn_model(ensemble_spread_train, 'total_score', 
-                     setdiff(names(ensemble_spread_train), 'total_score'), 5, 5)
-
 
 # Train a stacked random forest ensemble using the GBM, RF and LR above
 ensemble_model <- function(mod, mod2, mod3, mod4, df, y, x){
@@ -509,11 +415,6 @@ ensemble_model <- function(mod, mod2, mod3, mod4, df, y, x){
 ##################################################################################################################
 total_ensemble_test <- ensemble_model(total_lr, total_RF, total_nn, total_gbm, ensemble_train_h2o, 
                                     'total_score', setdiff(names(ensemble_train_h2o), 'total_score'))
-##################################################################################################################
-#ensemble test with spread
-##################################################################################################################
-total_ensemble_spread <- ensemble_model(spread_lr, spread_RF, spread_nn, total_gbm_spread, ensemble_spread_train, 
-                                        'total_score', setdiff(names(ensemble_spread_train), 'total_score'))
 #################################################################################################################
 #check performance
 #################################################################################################################
@@ -524,22 +425,12 @@ mod_performance <- function(model, test_df){
 ###################################################################################################################
 #performance no spread
 ###################################################################################################################
-total_gbm_test <- mod_performance(total_gbm_spread, ensemble_spread_test)
-total_rf_test <- mod_performance(spread_RF, ensemble_spread_test)
-total_glm_test <- mod_performance(spread_lr, ensemble_spread_test)
-total_nn_test <- mod_performance(spread_nn, ensemble_spread_test)
+total_gbm_test <- mod_performance(total_gbm, ensemble_test_h2o)
+total_rf_test <- mod_performance(total_RF, ensemble_test_h2o)
+total_glm_test <- mod_performance(total_lr, ensemble_test_h2o)
+total_nn_test <- mod_performance(total_nn, ensemble_test_h2o)
 min(h2o.rmse(total_gbm_test), h2o.rmse(total_rf_test), h2o.rmse(total_glm_test), h2o.rmse(total_nn_test))
 total_ensemble <- mod_performance(total_ensemble_test, ensemble_train_h2o)
-h2o.rmse(total_ensemble)
-###################################################################################################################
-#performance with spread
-###################################################################################################################
-spread_gbm_test <- mod_performance(total_gbm, ensemble_test_h2o)
-spread_rf_test <- mod_performance(total_RF, ensemble_test_h2o)
-spread_glm_test <- mod_performance(total_lr, ensemble_test_h2o)
-spread_nn_test <- mod_performance(total_nn, ensemble_test_h2o)
-min(h2o.rmse(spread_gbm_test), h2o.rmse(spread_rf_test), h2o.rmse(spread_glm_test), h2o.rmse(spread_nn_test))
-total_ensemble <- mod_performance(total_ensemble_spread, ensemble_spread_train)
 h2o.rmse(total_ensemble)
 ###################################################################################################################
 #pull 2022 season
@@ -565,13 +456,8 @@ final_sched_2022$total_score <- lookup(final_sched_2022$game_id, player_box_2022
 final_sched_2022$wt_avg_poss <- lookup(final_sched_2022$game_id, poss_count_wtavg_2022$game_id, poss_count_wtavg_2022$mov_avg_poss)
 league_scoring_2022 <- lg_score(player_box_2022, 10, 'w')
 final_sched_2022$league_scoring <- lookup(final_sched_2022$game_id, league_scoring_2022$game_id, league_scoring_2022$wt_avg_league_score)
-colnames(odds_2022)[2:3] <- c('home_display_name', 'away_display_name')
 library(lubridate)
 final_sched_2022$game_date <- ymd(final_sched_2022$game_date)
-odds_2022$game_date <- ymd(odds_2022$game_date)
-##########################################################################start here###############################
-#final_sched_2022 <- final_sched_2022 %>% unique()
-#final_sched_2022 <- merge(final_sched_2022, odds_2022, by = c('game_date', 'home_display_name', 'away_display_name'))
 #########################################################################################################################################
 #make predictions using 2022 data
 #########################################################################################################################################
@@ -589,64 +475,88 @@ games_2022 <- bind_cols(games_2022, no_spread_preds)
 
 library(Metrics)
 rmse(games_2022$total_score, games_2022$predictions_2022)
-####################################################################################################################
-#pull totals data
-####################################################################################################################
-theODDS_base <- 'https://api.the-odds-api.com/v4/sports/'
-theODDS_sport  <- 'basketball_nba/'
-theODDS_key <- Sys.getenv('theODDS_key')
-theODDS_region <- 'regions=us&'
-theODDS_markets <- '&markets=totals&oddsFormat=decimal&'
-start_date <- as.Date('2022-10-17') 
-theODDS_date <- paste0('date=',start_date,'T22:00:00Z')
+##################################################################################################################
+#pull 2023 schedule
+##################################################################################################################
+nba_pbp_2023 <- pbp_func(most_recent_nba_season(),most_recent_nba_season())
+schedule_2023 <- clean_schedule(2024,2024)
+sched_2023 <- sched_func(2024, schedule_2023, nba_pbp_2023)
+sched_2023$season <- 2023
+#clean pbp data
+pbp_clean_2023 <- clean_possessions(nba_pbp_2023)
+#count possessions
+poss_df_2023 <- count_poss(pbp_clean_2023)
+poss_count_complete_2023 <- max_poss(poss_df_2023, sched_2023)
+poss_count_wtavg_2023 <- poss_wtavg(poss_count_complete_2023)
+sched_2023 <- home_away_poss(poss_count_wtavg_2023, sched_2023)
+#player box 2023
+tm_list_2023 <- list('DUR', 'EAST', 'GIA', 'LEB', 'STE', 'USA', 'WEST', 'WORLD')
+player_box_2023 <- player_box_func(2024,2024,tm_list_2023)
+team_stats_team_2023 <- team_stats(player_box_2023, 'team_abbreviation', 5, 'w')
+team_stats_opposition_2023 <- team_stats(player_box_2023, 'opponent_team_abbreviation', 5, 'w')
+off_df_2023 <- team_stats_final_df(team_stats_team_2023, 'team_abbreviation')
+def_df_2023 <- team_stats_final_df(team_stats_opposition_2023, 'opponent_team_abbreviation')
+combo_df_2023 <- combine_df(off_df_2023, def_df_2023)
+final_sched_2023 <- model_df(combo_df_2023, sched_2023)
+final_sched_2023$total_score <- lookup(final_sched_2023$game_id, player_box_2023$game_id, player_box_2023$total_score)
+final_sched_2023$wt_avg_poss <- lookup(final_sched_2023$game_id, poss_count_wtavg_2023$game_id, poss_count_wtavg_2023$mov_avg_poss)
+league_scoring_2023 <- lg_score(player_box_2023, 10, 'w')
+final_sched_2023$league_scoring <- lookup(final_sched_2023$game_id, league_scoring_2023$game_id, league_scoring_2023$wt_avg_league_score)
+final_sched_2023$game_date <- ymd(final_sched_2023$game_date)
 
-#pull API data
-odds_df <- data.frame()
-y <- 1
-while(start_date <= as.Date('2023-04-20')){
-  theODDS_fullAPI <- paste0(theODDS_base, theODDS_sport, theODDS_key, theODDS_region, theODDS_markets,theODDS_date)
-  pull_API <- fromJSON(theODDS_fullAPI)
-  nba_odds <- pull_API$data
-  odds_df <- rbind(odds_df, nba_odds)
-  start_date <- start_date + 1
-  theODDS_date <- paste0('date=',start_date,'T12:00:00Z')
-  print(y)
-  y <- y+1
-}
+##################################################################################################################
+#get most updated data by team
+##################################################################################################################
+teams <- unique(final_sched_2023$home_abbreviation)
+final_sched_2023 <- final_sched_2023 %>% arrange(desc(game_date))
+df_final_home <- data.frame()
+df_final_away <- data.frame()
 
-totals_function <- function(df, book, key_mkt){
-  final_df <- df %>% dplyr::select(commence_time,home_team,away_team)
-  final_df$spread <- NA
-  final_df$over_vig <- NA
-  final_df$under_vig <- NA
-  for(i in 1:nrow(df)){
-    books <- df[[7]][[i]]
-    if(book %in% books$title){
-      books <- books %>% dplyr::filter(title == book)
-    } else {
-      next
+for(i in (1:length(teams))){
+  for(j in 1:nrow(final_sched_2023)){
+    if(teams[i] == final_sched_2023$home_abbreviation[j]){
+      df_home <- final_sched_2023[j,] %>% select(2,4,15,c(19:30),c(56:67))
+      df_final_home <- bind_rows(df_final_home,df_home)
+      break
+    } else if(teams[i] == final_sched_2023$away_abbreviation[j]){
+      df_away <- final_sched_2023[j,] %>% select(8,4,16,c(31:42),c(44:55))
+      df_final_away <- bind_rows(df_final_away,df_away)
+      break
     }
-    markets <- books[[4]][[1]] %>% dplyr::filter(key == key_mkt)
-    odds <- markets[[3]][[1]]
-    final_df$spread[i] <- odds$point[1]
-    final_df$over_vig[i] <- odds$price[1]
-    final_df$under_vig[i] <- odds$price[2]
-    print(i)
   }
-  return(final_df)
 }
 
-totals_2022 <- totals_function(odds_df,'BetOnline.ag','totals')
-fanduel_2022 <- totals_2022
-betonline_2022 <- totals_2022
-write.csv(fanduel_2022, 'fanduel_2022.csv', row.names = FALSE)
-write.csv(betonline_2022, 'betonline_2022.csv', row.names = FALSE)
+##################################################################################################################
+#stats by team to predict next game
+##################################################################################################################
+last_game_stats <- function(df){
+  
+  df_home <- df_home %>% dplyr::arrange(home_abbreviation, desc(game_date))
+  df_away <- df_away %>% dplyr::arrange(away_abbreviation, desc(game_date))
+  return(list(df_home,df_away))
+}
+last_gm <- last_game_stats(df_stats)
+last_gm_home <- last_gm[[1]]
+last_gm_away <- last_gm[[2]]
+##################################################################################################################
+#pull todays games
+##################################################################################################################
+days_games <- today() + 1
+todays_games <- clean_schedule(2024,2024) %>%
+  dplyr::filter(game_date == days_games)
+todays_games <- sched_func(2024, todays_games, nba_pbp_2023)
+todays_teams <- list(c(todays_games$home_abbreviation,todays_games$away_abbreviation))
 
-fanduel_2022 <- totals_2022 %>%
-  separate(commence_time,c('game_date', 'time'),'T')
-fanduel_2022$game_date <- as.Date(fanduel_2022$game_date)
-fanduel_2022 <- fanduel_2022 %>% select(-time)
-games_2022$home_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$home_display_name)
-games_2022$away_team <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$away_display_name)
-games_2022$game_date <- lookup(games_2022$game_id, final_sched_2022$game_id, final_sched_2022$game_date)
-games_2022 <- left_join(games_2022, totals_2022, by = c('home_team', 'away_team', 'game_date'))
+df_one <- data.frame()
+df_two <- data.frame()
+
+for(i in 1:length(todays_teams)){
+  if(todays_teams[i] %in% last_gm_home$home_abbreviation & todays_teams[i] %in% last_gm_away$away_abbreviation){
+    df_home
+    
+  } else if (todays_teams[i] %in% last_gm_home$home_abbrevation) {
+    
+  } else if (todays_teams[i] %in% last_gm_away$away_abbreviation) {
+    
+  }
+}
